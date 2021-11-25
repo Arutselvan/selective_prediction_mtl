@@ -167,7 +167,7 @@ class DataTrainingArguments:
         metadata={"help": "When splitting up a long document into chunks, how much stride to take between chunks."},
     )
     n_best_size: int = field(
-        default=5,
+        default=20,
         metadata={"help": "The total number of n-best predictions to generate when looking for an answer."},
     )
     max_answer_length: int = field(
@@ -347,8 +347,6 @@ def main():
         # Tokenize our examples with truncation and maybe padding, but keep the overflows using a stride. This results
         # in one example possible giving several features when a context is long, each of those features having a
         # context that overlaps a bit the context of the previous feature.
-        print(max_seq_length)
-        print(data_args.doc_stride)
         tokenized_examples = tokenizer(
             examples[question_column_name if pad_on_right else context_column_name],
             examples[context_column_name if pad_on_right else question_column_name],
@@ -370,6 +368,7 @@ def main():
         # Let's label those examples!
         tokenized_examples["start_positions"] = []
         tokenized_examples["end_positions"] = []
+        tokenized_examples["datasets"] = []
 
         for i, offsets in enumerate(offset_mapping):
             # We will label impossible answers with the index of the CLS token.
@@ -382,6 +381,8 @@ def main():
             # One example can give several spans, this is the index of the example containing this span of text.
             sample_index = sample_mapping[i]
             answers = examples[answer_column_name][sample_index]
+            datasets = examples['dataset'][sample_index]
+            tokenized_examples['datasets'].append(datasets)
             # If no answers are given, set the cls_index as answer.
             if len(answers["answer_start"]) == 0:
                 tokenized_examples["start_positions"].append(cls_index)
@@ -588,7 +589,7 @@ def main():
             checkpoint = training_args.resume_from_checkpoint
         elif last_checkpoint is not None:
             checkpoint = last_checkpoint
-        train_result = trainer.train(resume_from_checkpoint=checkpoint)
+        train_result = trainer.train(resume_from_checkpoint=checkpoint, sampling="Homogenous")
         trainer.save_model()  # Saves the tokenizer too for easy upload
 
         metrics = train_result.metrics

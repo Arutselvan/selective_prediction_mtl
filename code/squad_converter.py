@@ -46,6 +46,7 @@ def snli_to_squad(data_src,dest):
     df['answer'] = df.apply(lambda x: find_all_answers(x['context'],SNLI_CLASS_LABEL_MAP[x['answer']].strip(punctuation).strip()),axis=1)
     df['id'] = "snli_" + df.index.astype(str)
     df = df[['id','question', 'context', 'answer']]
+    df["dataset"] = df["id"].apply(lambda x: x.split('_')[0])
     df.to_json(dest,orient='records',lines=True)
     return df
 
@@ -58,6 +59,7 @@ def swag_to_squad(data_src,dest):
     df['answer'] = df.apply(lambda x: find_all_answers(x['context'],x["ending"+ str(x['label'])].strip(punctuation).strip()),axis=1)
     df['id'] = "swag_" + df.index.astype(str) 
     df = df[['id','question', 'context', 'answer']]
+    df["dataset"] = df["id"].apply(lambda x: x.split('_')[0])
     df.to_json(dest,orient='records',lines=True)
     return df   
 
@@ -73,6 +75,7 @@ def comqa_to_squad(data_src,dest):
     df['answer'] = df.apply(lambda x: find_all_answers(x['context'],x['choices']['text'][x['choices']['label'].index(x['answerKey'])].strip(punctuation).strip()),axis=1)
     df['id'] = "csqa_" + df.index.astype(str)
     df = df[['id','question', 'context', 'answer']]
+    df["dataset"] = df["id"].apply(lambda x: x.split('_')[0])
     df.to_json(dest,orient="records",lines=True)
     return df
 
@@ -85,6 +88,7 @@ def art_to_squad(data_src,dest):
     df['answer'] = df.apply(lambda x: find_all_answers(x['context'],x["hypothesis_"+str(x['label'])].strip(punctuation).strip()),axis=1)
     df['id'] = "art_" + df.index.astype(str)
     df = df[['id','question', 'context', 'answer']]
+    df["dataset"] = df["id"].apply(lambda x: x.split('_')[0])
     df.to_json(dest,orient="records",lines=True)
     return df
 
@@ -101,6 +105,7 @@ def siqa_to_squad(data_src,dest):
     df['answer'] = df.apply(lambda x: find_all_answers(x['context'],x['answer' + SIQA_LABEL_MAP[x['label']]].strip(punctuation).strip()),axis=1)
     df = df[['id','question', 'context', 'answer']]
     df['id'] = "siqa_" + df.index.astype(str)
+    df["dataset"] = df["id"].apply(lambda x: x.split('_')[0])
     df.to_json(dest,orient="records",lines=True)
     return df
 
