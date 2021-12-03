@@ -1,0 +1,7328 @@
+[
+    {
+        "expected_prediction": "fly",
+        "prediction": "fail to work",
+        "correct": false,
+        "maxProb": "0.9998784"
+    },
+    {
+        "expected_prediction": "go quickly",
+        "prediction": "learn to walk",
+        "correct": false,
+        "maxProb": "0.813917"
+    },
+    {
+        "expected_prediction": "heat",
+        "prediction": "heat",
+        "correct": true,
+        "maxProb": "0.566607"
+    },
+    {
+        "expected_prediction": "closet",
+        "prediction": "supermarket",
+        "correct": false,
+        "maxProb": "0.6663032"
+    },
+    {
+        "expected_prediction": "building",
+        "prediction": "wine",
+        "correct": false,
+        "maxProb": "0.92315865"
+    },
+    {
+        "expected_prediction": "typhoon",
+        "prediction": "typhoon",
+        "correct": true,
+        "maxProb": "0.86206466"
+    },
+    {
+        "expected_prediction": "suitcase",
+        "prediction": "suitcase",
+        "correct": true,
+        "maxProb": "0.9999261"
+    },
+    {
+        "expected_prediction": "oversupply",
+        "prediction": "oversupply",
+        "correct": true,
+        "maxProb": "0.99508613"
+    },
+    {
+        "expected_prediction": "ignorance",
+        "prediction": "ignorance",
+        "correct": true,
+        "maxProb": "0.9464195"
+    },
+    {
+        "expected_prediction": "ocean",
+        "prediction": "sea plant",
+        "correct": false,
+        "maxProb": "0.57636124"
+    },
+    {
+        "expected_prediction": "desk drawer",
+        "prediction": "desk drawer",
+        "correct": true,
+        "maxProb": "0.99355537"
+    },
+    {
+        "expected_prediction": "look around",
+        "prediction": "take pictures",
+        "correct": false,
+        "maxProb": "0.5551226"
+    },
+    {
+        "expected_prediction": "have money",
+        "prediction": "have money",
+        "correct": true,
+        "maxProb": "0.997422"
+    },
+    {
+        "expected_prediction": "gap",
+        "prediction": "clothing store",
+        "correct": false,
+        "maxProb": "0.99996996"
+    },
+    {
+        "expected_prediction": "building",
+        "prediction": "building",
+        "correct": true,
+        "maxProb": "0.9758824"
+    },
+    {
+        "expected_prediction": "gulf states",
+        "prediction": "united states",
+        "correct": false,
+        "maxProb": "0.8536642"
+    },
+    {
+        "expected_prediction": "city",
+        "prediction": "england",
+        "correct": false,
+        "maxProb": "0.948373"
+    },
+    {
+        "expected_prediction": "grab",
+        "prediction": "falling",
+        "correct": false,
+        "maxProb": "0.9987919"
+    },
+    {
+        "expected_prediction": "west texas",
+        "prediction": "west texas",
+        "correct": true,
+        "maxProb": "0.91615844"
+    },
+    {
+        "expected_prediction": "flowers on",
+        "prediction": "flowers on",
+        "correct": true,
+        "maxProb": "0.9911897"
+    },
+    {
+        "expected_prediction": "cool off",
+        "prediction": "illustrate point",
+        "correct": false,
+        "maxProb": "0.9919618"
+    },
+    {
+        "expected_prediction": "study french cooking",
+        "prediction": "study french cooking",
+        "correct": true,
+        "maxProb": "0.9998388"
+    },
+    {
+        "expected_prediction": "understanding",
+        "prediction": "make clear",
+        "correct": false,
+        "maxProb": "0.9986639"
+    },
+    {
+        "expected_prediction": "resort area",
+        "prediction": "resort area",
+        "correct": true,
+        "maxProb": "0.978092"
+    },
+    {
+        "expected_prediction": "show",
+        "prediction": "theatre",
+        "correct": false,
+        "maxProb": "0.71750087"
+    },
+    {
+        "expected_prediction": "fall asleep",
+        "prediction": "fall asleep",
+        "correct": true,
+        "maxProb": "0.9533061"
+    },
+    {
+        "expected_prediction": "effusive",
+        "prediction": "apathetic",
+        "correct": false,
+        "maxProb": "0.9987055"
+    },
+    {
+        "expected_prediction": "nuclear plant",
+        "prediction": "airbase",
+        "correct": false,
+        "maxProb": "0.95574605"
+    },
+    {
+        "expected_prediction": "vancouver island",
+        "prediction": "vancouver island",
+        "correct": true,
+        "maxProb": "0.99891615"
+    },
+    {
+        "expected_prediction": "deception",
+        "prediction": "deception",
+        "correct": true,
+        "maxProb": "0.99376005"
+    },
+    {
+        "expected_prediction": "audience",
+        "prediction": "audience",
+        "correct": true,
+        "maxProb": "0.56454235"
+    },
+    {
+        "expected_prediction": "slow down",
+        "prediction": "carry people",
+        "correct": false,
+        "maxProb": "0.77591676"
+    },
+    {
+        "expected_prediction": "pleasure",
+        "prediction": "pleasure",
+        "correct": true,
+        "maxProb": "0.99998295"
+    },
+    {
+        "expected_prediction": "liquor store",
+        "prediction": "liquor store",
+        "correct": true,
+        "maxProb": "0.99992156"
+    },
+    {
+        "expected_prediction": "expensive clothing",
+        "prediction": "garments",
+        "correct": false,
+        "maxProb": "0.55037254"
+    },
+    {
+        "expected_prediction": "sweating",
+        "prediction": "knee injury",
+        "correct": false,
+        "maxProb": "0.99941206"
+    },
+    {
+        "expected_prediction": "tiredness",
+        "prediction": "tiredness",
+        "correct": true,
+        "maxProb": "0.99874556"
+    },
+    {
+        "expected_prediction": "shelf",
+        "prediction": "pantry",
+        "correct": false,
+        "maxProb": "0.99147123"
+    },
+    {
+        "expected_prediction": "dark place",
+        "prediction": "house, dark place, street",
+        "correct": false,
+        "maxProb": "0.6160105"
+    },
+    {
+        "expected_prediction": "open doors",
+        "prediction": "talk to themselves",
+        "correct": false,
+        "maxProb": "0.7493329"
+    },
+    {
+        "expected_prediction": "wrestle",
+        "prediction": "matter",
+        "correct": false,
+        "maxProb": "0.998458"
+    },
+    {
+        "expected_prediction": "mountains",
+        "prediction": "mountains",
+        "correct": true,
+        "maxProb": "0.9722662"
+    },
+    {
+        "expected_prediction": "judge people",
+        "prediction": "judge people",
+        "correct": true,
+        "maxProb": "0.7147931"
+    },
+    {
+        "expected_prediction": "outer space",
+        "prediction": "night sky",
+        "correct": false,
+        "maxProb": "0.9051455"
+    },
+    {
+        "expected_prediction": "using water",
+        "prediction": "using water",
+        "correct": true,
+        "maxProb": "0.9988341"
+    },
+    {
+        "expected_prediction": "sanitation",
+        "prediction": "feminism",
+        "correct": false,
+        "maxProb": "0.9644872"
+    },
+    {
+        "expected_prediction": "banana tree",
+        "prediction": "theatre",
+        "correct": false,
+        "maxProb": "0.9981085"
+    },
+    {
+        "expected_prediction": "money",
+        "prediction": "work",
+        "correct": false,
+        "maxProb": "0.99918514"
+    },
+    {
+        "expected_prediction": "sharing of ideas",
+        "prediction": "sharing of ideas",
+        "correct": true,
+        "maxProb": "0.99971193"
+    },
+    {
+        "expected_prediction": "intellectual challenge",
+        "prediction": "intellectual challenge",
+        "correct": true,
+        "maxProb": "0.9915039"
+    },
+    {
+        "expected_prediction": "ancient times",
+        "prediction": "prehistory",
+        "correct": false,
+        "maxProb": "0.6042526"
+    },
+    {
+        "expected_prediction": "transporting",
+        "prediction": "transporting",
+        "correct": true,
+        "maxProb": "0.7738724"
+    },
+    {
+        "expected_prediction": "baseball diamond",
+        "prediction": "baseball stadium",
+        "correct": false,
+        "maxProb": "0.9996997"
+    },
+    {
+        "expected_prediction": "uneven",
+        "prediction": "uneven",
+        "correct": true,
+        "maxProb": "0.9981522"
+    },
+    {
+        "expected_prediction": "shop",
+        "prediction": "refrigerators, pantry, shop",
+        "correct": false,
+        "maxProb": "0.898597"
+    },
+    {
+        "expected_prediction": "chicago",
+        "prediction": "big city",
+        "correct": false,
+        "maxProb": "0.9143228"
+    },
+    {
+        "expected_prediction": "make money",
+        "prediction": "draw attention to themselves",
+        "correct": false,
+        "maxProb": "0.97663337"
+    },
+    {
+        "expected_prediction": "free money",
+        "prediction": "free money",
+        "correct": true,
+        "maxProb": "0.9981799"
+    },
+    {
+        "expected_prediction": "tropical jungle",
+        "prediction": "countryside",
+        "correct": false,
+        "maxProb": "0.9993135"
+    },
+    {
+        "expected_prediction": "radio station",
+        "prediction": "radio station",
+        "correct": true,
+        "maxProb": "0.9998704"
+    },
+    {
+        "expected_prediction": "attic",
+        "prediction": "countryside",
+        "correct": false,
+        "maxProb": "0.86907065"
+    },
+    {
+        "expected_prediction": "good for",
+        "prediction": "bland",
+        "correct": false,
+        "maxProb": "0.9997731"
+    },
+    {
+        "expected_prediction": "school",
+        "prediction": "school",
+        "correct": true,
+        "maxProb": "0.6260465"
+    },
+    {
+        "expected_prediction": "desk drawer",
+        "prediction": "classroom",
+        "correct": false,
+        "maxProb": "0.9952649"
+    },
+    {
+        "expected_prediction": "falling asleep",
+        "prediction": "dreaming of",
+        "correct": false,
+        "maxProb": "0.9959453"
+    },
+    {
+        "expected_prediction": "face problems",
+        "prediction": "better themselves",
+        "correct": false,
+        "maxProb": "0.52105516"
+    },
+    {
+        "expected_prediction": "hope for peace",
+        "prediction": "do well",
+        "correct": false,
+        "maxProb": "0.5320421"
+    },
+    {
+        "expected_prediction": "testify",
+        "prediction": "testify",
+        "correct": true,
+        "maxProb": "0.8938458"
+    },
+    {
+        "expected_prediction": "strange",
+        "prediction": "human",
+        "correct": false,
+        "maxProb": "0.9002246"
+    },
+    {
+        "expected_prediction": "big city",
+        "prediction": "big city",
+        "correct": true,
+        "maxProb": "0.99994445"
+    },
+    {
+        "expected_prediction": "multivitamin",
+        "prediction": "michigan",
+        "correct": false,
+        "maxProb": "0.19231471"
+    },
+    {
+        "expected_prediction": "warm coat",
+        "prediction": "warm coat",
+        "correct": true,
+        "maxProb": "0.9999957"
+    },
+    {
+        "expected_prediction": "become disillusioned",
+        "prediction": "become disillusioned",
+        "correct": true,
+        "maxProb": "0.99819666"
+    },
+    {
+        "expected_prediction": "coffee table",
+        "prediction": "school room",
+        "correct": false,
+        "maxProb": "0.40252137"
+    },
+    {
+        "expected_prediction": "chest of drawers",
+        "prediction": "bookcase",
+        "correct": false,
+        "maxProb": "0.9166136"
+    },
+    {
+        "expected_prediction": "ask question",
+        "prediction": "sneeze",
+        "correct": false,
+        "maxProb": "0.99930894"
+    },
+    {
+        "expected_prediction": "cry",
+        "prediction": "make others happy too",
+        "correct": false,
+        "maxProb": "0.9688959"
+    },
+    {
+        "expected_prediction": "take class",
+        "prediction": "learn how to",
+        "correct": false,
+        "maxProb": "0.744557"
+    },
+    {
+        "expected_prediction": "caregiver",
+        "prediction": "caregiver",
+        "correct": true,
+        "maxProb": "0.9999889"
+    },
+    {
+        "expected_prediction": "coastal cities",
+        "prediction": "coastal cities",
+        "correct": true,
+        "maxProb": "0.9998659"
+    },
+    {
+        "expected_prediction": "eat ice cream",
+        "prediction": "cool off",
+        "correct": false,
+        "maxProb": "0.9133866"
+    },
+    {
+        "expected_prediction": "recur",
+        "prediction": "cause suffering",
+        "correct": false,
+        "maxProb": "0.9855188"
+    },
+    {
+        "expected_prediction": "stillness",
+        "prediction": "stillness",
+        "correct": true,
+        "maxProb": "0.9981487"
+    },
+    {
+        "expected_prediction": "state",
+        "prediction": "state",
+        "correct": true,
+        "maxProb": "0.99028814"
+    },
+    {
+        "expected_prediction": "cherry tree",
+        "prediction": "washington dc",
+        "correct": false,
+        "maxProb": "0.99831474"
+    },
+    {
+        "expected_prediction": "get pregnant",
+        "prediction": "get pregnant",
+        "correct": true,
+        "maxProb": "0.99998415"
+    },
+    {
+        "expected_prediction": "suffering",
+        "prediction": "suffering",
+        "correct": true,
+        "maxProb": "0.9705174"
+    },
+    {
+        "expected_prediction": "office building",
+        "prediction": "office building",
+        "correct": true,
+        "maxProb": "0.9998103"
+    },
+    {
+        "expected_prediction": "with brush",
+        "prediction": "with brush",
+        "correct": true,
+        "maxProb": "0.55032647"
+    },
+    {
+        "expected_prediction": "encyclopedia",
+        "prediction": "dictionary",
+        "correct": false,
+        "maxProb": "0.8833447"
+    },
+    {
+        "expected_prediction": "brownstone",
+        "prediction": "office building",
+        "correct": false,
+        "maxProb": "0.7598262"
+    },
+    {
+        "expected_prediction": "inspiration",
+        "prediction": "inspiration",
+        "correct": true,
+        "maxProb": "0.72792244"
+    },
+    {
+        "expected_prediction": "first class",
+        "prediction": "propitious",
+        "correct": false,
+        "maxProb": "0.99995506"
+    },
+    {
+        "expected_prediction": "balkan peninsula",
+        "prediction": "balkan peninsula",
+        "correct": true,
+        "maxProb": "0.945274"
+    },
+    {
+        "expected_prediction": "play tag",
+        "prediction": "play tag",
+        "correct": true,
+        "maxProb": "0.71200204"
+    },
+    {
+        "expected_prediction": "jar",
+        "prediction": "jar",
+        "correct": true,
+        "maxProb": "0.2525766"
+    },
+    {
+        "expected_prediction": "cabinet",
+        "prediction": "cabinet",
+        "correct": true,
+        "maxProb": "0.9983783"
+    },
+    {
+        "expected_prediction": "countryside",
+        "prediction": "jungle",
+        "correct": false,
+        "maxProb": "0.19386944"
+    },
+    {
+        "expected_prediction": "confession",
+        "prediction": "confession",
+        "correct": true,
+        "maxProb": "0.9577035"
+    },
+    {
+        "expected_prediction": "victory",
+        "prediction": "tennis elbow",
+        "correct": false,
+        "maxProb": "0.65138495"
+    },
+    {
+        "expected_prediction": "dek",
+        "prediction": "refrigerator",
+        "correct": false,
+        "maxProb": "0.45783678"
+    },
+    {
+        "expected_prediction": "find god",
+        "prediction": "guilty conscience",
+        "correct": false,
+        "maxProb": "0.9991456"
+    },
+    {
+        "expected_prediction": "city",
+        "prediction": "city",
+        "correct": true,
+        "maxProb": "0.99962854"
+    },
+    {
+        "expected_prediction": "mad cow disease",
+        "prediction": "mad cow disease",
+        "correct": true,
+        "maxProb": "0.89621663"
+    },
+    {
+        "expected_prediction": "open doors",
+        "prediction": "turn lock",
+        "correct": false,
+        "maxProb": "0.9920534"
+    },
+    {
+        "expected_prediction": "feed themselves",
+        "prediction": "feed themselves",
+        "correct": true,
+        "maxProb": "0.54320693"
+    },
+    {
+        "expected_prediction": "fall asleep",
+        "prediction": "fall asleep",
+        "correct": true,
+        "maxProb": "0.92859966"
+    },
+    {
+        "expected_prediction": "substation",
+        "prediction": "substation",
+        "correct": true,
+        "maxProb": "0.9998387"
+    },
+    {
+        "expected_prediction": "fruit stand",
+        "prediction": "kitchen",
+        "correct": false,
+        "maxProb": "0.59847814"
+    },
+    {
+        "expected_prediction": "conference",
+        "prediction": "dining room",
+        "correct": false,
+        "maxProb": "0.8474364"
+    },
+    {
+        "expected_prediction": "state park",
+        "prediction": "state park",
+        "correct": true,
+        "maxProb": "0.9971222"
+    },
+    {
+        "expected_prediction": "place of work",
+        "prediction": "place of work",
+        "correct": true,
+        "maxProb": "0.99995255"
+    },
+    {
+        "expected_prediction": "europe",
+        "prediction": "europe",
+        "correct": true,
+        "maxProb": "0.9910433"
+    },
+    {
+        "expected_prediction": "stock market",
+        "prediction": "stock market",
+        "correct": true,
+        "maxProb": "0.9043589"
+    },
+    {
+        "expected_prediction": "fairgrounds",
+        "prediction": "play room",
+        "correct": false,
+        "maxProb": "0.99839574"
+    },
+    {
+        "expected_prediction": "plate",
+        "prediction": "plate",
+        "correct": true,
+        "maxProb": "0.9861103"
+    },
+    {
+        "expected_prediction": "effectively treated",
+        "prediction": "effectively treated",
+        "correct": true,
+        "maxProb": "0.31169358"
+    },
+    {
+        "expected_prediction": "surface of earth",
+        "prediction": "apartment",
+        "correct": false,
+        "maxProb": "0.99637127"
+    },
+    {
+        "expected_prediction": "automobile accidents",
+        "prediction": "backache",
+        "correct": false,
+        "maxProb": "0.560527"
+    },
+    {
+        "expected_prediction": "mall",
+        "prediction": "supermarket door",
+        "correct": false,
+        "maxProb": "0.9756796"
+    },
+    {
+        "expected_prediction": "fight",
+        "prediction": "fight, jocose, laughter, accidents",
+        "correct": false,
+        "maxProb": "0.96948135"
+    },
+    {
+        "expected_prediction": "happiness",
+        "prediction": "feel better",
+        "correct": false,
+        "maxProb": "0.8249931"
+    },
+    {
+        "expected_prediction": "kitchen",
+        "prediction": "dining room",
+        "correct": false,
+        "maxProb": "0.7265695"
+    },
+    {
+        "expected_prediction": "new york city",
+        "prediction": "jerusalem",
+        "correct": false,
+        "maxProb": "0.9539615"
+    },
+    {
+        "expected_prediction": "paralysis",
+        "prediction": "drunkenness",
+        "correct": false,
+        "maxProb": "0.31437367"
+    },
+    {
+        "expected_prediction": "school students",
+        "prediction": "methods of facts",
+        "correct": false,
+        "maxProb": "0.6026377"
+    },
+    {
+        "expected_prediction": "furniture store",
+        "prediction": "furniture store",
+        "correct": true,
+        "maxProb": "0.99998736"
+    },
+    {
+        "expected_prediction": "repair shop",
+        "prediction": "basement, work shop, tool shed",
+        "correct": false,
+        "maxProb": "0.36771825"
+    },
+    {
+        "expected_prediction": "state name",
+        "prediction": "ask questions",
+        "correct": false,
+        "maxProb": "0.7422956"
+    },
+    {
+        "expected_prediction": "ecosystem",
+        "prediction": "nature",
+        "correct": false,
+        "maxProb": "0.6974415"
+    },
+    {
+        "expected_prediction": "reproducing",
+        "prediction": "food consumed",
+        "correct": false,
+        "maxProb": "0.9974681"
+    },
+    {
+        "expected_prediction": "see art",
+        "prediction": "see art",
+        "correct": true,
+        "maxProb": "0.99668056"
+    },
+    {
+        "expected_prediction": "relaxation",
+        "prediction": "falling asleep",
+        "correct": false,
+        "maxProb": "0.9988366"
+    },
+    {
+        "expected_prediction": "die of cancer",
+        "prediction": "die of cancer",
+        "correct": true,
+        "maxProb": "0.99992037"
+    },
+    {
+        "expected_prediction": "cabinet",
+        "prediction": "container",
+        "correct": false,
+        "maxProb": "0.99995863"
+    },
+    {
+        "expected_prediction": "motel room",
+        "prediction": "motel room",
+        "correct": true,
+        "maxProb": "0.6451343"
+    },
+    {
+        "expected_prediction": "work out",
+        "prediction": "work out",
+        "correct": true,
+        "maxProb": "0.9697351"
+    },
+    {
+        "expected_prediction": "family reunion",
+        "prediction": "family tree",
+        "correct": false,
+        "maxProb": "0.47737527"
+    },
+    {
+        "expected_prediction": "ample",
+        "prediction": "full",
+        "correct": false,
+        "maxProb": "0.99978155"
+    },
+    {
+        "expected_prediction": "sneezing",
+        "prediction": "yawn, sneezing",
+        "correct": false,
+        "maxProb": "0.424528"
+    },
+    {
+        "expected_prediction": "insubstantial",
+        "prediction": "insubstantial",
+        "correct": true,
+        "maxProb": "0.9999461"
+    },
+    {
+        "expected_prediction": "cage",
+        "prediction": "forest",
+        "correct": false,
+        "maxProb": "0.9727663"
+    },
+    {
+        "expected_prediction": "dresser drawers",
+        "prediction": "dresser drawers, cabinet",
+        "correct": false,
+        "maxProb": "0.6083907"
+    },
+    {
+        "expected_prediction": "kitchen cabinet",
+        "prediction": "kitchen cabinet",
+        "correct": true,
+        "maxProb": "0.5722691"
+    },
+    {
+        "expected_prediction": "washington state",
+        "prediction": "pacific northwest",
+        "correct": false,
+        "maxProb": "0.97940856"
+    },
+    {
+        "expected_prediction": "new england",
+        "prediction": "new england",
+        "correct": true,
+        "maxProb": "0.98554176"
+    },
+    {
+        "expected_prediction": "english alphabet",
+        "prediction": "english alphabet",
+        "correct": true,
+        "maxProb": "0.9996567"
+    },
+    {
+        "expected_prediction": "bowling alley",
+        "prediction": "bowling alley",
+        "correct": true,
+        "maxProb": "0.9999714"
+    },
+    {
+        "expected_prediction": "department store",
+        "prediction": "department store",
+        "correct": true,
+        "maxProb": "0.9997074"
+    },
+    {
+        "expected_prediction": "louisiana",
+        "prediction": "michigan",
+        "correct": false,
+        "maxProb": "0.90041333"
+    },
+    {
+        "expected_prediction": "play with toys",
+        "prediction": "disneyland",
+        "correct": false,
+        "maxProb": "0.5370264"
+    },
+    {
+        "expected_prediction": "saliva nd mouth",
+        "prediction": "spittle",
+        "correct": false,
+        "maxProb": "0.8816985"
+    },
+    {
+        "expected_prediction": "dishwasher",
+        "prediction": "son's room",
+        "correct": false,
+        "maxProb": "0.82092994"
+    },
+    {
+        "expected_prediction": "desktop",
+        "prediction": "desktop, party, office",
+        "correct": false,
+        "maxProb": "0.96406466"
+    },
+    {
+        "expected_prediction": "theater",
+        "prediction": "actors and actresses",
+        "correct": false,
+        "maxProb": "0.9998876"
+    },
+    {
+        "expected_prediction": "hug",
+        "prediction": "have friends",
+        "correct": false,
+        "maxProb": "0.9995901"
+    },
+    {
+        "expected_prediction": "appliance store",
+        "prediction": "hot room",
+        "correct": false,
+        "maxProb": "0.9999404"
+    },
+    {
+        "expected_prediction": "kitchen",
+        "prediction": "sporting goods store",
+        "correct": false,
+        "maxProb": "0.9998062"
+    },
+    {
+        "expected_prediction": "patience",
+        "prediction": "expenditure of time, getting bored, anger, patience",
+        "correct": false,
+        "maxProb": "0.5824323"
+    },
+    {
+        "expected_prediction": "potential",
+        "prediction": "strength, pity, competence, potential",
+        "correct": false,
+        "maxProb": "0.69142765"
+    },
+    {
+        "expected_prediction": "time",
+        "prediction": "waiting",
+        "correct": false,
+        "maxProb": "0.9999658"
+    },
+    {
+        "expected_prediction": "happiness",
+        "prediction": "pain",
+        "correct": false,
+        "maxProb": "0.367778"
+    },
+    {
+        "expected_prediction": "shelf",
+        "prediction": "art show, wall",
+        "correct": false,
+        "maxProb": "0.9956879"
+    },
+    {
+        "expected_prediction": "lose money",
+        "prediction": "lose money",
+        "correct": true,
+        "maxProb": "0.99999523"
+    },
+    {
+        "expected_prediction": "jogging",
+        "prediction": "jogging",
+        "correct": true,
+        "maxProb": "0.98769045"
+    },
+    {
+        "expected_prediction": "open mouth",
+        "prediction": "open mouth",
+        "correct": true,
+        "maxProb": "0.3200813"
+    },
+    {
+        "expected_prediction": "feelings",
+        "prediction": "unique personality",
+        "correct": false,
+        "maxProb": "0.98320067"
+    },
+    {
+        "expected_prediction": "use paper",
+        "prediction": "use paper",
+        "correct": true,
+        "maxProb": "0.9999962"
+    },
+    {
+        "expected_prediction": "listen to music",
+        "prediction": "making blankets",
+        "correct": false,
+        "maxProb": "0.9993167"
+    },
+    {
+        "expected_prediction": "hedgehog",
+        "prediction": "feather",
+        "correct": false,
+        "maxProb": "0.7225175"
+    },
+    {
+        "expected_prediction": "cupboard",
+        "prediction": "etna, cupboard, oven, stomach, fridge",
+        "correct": false,
+        "maxProb": "0.43653393"
+    },
+    {
+        "expected_prediction": "discount store",
+        "prediction": "discount store",
+        "correct": true,
+        "maxProb": "0.98597777"
+    },
+    {
+        "expected_prediction": "interior",
+        "prediction": "center, interior",
+        "correct": false,
+        "maxProb": "0.3741702"
+    },
+    {
+        "expected_prediction": "fair",
+        "prediction": "fair",
+        "correct": true,
+        "maxProb": "0.9996"
+    },
+    {
+        "expected_prediction": "relax",
+        "prediction": "enlightenment",
+        "correct": false,
+        "maxProb": "0.98964113"
+    },
+    {
+        "expected_prediction": "garage",
+        "prediction": "hardware store",
+        "correct": false,
+        "maxProb": "0.5886922"
+    },
+    {
+        "expected_prediction": "warm room",
+        "prediction": "warm room",
+        "correct": true,
+        "maxProb": "0.70090866"
+    },
+    {
+        "expected_prediction": "dress herself",
+        "prediction": "clean room",
+        "correct": false,
+        "maxProb": "0.9589806"
+    },
+    {
+        "expected_prediction": "table",
+        "prediction": "table",
+        "correct": true,
+        "maxProb": "0.9998241"
+    },
+    {
+        "expected_prediction": "city or town",
+        "prediction": "city or town",
+        "correct": true,
+        "maxProb": "0.9999777"
+    },
+    {
+        "expected_prediction": "have fun",
+        "prediction": "have fun",
+        "correct": true,
+        "maxProb": "0.78806"
+    },
+    {
+        "expected_prediction": "country",
+        "prediction": "country, organization",
+        "correct": false,
+        "maxProb": "0.8173212"
+    },
+    {
+        "expected_prediction": "momentum",
+        "prediction": "working",
+        "correct": false,
+        "maxProb": "0.8500314"
+    },
+    {
+        "expected_prediction": "living room",
+        "prediction": "living room",
+        "correct": true,
+        "maxProb": "0.99233425"
+    },
+    {
+        "expected_prediction": "blind person",
+        "prediction": "movie studio",
+        "correct": false,
+        "maxProb": "0.42270565"
+    },
+    {
+        "expected_prediction": "frustration",
+        "prediction": "frustration",
+        "correct": true,
+        "maxProb": "0.5841792"
+    },
+    {
+        "expected_prediction": "stew pot",
+        "prediction": "stew pot",
+        "correct": true,
+        "maxProb": "0.9948192"
+    },
+    {
+        "expected_prediction": "paid for",
+        "prediction": "expensive",
+        "correct": false,
+        "maxProb": "0.99819165"
+    },
+    {
+        "expected_prediction": "tide pool",
+        "prediction": "gulf of mexico",
+        "correct": false,
+        "maxProb": "0.9545629"
+    },
+    {
+        "expected_prediction": "procreate",
+        "prediction": "matrimony",
+        "correct": false,
+        "maxProb": "0.9984444"
+    },
+    {
+        "expected_prediction": "tomales bay",
+        "prediction": "tomales bay",
+        "correct": true,
+        "maxProb": "0.9948908"
+    },
+    {
+        "expected_prediction": "walked",
+        "prediction": "petted",
+        "correct": false,
+        "maxProb": "0.8556511"
+    },
+    {
+        "expected_prediction": "music store",
+        "prediction": "music store",
+        "correct": true,
+        "maxProb": "0.99709105"
+    },
+    {
+        "expected_prediction": "defecating",
+        "prediction": "defecating",
+        "correct": true,
+        "maxProb": "0.9908613"
+    },
+    {
+        "expected_prediction": "hear news",
+        "prediction": "see favorite show",
+        "correct": false,
+        "maxProb": "0.9992939"
+    },
+    {
+        "expected_prediction": "loved",
+        "prediction": "care",
+        "correct": false,
+        "maxProb": "0.992432"
+    },
+    {
+        "expected_prediction": "not hungry",
+        "prediction": "weight gain",
+        "correct": false,
+        "maxProb": "0.86425483"
+    },
+    {
+        "expected_prediction": "make tools",
+        "prediction": "talk to each other",
+        "correct": false,
+        "maxProb": "0.99997616"
+    },
+    {
+        "expected_prediction": "outdoors",
+        "prediction": "planetarium",
+        "correct": false,
+        "maxProb": "0.99996424"
+    },
+    {
+        "expected_prediction": "follower",
+        "prediction": "follower",
+        "correct": true,
+        "maxProb": "0.9604474"
+    },
+    {
+        "expected_prediction": "midwest",
+        "prediction": "midwest",
+        "correct": true,
+        "maxProb": "0.49954647"
+    },
+    {
+        "expected_prediction": "jet engine",
+        "prediction": "jet engine",
+        "correct": true,
+        "maxProb": "0.9659268"
+    },
+    {
+        "expected_prediction": "strip mall",
+        "prediction": "vermont",
+        "correct": false,
+        "maxProb": "0.47459906"
+    },
+    {
+        "expected_prediction": "current",
+        "prediction": "main",
+        "correct": false,
+        "maxProb": "0.3186339"
+    },
+    {
+        "expected_prediction": "surface of earth",
+        "prediction": "yard",
+        "correct": false,
+        "maxProb": "0.9987104"
+    },
+    {
+        "expected_prediction": "enjoy living",
+        "prediction": "get laid",
+        "correct": false,
+        "maxProb": "0.99647325"
+    },
+    {
+        "expected_prediction": "garden",
+        "prediction": "garden",
+        "correct": true,
+        "maxProb": "0.99982774"
+    },
+    {
+        "expected_prediction": "three vertices",
+        "prediction": "point",
+        "correct": false,
+        "maxProb": "0.99997294"
+    },
+    {
+        "expected_prediction": "beach",
+        "prediction": "seattle",
+        "correct": false,
+        "maxProb": "0.9997948"
+    },
+    {
+        "expected_prediction": "choir",
+        "prediction": "choir",
+        "correct": true,
+        "maxProb": "0.9997003"
+    },
+    {
+        "expected_prediction": "crowd",
+        "prediction": "crowd",
+        "correct": true,
+        "maxProb": "0.83928084"
+    },
+    {
+        "expected_prediction": "show",
+        "prediction": "movie",
+        "correct": false,
+        "maxProb": "0.9037658"
+    },
+    {
+        "expected_prediction": "phone book",
+        "prediction": "phone book",
+        "correct": true,
+        "maxProb": "0.4594334"
+    },
+    {
+        "expected_prediction": "air",
+        "prediction": "caused by humans",
+        "correct": false,
+        "maxProb": "0.9941069"
+    },
+    {
+        "expected_prediction": "family tree",
+        "prediction": "heirlooms",
+        "correct": false,
+        "maxProb": "0.42327496"
+    },
+    {
+        "expected_prediction": "gay bar",
+        "prediction": "market",
+        "correct": false,
+        "maxProb": "0.7025776"
+    },
+    {
+        "expected_prediction": "teach courses",
+        "prediction": "teach courses",
+        "correct": true,
+        "maxProb": "0.9996753"
+    },
+    {
+        "expected_prediction": "bent",
+        "prediction": "bent",
+        "correct": true,
+        "maxProb": "0.6346151"
+    },
+    {
+        "expected_prediction": "freezer",
+        "prediction": "oven",
+        "correct": false,
+        "maxProb": "0.77312547"
+    },
+    {
+        "expected_prediction": "sporting event",
+        "prediction": "sporting event, pressing wrong buttons, obesity, hockey game",
+        "correct": false,
+        "maxProb": "0.3324148"
+    },
+    {
+        "expected_prediction": "talking loudly",
+        "prediction": "talking loudly",
+        "correct": true,
+        "maxProb": "0.9991842"
+    },
+    {
+        "expected_prediction": "toaster",
+        "prediction": "toaster",
+        "correct": true,
+        "maxProb": "0.9996013"
+    },
+    {
+        "expected_prediction": "growing older",
+        "prediction": "start reproduction",
+        "correct": false,
+        "maxProb": "0.9368034"
+    },
+    {
+        "expected_prediction": "closed eyes",
+        "prediction": "loss of control",
+        "correct": false,
+        "maxProb": "0.8226642"
+    },
+    {
+        "expected_prediction": "feeling happy",
+        "prediction": "feeling happy",
+        "correct": true,
+        "maxProb": "0.95469683"
+    },
+    {
+        "expected_prediction": "make peace",
+        "prediction": "make peace",
+        "correct": true,
+        "maxProb": "0.8852369"
+    },
+    {
+        "expected_prediction": "library",
+        "prediction": "library",
+        "correct": true,
+        "maxProb": "0.9819526"
+    },
+    {
+        "expected_prediction": "park",
+        "prediction": "near",
+        "correct": false,
+        "maxProb": "0.56775683"
+    },
+    {
+        "expected_prediction": "talk nonsense",
+        "prediction": "arrive early, learn to walk, boy or girl",
+        "correct": false,
+        "maxProb": "0.5383935"
+    },
+    {
+        "expected_prediction": "water fountain",
+        "prediction": "water fountain",
+        "correct": true,
+        "maxProb": "0.9999659"
+    },
+    {
+        "expected_prediction": "exercise",
+        "prediction": "movement, muscles",
+        "correct": false,
+        "maxProb": "0.4356285"
+    },
+    {
+        "expected_prediction": "computer hard drive",
+        "prediction": "computer to store data",
+        "correct": false,
+        "maxProb": "0.9115678"
+    },
+    {
+        "expected_prediction": "surface of earth",
+        "prediction": "surface of earth",
+        "correct": true,
+        "maxProb": "0.9999707"
+    },
+    {
+        "expected_prediction": "cleanness",
+        "prediction": "use water, hygiene",
+        "correct": false,
+        "maxProb": "0.5018682"
+    },
+    {
+        "expected_prediction": "partner",
+        "prediction": "anus, partner",
+        "correct": false,
+        "maxProb": "0.64442086"
+    },
+    {
+        "expected_prediction": "atlantic ocean",
+        "prediction": "fresh water",
+        "correct": false,
+        "maxProb": "0.8942353"
+    },
+    {
+        "expected_prediction": "desire to win",
+        "prediction": "desire to win",
+        "correct": true,
+        "maxProb": "0.99994123"
+    },
+    {
+        "expected_prediction": "aggressive",
+        "prediction": "aggressive",
+        "correct": true,
+        "maxProb": "0.7974619"
+    },
+    {
+        "expected_prediction": "financial security",
+        "prediction": "financial security",
+        "correct": true,
+        "maxProb": "0.99877006"
+    },
+    {
+        "expected_prediction": "iowa",
+        "prediction": "england",
+        "correct": false,
+        "maxProb": "0.9820179"
+    },
+    {
+        "expected_prediction": "get away from",
+        "prediction": "get away from",
+        "correct": true,
+        "maxProb": "0.8924225"
+    },
+    {
+        "expected_prediction": "nursery",
+        "prediction": "nursery",
+        "correct": true,
+        "maxProb": "0.99996114"
+    },
+    {
+        "expected_prediction": "get money",
+        "prediction": "have money",
+        "correct": false,
+        "maxProb": "0.6387655"
+    },
+    {
+        "expected_prediction": "function",
+        "prediction": "quality",
+        "correct": false,
+        "maxProb": "0.92455953"
+    },
+    {
+        "expected_prediction": "desk drawer",
+        "prediction": "desk drawer",
+        "correct": true,
+        "maxProb": "0.9999778"
+    },
+    {
+        "expected_prediction": "laughter",
+        "prediction": "laughter",
+        "correct": true,
+        "maxProb": "0.85141397"
+    },
+    {
+        "expected_prediction": "texas",
+        "prediction": "kansas city",
+        "correct": false,
+        "maxProb": "0.9962669"
+    },
+    {
+        "expected_prediction": "bloom",
+        "prediction": "bloom",
+        "correct": true,
+        "maxProb": "0.9953891"
+    },
+    {
+        "expected_prediction": "productive",
+        "prediction": "hard work",
+        "correct": false,
+        "maxProb": "0.86077106"
+    },
+    {
+        "expected_prediction": "indiana",
+        "prediction": "indiana",
+        "correct": true,
+        "maxProb": "0.9554205"
+    },
+    {
+        "expected_prediction": "bridge",
+        "prediction": "barges to travel on",
+        "correct": false,
+        "maxProb": "0.9743492"
+    },
+    {
+        "expected_prediction": "making love",
+        "prediction": "sleeping in",
+        "correct": false,
+        "maxProb": "0.8720711"
+    },
+    {
+        "expected_prediction": "set table",
+        "prediction": "set table",
+        "correct": true,
+        "maxProb": "0.99960643"
+    },
+    {
+        "expected_prediction": "listen to radio",
+        "prediction": "walk",
+        "correct": false,
+        "maxProb": "0.9995838"
+    },
+    {
+        "expected_prediction": "happiness",
+        "prediction": "happiness",
+        "correct": true,
+        "maxProb": "0.9999993"
+    },
+    {
+        "expected_prediction": "very loyal",
+        "prediction": "very loyal",
+        "correct": true,
+        "maxProb": "0.98314744"
+    },
+    {
+        "expected_prediction": "calluses",
+        "prediction": "calluses",
+        "correct": true,
+        "maxProb": "0.9959227"
+    },
+    {
+        "expected_prediction": "farmhouse",
+        "prediction": "farmhouse",
+        "correct": true,
+        "maxProb": "0.9999571"
+    },
+    {
+        "expected_prediction": "toronto",
+        "prediction": "chicago",
+        "correct": false,
+        "maxProb": "0.3884192"
+    },
+    {
+        "expected_prediction": "wheels turning",
+        "prediction": "wheels turning",
+        "correct": true,
+        "maxProb": "0.94018364"
+    },
+    {
+        "expected_prediction": "bar",
+        "prediction": "bar, bar",
+        "correct": false,
+        "maxProb": "0.67168796"
+    },
+    {
+        "expected_prediction": "ore",
+        "prediction": "dirt",
+        "correct": false,
+        "maxProb": "0.6882984"
+    },
+    {
+        "expected_prediction": "much money",
+        "prediction": "much money",
+        "correct": true,
+        "maxProb": "0.9999324"
+    },
+    {
+        "expected_prediction": "practice",
+        "prediction": "practice",
+        "correct": true,
+        "maxProb": "0.6102873"
+    },
+    {
+        "expected_prediction": "television",
+        "prediction": "caddy",
+        "correct": false,
+        "maxProb": "0.7654705"
+    },
+    {
+        "expected_prediction": "attic",
+        "prediction": "television",
+        "correct": false,
+        "maxProb": "0.99736315"
+    },
+    {
+        "expected_prediction": "fairy tale",
+        "prediction": "fairy tale",
+        "correct": true,
+        "maxProb": "0.94911474"
+    },
+    {
+        "expected_prediction": "living room",
+        "prediction": "living room",
+        "correct": true,
+        "maxProb": "0.64395565"
+    },
+    {
+        "expected_prediction": "hospital",
+        "prediction": "hospital",
+        "correct": true,
+        "maxProb": "0.99135524"
+    },
+    {
+        "expected_prediction": "bridge",
+        "prediction": "made from rocks",
+        "correct": false,
+        "maxProb": "0.6941808"
+    },
+    {
+        "expected_prediction": "getting in shape",
+        "prediction": "getting in shape",
+        "correct": true,
+        "maxProb": "0.91376424"
+    },
+    {
+        "expected_prediction": "neighborhood",
+        "prediction": "city",
+        "correct": false,
+        "maxProb": "0.26001012"
+    },
+    {
+        "expected_prediction": "get frustrated",
+        "prediction": "debug",
+        "correct": false,
+        "maxProb": "0.8814615"
+    },
+    {
+        "expected_prediction": "pedalling",
+        "prediction": "sense of balance, driving, good balance",
+        "correct": false,
+        "maxProb": "0.35481074"
+    },
+    {
+        "expected_prediction": "school building",
+        "prediction": "city",
+        "correct": false,
+        "maxProb": "0.9951953"
+    },
+    {
+        "expected_prediction": "office building",
+        "prediction": "office supply store",
+        "correct": false,
+        "maxProb": "0.99984777"
+    },
+    {
+        "expected_prediction": "city",
+        "prediction": "direct traffic",
+        "correct": false,
+        "maxProb": "0.4809459"
+    },
+    {
+        "expected_prediction": "mortal",
+        "prediction": "death",
+        "correct": false,
+        "maxProb": "0.47285295"
+    },
+    {
+        "expected_prediction": "below",
+        "prediction": "near",
+        "correct": false,
+        "maxProb": "0.9658618"
+    },
+    {
+        "expected_prediction": "indigestion",
+        "prediction": "digestive",
+        "correct": false,
+        "maxProb": "0.92615366"
+    },
+    {
+        "expected_prediction": "dog's mouth",
+        "prediction": "backyard",
+        "correct": false,
+        "maxProb": "0.8500673"
+    },
+    {
+        "expected_prediction": "music room",
+        "prediction": "music room",
+        "correct": true,
+        "maxProb": "0.99999416"
+    },
+    {
+        "expected_prediction": "major city",
+        "prediction": "major city",
+        "correct": true,
+        "maxProb": "0.5990383"
+    },
+    {
+        "expected_prediction": "end of line",
+        "prediction": "movie theaters",
+        "correct": false,
+        "maxProb": "0.7240786"
+    },
+    {
+        "expected_prediction": "table setting",
+        "prediction": "cabinet",
+        "correct": false,
+        "maxProb": "0.68619114"
+    },
+    {
+        "expected_prediction": "bus depot",
+        "prediction": "bus depot",
+        "correct": true,
+        "maxProb": "0.9999454"
+    },
+    {
+        "expected_prediction": "fish market",
+        "prediction": "fish market",
+        "correct": true,
+        "maxProb": "0.9998286"
+    },
+    {
+        "expected_prediction": "play sports",
+        "prediction": "mass",
+        "correct": false,
+        "maxProb": "0.9811546"
+    },
+    {
+        "expected_prediction": "animal",
+        "prediction": "animal",
+        "correct": true,
+        "maxProb": "0.4799645"
+    },
+    {
+        "expected_prediction": "open eyes",
+        "prediction": "plug in",
+        "correct": false,
+        "maxProb": "0.9969111"
+    },
+    {
+        "expected_prediction": "augment",
+        "prediction": "gain weight",
+        "correct": false,
+        "maxProb": "0.97815734"
+    },
+    {
+        "expected_prediction": "living room",
+        "prediction": "big house",
+        "correct": false,
+        "maxProb": "0.8171025"
+    },
+    {
+        "expected_prediction": "fast food restaurant",
+        "prediction": "fast food restaurant",
+        "correct": true,
+        "maxProb": "0.99879175"
+    },
+    {
+        "expected_prediction": "catching fish",
+        "prediction": "have fun",
+        "correct": false,
+        "maxProb": "0.9937157"
+    },
+    {
+        "expected_prediction": "move people",
+        "prediction": "cost money",
+        "correct": false,
+        "maxProb": "0.9998542"
+    },
+    {
+        "expected_prediction": "drawer",
+        "prediction": "holster",
+        "correct": false,
+        "maxProb": "0.7802609"
+    },
+    {
+        "expected_prediction": "classroom",
+        "prediction": "classroom",
+        "correct": true,
+        "maxProb": "0.9998735"
+    },
+    {
+        "expected_prediction": "desk drawer",
+        "prediction": "desk drawer",
+        "correct": true,
+        "maxProb": "0.99968684"
+    },
+    {
+        "expected_prediction": "barn",
+        "prediction": "barn",
+        "correct": true,
+        "maxProb": "0.755638"
+    },
+    {
+        "expected_prediction": "dress shop",
+        "prediction": "pants shop",
+        "correct": false,
+        "maxProb": "0.58926576"
+    },
+    {
+        "expected_prediction": "heartburn",
+        "prediction": "bad breath",
+        "correct": false,
+        "maxProb": "0.9992969"
+    },
+    {
+        "expected_prediction": "committing perjury",
+        "prediction": "committing perjury",
+        "correct": true,
+        "maxProb": "0.69446695"
+    },
+    {
+        "expected_prediction": "desire to travel",
+        "prediction": "greater mobility",
+        "correct": false,
+        "maxProb": "0.99980646"
+    },
+    {
+        "expected_prediction": "water cooler",
+        "prediction": "bus stop",
+        "correct": false,
+        "maxProb": "0.9876929"
+    },
+    {
+        "expected_prediction": "forest",
+        "prediction": "nest",
+        "correct": false,
+        "maxProb": "0.9447938"
+    },
+    {
+        "expected_prediction": "pet shop",
+        "prediction": "pet shop",
+        "correct": true,
+        "maxProb": "0.9999536"
+    },
+    {
+        "expected_prediction": "industrial area",
+        "prediction": "industrial area",
+        "correct": true,
+        "maxProb": "0.94156957"
+    },
+    {
+        "expected_prediction": "chemistry lab",
+        "prediction": "chemistry lab",
+        "correct": true,
+        "maxProb": "0.9999819"
+    },
+    {
+        "expected_prediction": "action",
+        "prediction": "happiness",
+        "correct": false,
+        "maxProb": "0.98227376"
+    },
+    {
+        "expected_prediction": "trash",
+        "prediction": "subway",
+        "correct": false,
+        "maxProb": "0.9999198"
+    },
+    {
+        "expected_prediction": "rest area",
+        "prediction": "bus stop",
+        "correct": false,
+        "maxProb": "0.99999046"
+    },
+    {
+        "expected_prediction": "literacy",
+        "prediction": "knowing how to read",
+        "correct": false,
+        "maxProb": "0.99939275"
+    },
+    {
+        "expected_prediction": "record album",
+        "prediction": "blaring",
+        "correct": false,
+        "maxProb": "0.64882624"
+    },
+    {
+        "expected_prediction": "universe",
+        "prediction": "universe",
+        "correct": true,
+        "maxProb": "0.99863845"
+    },
+    {
+        "expected_prediction": "friend's house",
+        "prediction": "keg",
+        "correct": false,
+        "maxProb": "0.99930775"
+    },
+    {
+        "expected_prediction": "lumberyard",
+        "prediction": "lumberyard",
+        "correct": true,
+        "maxProb": "0.9998795"
+    },
+    {
+        "expected_prediction": "hand",
+        "prediction": "courtroom",
+        "correct": false,
+        "maxProb": "0.9019005"
+    },
+    {
+        "expected_prediction": "kentucky",
+        "prediction": "west virginia",
+        "correct": false,
+        "maxProb": "0.9976324"
+    },
+    {
+        "expected_prediction": "might win",
+        "prediction": "might win",
+        "correct": true,
+        "maxProb": "0.99989164"
+    },
+    {
+        "expected_prediction": "hardware store",
+        "prediction": "hardware store",
+        "correct": true,
+        "maxProb": "0.9999528"
+    },
+    {
+        "expected_prediction": "farming areas",
+        "prediction": "farming areas",
+        "correct": true,
+        "maxProb": "0.99593157"
+    },
+    {
+        "expected_prediction": "control model",
+        "prediction": "reason exists",
+        "correct": false,
+        "maxProb": "0.85703415"
+    },
+    {
+        "expected_prediction": "fall down",
+        "prediction": "fall down",
+        "correct": true,
+        "maxProb": "0.9859373"
+    },
+    {
+        "expected_prediction": "falling down",
+        "prediction": "getting tired",
+        "correct": false,
+        "maxProb": "0.99898356"
+    },
+    {
+        "expected_prediction": "end of line",
+        "prediction": "end of line",
+        "correct": true,
+        "maxProb": "0.9965821"
+    },
+    {
+        "expected_prediction": "do mathematics",
+        "prediction": "do mathematics",
+        "correct": true,
+        "maxProb": "0.95537305"
+    },
+    {
+        "expected_prediction": "valley",
+        "prediction": "valley",
+        "correct": true,
+        "maxProb": "0.9714826"
+    },
+    {
+        "expected_prediction": "bedroom",
+        "prediction": "istanbul",
+        "correct": false,
+        "maxProb": "0.3961263"
+    },
+    {
+        "expected_prediction": "water fountain",
+        "prediction": "desk",
+        "correct": false,
+        "maxProb": "0.9998567"
+    },
+    {
+        "expected_prediction": "silent",
+        "prediction": "silence",
+        "correct": false,
+        "maxProb": "0.7614814"
+    },
+    {
+        "expected_prediction": "library",
+        "prediction": "shelf, explain meaning of words, table, library",
+        "correct": false,
+        "maxProb": "0.9641881"
+    },
+    {
+        "expected_prediction": "rush",
+        "prediction": "have fun",
+        "correct": false,
+        "maxProb": "0.99995255"
+    },
+    {
+        "expected_prediction": "slurred speech",
+        "prediction": "slurred speech",
+        "correct": true,
+        "maxProb": "0.9901182"
+    },
+    {
+        "expected_prediction": "get lost",
+        "prediction": "get lost, require water, trained, bark, roll over",
+        "correct": false,
+        "maxProb": "0.25129718"
+    },
+    {
+        "expected_prediction": "garage",
+        "prediction": "garage",
+        "correct": true,
+        "maxProb": "0.95133054"
+    },
+    {
+        "expected_prediction": "table",
+        "prediction": "backyard",
+        "correct": false,
+        "maxProb": "0.9457264"
+    },
+    {
+        "expected_prediction": "unlikely",
+        "prediction": "unlikely",
+        "correct": true,
+        "maxProb": "0.8539954"
+    },
+    {
+        "expected_prediction": "group together",
+        "prediction": "group together",
+        "correct": true,
+        "maxProb": "0.9966737"
+    },
+    {
+        "expected_prediction": "get in shape",
+        "prediction": "losing weight, healthy, get in shape, weight loss",
+        "correct": false,
+        "maxProb": "0.46091262"
+    },
+    {
+        "expected_prediction": "sporting event",
+        "prediction": "sporting event",
+        "correct": true,
+        "maxProb": "0.9999893"
+    },
+    {
+        "expected_prediction": "lie down",
+        "prediction": "lie down",
+        "correct": true,
+        "maxProb": "0.9194114"
+    },
+    {
+        "expected_prediction": "synagogue",
+        "prediction": "tunnel",
+        "correct": false,
+        "maxProb": "0.5532774"
+    },
+    {
+        "expected_prediction": "feel more energetic",
+        "prediction": "need to",
+        "correct": false,
+        "maxProb": "0.60809743"
+    },
+    {
+        "expected_prediction": "automated teller",
+        "prediction": "bank machine",
+        "correct": false,
+        "maxProb": "0.99979085"
+    },
+    {
+        "expected_prediction": "body of water",
+        "prediction": "body of water",
+        "correct": true,
+        "maxProb": "0.9957424"
+    },
+    {
+        "expected_prediction": "gas station",
+        "prediction": "truck stop",
+        "correct": false,
+        "maxProb": "0.99994016"
+    },
+    {
+        "expected_prediction": "laboratory",
+        "prediction": "countryside",
+        "correct": false,
+        "maxProb": "0.9930361"
+    },
+    {
+        "expected_prediction": "exhaustion",
+        "prediction": "tiredness",
+        "correct": false,
+        "maxProb": "0.6041584"
+    },
+    {
+        "expected_prediction": "bloom",
+        "prediction": "bloom",
+        "correct": true,
+        "maxProb": "0.99960154"
+    },
+    {
+        "expected_prediction": "dress himself",
+        "prediction": "work",
+        "correct": false,
+        "maxProb": "0.99999464"
+    },
+    {
+        "expected_prediction": "prosecution",
+        "prediction": "problems",
+        "correct": false,
+        "maxProb": "0.41176918"
+    },
+    {
+        "expected_prediction": "clutter",
+        "prediction": "clutter",
+        "correct": true,
+        "maxProb": "0.99977785"
+    },
+    {
+        "expected_prediction": "pet store",
+        "prediction": "louisiana",
+        "correct": false,
+        "maxProb": "0.3152612"
+    },
+    {
+        "expected_prediction": "play hockey",
+        "prediction": "play hockey",
+        "correct": true,
+        "maxProb": "0.99975616"
+    },
+    {
+        "expected_prediction": "relaxation",
+        "prediction": "relaxation",
+        "correct": true,
+        "maxProb": "0.98551244"
+    },
+    {
+        "expected_prediction": "cupboard",
+        "prediction": "school building, wardrobe",
+        "correct": false,
+        "maxProb": "0.5991775"
+    },
+    {
+        "expected_prediction": "water fountain",
+        "prediction": "water fountain",
+        "correct": true,
+        "maxProb": "0.9999621"
+    },
+    {
+        "expected_prediction": "computer network",
+        "prediction": "computer network",
+        "correct": true,
+        "maxProb": "0.9622881"
+    },
+    {
+        "expected_prediction": "anxiety and fear",
+        "prediction": "increased workload",
+        "correct": false,
+        "maxProb": "0.69626325"
+    },
+    {
+        "expected_prediction": "drunker",
+        "prediction": "drunker",
+        "correct": true,
+        "maxProb": "0.9431662"
+    },
+    {
+        "expected_prediction": "orchestra",
+        "prediction": "orchestra",
+        "correct": true,
+        "maxProb": "0.970362"
+    },
+    {
+        "expected_prediction": "sea water",
+        "prediction": "sea water",
+        "correct": true,
+        "maxProb": "0.99967754"
+    },
+    {
+        "expected_prediction": "inspiration",
+        "prediction": "inspiration",
+        "correct": true,
+        "maxProb": "0.99992454"
+    },
+    {
+        "expected_prediction": "made fun of",
+        "prediction": "false information",
+        "correct": false,
+        "maxProb": "0.8306862"
+    },
+    {
+        "expected_prediction": "lie",
+        "prediction": "laughing",
+        "correct": false,
+        "maxProb": "0.95893925"
+    },
+    {
+        "expected_prediction": "act responsibly",
+        "prediction": "act responsibly",
+        "correct": true,
+        "maxProb": "0.9991763"
+    },
+    {
+        "expected_prediction": "california",
+        "prediction": "tokio",
+        "correct": false,
+        "maxProb": "0.9725874"
+    },
+    {
+        "expected_prediction": "listen to music",
+        "prediction": "lift weights",
+        "correct": false,
+        "maxProb": "0.8952802"
+    },
+    {
+        "expected_prediction": "learn new things",
+        "prediction": "having fun, it's more relatable",
+        "correct": false,
+        "maxProb": "0.51159906"
+    },
+    {
+        "expected_prediction": "park",
+        "prediction": "bus station",
+        "correct": false,
+        "maxProb": "0.84895486"
+    },
+    {
+        "expected_prediction": "seek help",
+        "prediction": "seek help",
+        "correct": true,
+        "maxProb": "0.9703419"
+    },
+    {
+        "expected_prediction": "dishwasher",
+        "prediction": "dishwasher",
+        "correct": true,
+        "maxProb": "0.5413039"
+    },
+    {
+        "expected_prediction": "empty",
+        "prediction": "full",
+        "correct": false,
+        "maxProb": "0.8100197"
+    },
+    {
+        "expected_prediction": "you're curious",
+        "prediction": "curiosity",
+        "correct": false,
+        "maxProb": "0.9511226"
+    },
+    {
+        "expected_prediction": "have conversation",
+        "prediction": "have conversation",
+        "correct": true,
+        "maxProb": "0.9999912"
+    },
+    {
+        "expected_prediction": "rabbit warren",
+        "prediction": "mulberry bush",
+        "correct": false,
+        "maxProb": "0.996564"
+    },
+    {
+        "expected_prediction": "woods",
+        "prediction": "neighborhood",
+        "correct": false,
+        "maxProb": "0.6825151"
+    },
+    {
+        "expected_prediction": "supermarket",
+        "prediction": "supermarket",
+        "correct": true,
+        "maxProb": "0.9983157"
+    },
+    {
+        "expected_prediction": "compliance",
+        "prediction": "compliance",
+        "correct": true,
+        "maxProb": "0.95886606"
+    },
+    {
+        "expected_prediction": "standing in line",
+        "prediction": "being ordered",
+        "correct": false,
+        "maxProb": "0.9760006"
+    },
+    {
+        "expected_prediction": "medicine cabinet",
+        "prediction": "medicine cabinet",
+        "correct": true,
+        "maxProb": "0.9996935"
+    },
+    {
+        "expected_prediction": "tall building",
+        "prediction": "tall building",
+        "correct": true,
+        "maxProb": "0.81872565"
+    },
+    {
+        "expected_prediction": "supply food",
+        "prediction": "supply food",
+        "correct": true,
+        "maxProb": "0.74276406"
+    },
+    {
+        "expected_prediction": "need care",
+        "prediction": "need care",
+        "correct": true,
+        "maxProb": "0.9999864"
+    },
+    {
+        "expected_prediction": "biological child",
+        "prediction": "foster child",
+        "correct": false,
+        "maxProb": "0.35493785"
+    },
+    {
+        "expected_prediction": "multitask",
+        "prediction": "share files",
+        "correct": false,
+        "maxProb": "0.99996984"
+    },
+    {
+        "expected_prediction": "rash",
+        "prediction": "rash",
+        "correct": true,
+        "maxProb": "0.57156897"
+    },
+    {
+        "expected_prediction": "table",
+        "prediction": "anthology, vase",
+        "correct": false,
+        "maxProb": "0.583196"
+    },
+    {
+        "expected_prediction": "read newspapers",
+        "prediction": "read newspapers",
+        "correct": true,
+        "maxProb": "0.99988437"
+    },
+    {
+        "expected_prediction": "backpack",
+        "prediction": "backpack",
+        "correct": true,
+        "maxProb": "0.999995"
+    },
+    {
+        "expected_prediction": "sweat",
+        "prediction": "perform better",
+        "correct": false,
+        "maxProb": "0.86697966"
+    },
+    {
+        "expected_prediction": "university campus",
+        "prediction": "crowd",
+        "correct": false,
+        "maxProb": "0.8830045"
+    },
+    {
+        "expected_prediction": "were thirsty",
+        "prediction": "were thirsty",
+        "correct": true,
+        "maxProb": "0.9919767"
+    },
+    {
+        "expected_prediction": "managed",
+        "prediction": "effectively treated",
+        "correct": false,
+        "maxProb": "0.9894014"
+    },
+    {
+        "expected_prediction": "stock certificate",
+        "prediction": "thumb drive",
+        "correct": false,
+        "maxProb": "0.7161699"
+    },
+    {
+        "expected_prediction": "melted",
+        "prediction": "ice cream",
+        "correct": false,
+        "maxProb": "0.9730057"
+    },
+    {
+        "expected_prediction": "bankruptcy",
+        "prediction": "spending money",
+        "correct": false,
+        "maxProb": "0.99647397"
+    },
+    {
+        "expected_prediction": "intimidation",
+        "prediction": "intimidation",
+        "correct": true,
+        "maxProb": "0.99205"
+    },
+    {
+        "expected_prediction": "hang over",
+        "prediction": "drunkenness",
+        "correct": false,
+        "maxProb": "0.8940736"
+    },
+    {
+        "expected_prediction": "fiddle",
+        "prediction": "sing, play games, fiddle",
+        "correct": false,
+        "maxProb": "0.9621192"
+    },
+    {
+        "expected_prediction": "die",
+        "prediction": "smile",
+        "correct": false,
+        "maxProb": "0.8702766"
+    },
+    {
+        "expected_prediction": "feel pleasure",
+        "prediction": "feel pleasure",
+        "correct": true,
+        "maxProb": "0.9598435"
+    },
+    {
+        "expected_prediction": "bathroom",
+        "prediction": "floors, bathroom",
+        "correct": false,
+        "maxProb": "0.9772077"
+    },
+    {
+        "expected_prediction": "bible",
+        "prediction": "bible",
+        "correct": true,
+        "maxProb": "0.9768515"
+    },
+    {
+        "expected_prediction": "appliance store",
+        "prediction": "electronics store",
+        "correct": false,
+        "maxProb": "0.9058692"
+    },
+    {
+        "expected_prediction": "build trust",
+        "prediction": "build trust",
+        "correct": true,
+        "maxProb": "0.99747676"
+    },
+    {
+        "expected_prediction": "courtroom",
+        "prediction": "courtroom",
+        "correct": true,
+        "maxProb": "0.9999937"
+    },
+    {
+        "expected_prediction": "restaurant",
+        "prediction": "at hotel, restaurant",
+        "correct": false,
+        "maxProb": "0.36115026"
+    },
+    {
+        "expected_prediction": "go down",
+        "prediction": "sundown",
+        "correct": false,
+        "maxProb": "0.99956816"
+    },
+    {
+        "expected_prediction": "head north",
+        "prediction": "speed up",
+        "correct": false,
+        "maxProb": "0.89310753"
+    },
+    {
+        "expected_prediction": "hallway",
+        "prediction": "hallway",
+        "correct": true,
+        "maxProb": "0.20925663"
+    },
+    {
+        "expected_prediction": "spoon",
+        "prediction": "kitchen",
+        "correct": false,
+        "maxProb": "0.8257423"
+    },
+    {
+        "expected_prediction": "countryside",
+        "prediction": "countryside",
+        "correct": true,
+        "maxProb": "0.99936885"
+    },
+    {
+        "expected_prediction": "chemistry lab",
+        "prediction": "chemistry lab",
+        "correct": true,
+        "maxProb": "0.99963963"
+    },
+    {
+        "expected_prediction": "battery",
+        "prediction": "battery, electronic equipment, electrolytic cell, charge, tube",
+        "correct": false,
+        "maxProb": "0.55963266"
+    },
+    {
+        "expected_prediction": "maryland",
+        "prediction": "chicken",
+        "correct": false,
+        "maxProb": "0.999461"
+    },
+    {
+        "expected_prediction": "cloud",
+        "prediction": "air",
+        "correct": false,
+        "maxProb": "0.92205465"
+    },
+    {
+        "expected_prediction": "knowing how to read",
+        "prediction": "knowing how to read",
+        "correct": true,
+        "maxProb": "0.99925154"
+    },
+    {
+        "expected_prediction": "tropical rainforest",
+        "prediction": "new mexico",
+        "correct": false,
+        "maxProb": "0.8247703"
+    },
+    {
+        "expected_prediction": "refrigerators",
+        "prediction": "refrigerators",
+        "correct": true,
+        "maxProb": "0.54667133"
+    },
+    {
+        "expected_prediction": "piggy bank",
+        "prediction": "piggy bank",
+        "correct": true,
+        "maxProb": "0.9983695"
+    },
+    {
+        "expected_prediction": "stress",
+        "prediction": "frustration",
+        "correct": false,
+        "maxProb": "0.9438299"
+    },
+    {
+        "expected_prediction": "spain",
+        "prediction": "spain",
+        "correct": true,
+        "maxProb": "0.9127811"
+    },
+    {
+        "expected_prediction": "refrigerator",
+        "prediction": "ice pack",
+        "correct": false,
+        "maxProb": "0.28904516"
+    },
+    {
+        "expected_prediction": "forest",
+        "prediction": "forest, waterfall, ground, tree",
+        "correct": false,
+        "maxProb": "0.8043091"
+    },
+    {
+        "expected_prediction": "shower",
+        "prediction": "just do",
+        "correct": false,
+        "maxProb": "0.88718903"
+    },
+    {
+        "expected_prediction": "porous",
+        "prediction": "solid",
+        "correct": false,
+        "maxProb": "0.92474043"
+    },
+    {
+        "expected_prediction": "club",
+        "prediction": "club",
+        "correct": true,
+        "maxProb": "0.99984837"
+    },
+    {
+        "expected_prediction": "upwards",
+        "prediction": "aloft",
+        "correct": false,
+        "maxProb": "0.9997825"
+    },
+    {
+        "expected_prediction": "reading",
+        "prediction": "fall asleep",
+        "correct": false,
+        "maxProb": "0.99397635"
+    },
+    {
+        "expected_prediction": "chess game",
+        "prediction": "chess set",
+        "correct": false,
+        "maxProb": "0.99494934"
+    },
+    {
+        "expected_prediction": "make happy",
+        "prediction": "like, thank, make happy",
+        "correct": false,
+        "maxProb": "0.5404238"
+    },
+    {
+        "expected_prediction": "caps",
+        "prediction": "ink in",
+        "correct": false,
+        "maxProb": "0.4468189"
+    },
+    {
+        "expected_prediction": "front door",
+        "prediction": "street corner",
+        "correct": false,
+        "maxProb": "0.39117557"
+    },
+    {
+        "expected_prediction": "offspring",
+        "prediction": "raise children",
+        "correct": false,
+        "maxProb": "0.8293904"
+    },
+    {
+        "expected_prediction": "sometimes bad",
+        "prediction": "sometimes bad",
+        "correct": true,
+        "maxProb": "0.99948287"
+    },
+    {
+        "expected_prediction": "pay bills",
+        "prediction": "pay bills, hurt people",
+        "correct": false,
+        "maxProb": "0.43695322"
+    },
+    {
+        "expected_prediction": "completing",
+        "prediction": "passing",
+        "correct": false,
+        "maxProb": "0.58296347"
+    },
+    {
+        "expected_prediction": "epilogue",
+        "prediction": "afterword",
+        "correct": false,
+        "maxProb": "0.99950457"
+    },
+    {
+        "expected_prediction": "roots",
+        "prediction": "roots",
+        "correct": true,
+        "maxProb": "0.89785415"
+    },
+    {
+        "expected_prediction": "new york city",
+        "prediction": "new york city",
+        "correct": true,
+        "maxProb": "0.6755552"
+    },
+    {
+        "expected_prediction": "see beautiful views",
+        "prediction": "seeing bear",
+        "correct": false,
+        "maxProb": "0.63907886"
+    },
+    {
+        "expected_prediction": "practice",
+        "prediction": "practise",
+        "correct": false,
+        "maxProb": "0.3964509"
+    },
+    {
+        "expected_prediction": "trust",
+        "prediction": "trust",
+        "correct": true,
+        "maxProb": "0.9997968"
+    },
+    {
+        "expected_prediction": "anxiety",
+        "prediction": "happiness",
+        "correct": false,
+        "maxProb": "0.99771774"
+    },
+    {
+        "expected_prediction": "colds and flu",
+        "prediction": "taking tests",
+        "correct": false,
+        "maxProb": "0.6417587"
+    },
+    {
+        "expected_prediction": "church",
+        "prediction": "church",
+        "correct": true,
+        "maxProb": "0.7530198"
+    },
+    {
+        "expected_prediction": "lie",
+        "prediction": "crime, disrespect judge, embarrassment, lie, indictment",
+        "correct": false,
+        "maxProb": "0.5029673"
+    },
+    {
+        "expected_prediction": "bicycle shop",
+        "prediction": "bicycle shop",
+        "correct": true,
+        "maxProb": "0.99984884"
+    },
+    {
+        "expected_prediction": "countryside",
+        "prediction": "countryside",
+        "correct": true,
+        "maxProb": "0.9076255"
+    },
+    {
+        "expected_prediction": "neighborhood",
+        "prediction": "back of house, roundabout, property",
+        "correct": false,
+        "maxProb": "0.9954786"
+    },
+    {
+        "expected_prediction": "fishmongers",
+        "prediction": "pet shop",
+        "correct": false,
+        "maxProb": "0.9242908"
+    },
+    {
+        "expected_prediction": "sell products",
+        "prediction": "sell products",
+        "correct": true,
+        "maxProb": "0.52571815"
+    },
+    {
+        "expected_prediction": "two eyes",
+        "prediction": "two eyes",
+        "correct": true,
+        "maxProb": "0.9997477"
+    },
+    {
+        "expected_prediction": "orchestra",
+        "prediction": "guitar",
+        "correct": false,
+        "maxProb": "0.97591907"
+    },
+    {
+        "expected_prediction": "hospital",
+        "prediction": "hospital",
+        "correct": true,
+        "maxProb": "0.9999473"
+    },
+    {
+        "expected_prediction": "differently",
+        "prediction": "differently",
+        "correct": true,
+        "maxProb": "0.9372693"
+    },
+    {
+        "expected_prediction": "human body",
+        "prediction": "third world country",
+        "correct": false,
+        "maxProb": "0.76959586"
+    },
+    {
+        "expected_prediction": "talk",
+        "prediction": "write down",
+        "correct": false,
+        "maxProb": "0.99991786"
+    },
+    {
+        "expected_prediction": "university",
+        "prediction": "small",
+        "correct": false,
+        "maxProb": "0.54355216"
+    },
+    {
+        "expected_prediction": "depress",
+        "prediction": "drop",
+        "correct": false,
+        "maxProb": "0.98031086"
+    },
+    {
+        "expected_prediction": "problems",
+        "prediction": "problems",
+        "correct": true,
+        "maxProb": "0.77749455"
+    },
+    {
+        "expected_prediction": "bathhouse",
+        "prediction": "bathhouse",
+        "correct": true,
+        "maxProb": "0.9999962"
+    },
+    {
+        "expected_prediction": "child's hand",
+        "prediction": "toybos",
+        "correct": false,
+        "maxProb": "0.5918455"
+    },
+    {
+        "expected_prediction": "cigarette",
+        "prediction": "lighter fluid",
+        "correct": false,
+        "maxProb": "0.9599761"
+    },
+    {
+        "expected_prediction": "mentally challenged",
+        "prediction": "mentally challenged",
+        "correct": true,
+        "maxProb": "0.9999318"
+    },
+    {
+        "expected_prediction": "kill animals",
+        "prediction": "kill animals",
+        "correct": true,
+        "maxProb": "0.99347574"
+    },
+    {
+        "expected_prediction": "lot of",
+        "prediction": "big",
+        "correct": false,
+        "maxProb": "0.95757776"
+    },
+    {
+        "expected_prediction": "martorell",
+        "prediction": "martorell",
+        "correct": true,
+        "maxProb": "0.9999902"
+    },
+    {
+        "expected_prediction": "word",
+        "prediction": "word, email, invitation",
+        "correct": false,
+        "maxProb": "0.75407094"
+    },
+    {
+        "expected_prediction": "mill",
+        "prediction": "cereal packets",
+        "correct": false,
+        "maxProb": "0.61966205"
+    },
+    {
+        "expected_prediction": "fair",
+        "prediction": "dog hair",
+        "correct": false,
+        "maxProb": "0.9998318"
+    },
+    {
+        "expected_prediction": "indiana",
+        "prediction": "illinois",
+        "correct": false,
+        "maxProb": "0.9975005"
+    },
+    {
+        "expected_prediction": "restaurant",
+        "prediction": "nightclub",
+        "correct": false,
+        "maxProb": "0.9997243"
+    },
+    {
+        "expected_prediction": "beat",
+        "prediction": "street",
+        "correct": false,
+        "maxProb": "0.97135"
+    },
+    {
+        "expected_prediction": "live long",
+        "prediction": "sand trap",
+        "correct": false,
+        "maxProb": "0.7641667"
+    },
+    {
+        "expected_prediction": "milky way",
+        "prediction": "stars",
+        "correct": false,
+        "maxProb": "0.80902267"
+    },
+    {
+        "expected_prediction": "wonderful",
+        "prediction": "orgasm",
+        "correct": false,
+        "maxProb": "0.9999869"
+    },
+    {
+        "expected_prediction": "std",
+        "prediction": "std",
+        "correct": true,
+        "maxProb": "0.50675225"
+    },
+    {
+        "expected_prediction": "depression",
+        "prediction": "irritability, depression",
+        "correct": false,
+        "maxProb": "0.4765636"
+    },
+    {
+        "expected_prediction": "great outdoors",
+        "prediction": "corn fields",
+        "correct": false,
+        "maxProb": "0.9999895"
+    },
+    {
+        "expected_prediction": "music store",
+        "prediction": "music store",
+        "correct": true,
+        "maxProb": "0.9998472"
+    },
+    {
+        "expected_prediction": "case",
+        "prediction": "case",
+        "correct": true,
+        "maxProb": "0.9998809"
+    },
+    {
+        "expected_prediction": "stagger",
+        "prediction": "get arrested",
+        "correct": false,
+        "maxProb": "0.8967727"
+    },
+    {
+        "expected_prediction": "mountainous area",
+        "prediction": "mountainous area",
+        "correct": true,
+        "maxProb": "0.997232"
+    },
+    {
+        "expected_prediction": "child's room",
+        "prediction": "toy store",
+        "correct": false,
+        "maxProb": "0.9686119"
+    },
+    {
+        "expected_prediction": "medicine cabinet",
+        "prediction": "hollow log",
+        "correct": false,
+        "maxProb": "0.9212151"
+    },
+    {
+        "expected_prediction": "go to movies",
+        "prediction": "open eyes",
+        "correct": false,
+        "maxProb": "0.8584158"
+    },
+    {
+        "expected_prediction": "get answers",
+        "prediction": "get answers",
+        "correct": true,
+        "maxProb": "0.99997294"
+    },
+    {
+        "expected_prediction": "symphony",
+        "prediction": "music room",
+        "correct": false,
+        "maxProb": "0.9998356"
+    },
+    {
+        "expected_prediction": "imagination",
+        "prediction": "real estate",
+        "correct": false,
+        "maxProb": "0.9928646"
+    },
+    {
+        "expected_prediction": "mail box",
+        "prediction": "closet",
+        "correct": false,
+        "maxProb": "0.53849626"
+    },
+    {
+        "expected_prediction": "slow down",
+        "prediction": "slow down",
+        "correct": true,
+        "maxProb": "0.99192894"
+    },
+    {
+        "expected_prediction": "getting hurt",
+        "prediction": "getting hurt, riot",
+        "correct": false,
+        "maxProb": "0.8470441"
+    },
+    {
+        "expected_prediction": "supermarket",
+        "prediction": "cd store",
+        "correct": false,
+        "maxProb": "0.99598914"
+    },
+    {
+        "expected_prediction": "ridiculous",
+        "prediction": "ridiculous",
+        "correct": true,
+        "maxProb": "0.9996568"
+    },
+    {
+        "expected_prediction": "web page",
+        "prediction": "web page",
+        "correct": true,
+        "maxProb": "0.8583461"
+    },
+    {
+        "expected_prediction": "fall out",
+        "prediction": "thin out",
+        "correct": false,
+        "maxProb": "0.9014151"
+    },
+    {
+        "expected_prediction": "drink beer",
+        "prediction": "sit quietly",
+        "correct": false,
+        "maxProb": "0.7477914"
+    },
+    {
+        "expected_prediction": "tie around",
+        "prediction": "weave",
+        "correct": false,
+        "maxProb": "0.351975"
+    },
+    {
+        "expected_prediction": "tell story",
+        "prediction": "time test",
+        "correct": false,
+        "maxProb": "0.9945748"
+    },
+    {
+        "expected_prediction": "carpet",
+        "prediction": "floor",
+        "correct": false,
+        "maxProb": "0.8334129"
+    },
+    {
+        "expected_prediction": "own house",
+        "prediction": "building",
+        "correct": false,
+        "maxProb": "0.98063546"
+    },
+    {
+        "expected_prediction": "wash themselves",
+        "prediction": "wash themselves",
+        "correct": true,
+        "maxProb": "0.999881"
+    },
+    {
+        "expected_prediction": "europe",
+        "prediction": "europe",
+        "correct": true,
+        "maxProb": "0.9995158"
+    },
+    {
+        "expected_prediction": "graduated",
+        "prediction": "graduated",
+        "correct": true,
+        "maxProb": "0.92012686"
+    },
+    {
+        "expected_prediction": "drawer",
+        "prediction": "desk",
+        "correct": false,
+        "maxProb": "0.9999471"
+    },
+    {
+        "expected_prediction": "lots of attention",
+        "prediction": "petted",
+        "correct": false,
+        "maxProb": "0.99955565"
+    },
+    {
+        "expected_prediction": "work",
+        "prediction": "work",
+        "correct": true,
+        "maxProb": "0.9992434"
+    },
+    {
+        "expected_prediction": "concert",
+        "prediction": "concert",
+        "correct": true,
+        "maxProb": "0.9718152"
+    },
+    {
+        "expected_prediction": "knowledge",
+        "prediction": "best way, weight, knowledge",
+        "correct": false,
+        "maxProb": "0.9854715"
+    },
+    {
+        "expected_prediction": "write down",
+        "prediction": "summarize main points, close mouth, write down, may disagree, talk",
+        "correct": false,
+        "maxProb": "0.9838366"
+    },
+    {
+        "expected_prediction": "photograph",
+        "prediction": "minnesota",
+        "correct": false,
+        "maxProb": "0.74669087"
+    },
+    {
+        "expected_prediction": "storybook",
+        "prediction": "storybook",
+        "correct": true,
+        "maxProb": "0.9711964"
+    },
+    {
+        "expected_prediction": "friend's house",
+        "prediction": "friend's house",
+        "correct": true,
+        "maxProb": "0.9930125"
+    },
+    {
+        "expected_prediction": "table",
+        "prediction": "meeting",
+        "correct": false,
+        "maxProb": "0.8781732"
+    },
+    {
+        "expected_prediction": "forest",
+        "prediction": "rural area",
+        "correct": false,
+        "maxProb": "0.90226007"
+    },
+    {
+        "expected_prediction": "baseball stadium",
+        "prediction": "movie",
+        "correct": false,
+        "maxProb": "0.9137381"
+    },
+    {
+        "expected_prediction": "plan",
+        "prediction": "meeting new people",
+        "correct": false,
+        "maxProb": "0.92059195"
+    },
+    {
+        "expected_prediction": "burial",
+        "prediction": "rebirth",
+        "correct": false,
+        "maxProb": "0.99988425"
+    },
+    {
+        "expected_prediction": "stand still",
+        "prediction": "walk slowly",
+        "correct": false,
+        "maxProb": "0.9963553"
+    },
+    {
+        "expected_prediction": "feel guilty",
+        "prediction": "feel guilty",
+        "correct": true,
+        "maxProb": "0.9124162"
+    },
+    {
+        "expected_prediction": "lawn",
+        "prediction": "kids",
+        "correct": false,
+        "maxProb": "0.78354174"
+    },
+    {
+        "expected_prediction": "dictionary",
+        "prediction": "dictionary",
+        "correct": true,
+        "maxProb": "0.9997253"
+    },
+    {
+        "expected_prediction": "inferior",
+        "prediction": "ignoble, peasant, inferior",
+        "correct": false,
+        "maxProb": "0.31232864"
+    },
+    {
+        "expected_prediction": "spinal injuries",
+        "prediction": "spinal injuries",
+        "correct": true,
+        "maxProb": "0.9029788"
+    },
+    {
+        "expected_prediction": "matter to",
+        "prediction": "further knowledge",
+        "correct": false,
+        "maxProb": "0.9568344"
+    },
+    {
+        "expected_prediction": "illustrate point",
+        "prediction": "get mad",
+        "correct": false,
+        "maxProb": "0.5792957"
+    },
+    {
+        "expected_prediction": "pocket",
+        "prediction": "teh bank",
+        "correct": false,
+        "maxProb": "0.96782255"
+    },
+    {
+        "expected_prediction": "skate",
+        "prediction": "skate",
+        "correct": true,
+        "maxProb": "0.99999"
+    },
+    {
+        "expected_prediction": "heat",
+        "prediction": "life on earth",
+        "correct": false,
+        "maxProb": "0.8643673"
+    },
+    {
+        "expected_prediction": "being employed",
+        "prediction": "increased workload",
+        "correct": false,
+        "maxProb": "0.9329855"
+    },
+    {
+        "expected_prediction": "one choice for pet",
+        "prediction": "one choice for pet",
+        "correct": true,
+        "maxProb": "0.2673279"
+    },
+    {
+        "expected_prediction": "lie down",
+        "prediction": "lie to himself",
+        "correct": false,
+        "maxProb": "0.8950527"
+    },
+    {
+        "expected_prediction": "deceitful",
+        "prediction": "dishonesty",
+        "correct": false,
+        "maxProb": "0.68756455"
+    },
+    {
+        "expected_prediction": "newspaper",
+        "prediction": "newspaper",
+        "correct": true,
+        "maxProb": "0.90604573"
+    },
+    {
+        "expected_prediction": "confusion",
+        "prediction": "panic",
+        "correct": false,
+        "maxProb": "0.8403269"
+    },
+    {
+        "expected_prediction": "fountain pen",
+        "prediction": "fountain pen, pencil case, newspaper, printer",
+        "correct": false,
+        "maxProb": "0.47550008"
+    },
+    {
+        "expected_prediction": "homes",
+        "prediction": "homes",
+        "correct": true,
+        "maxProb": "0.6872055"
+    },
+    {
+        "expected_prediction": "lamp",
+        "prediction": "house",
+        "correct": false,
+        "maxProb": "0.5833403"
+    },
+    {
+        "expected_prediction": "beach",
+        "prediction": "garage",
+        "correct": false,
+        "maxProb": "0.75542116"
+    },
+    {
+        "expected_prediction": "gain ground",
+        "prediction": "get tired",
+        "correct": false,
+        "maxProb": "0.9677021"
+    },
+    {
+        "expected_prediction": "rough",
+        "prediction": "rough",
+        "correct": true,
+        "maxProb": "0.9946853"
+    },
+    {
+        "expected_prediction": "table",
+        "prediction": "wall",
+        "correct": false,
+        "maxProb": "0.99999607"
+    },
+    {
+        "expected_prediction": "death",
+        "prediction": "death",
+        "correct": true,
+        "maxProb": "0.9996511"
+    },
+    {
+        "expected_prediction": "art supplies",
+        "prediction": "hair brush",
+        "correct": false,
+        "maxProb": "0.9999902"
+    },
+    {
+        "expected_prediction": "being raped",
+        "prediction": "get revenge",
+        "correct": false,
+        "maxProb": "0.8945424"
+    },
+    {
+        "expected_prediction": "garden shed",
+        "prediction": "utility closet",
+        "correct": false,
+        "maxProb": "0.94446397"
+    },
+    {
+        "expected_prediction": "india",
+        "prediction": "india",
+        "correct": true,
+        "maxProb": "0.95553553"
+    },
+    {
+        "expected_prediction": "state fair",
+        "prediction": "in kentucky",
+        "correct": false,
+        "maxProb": "0.97984785"
+    },
+    {
+        "expected_prediction": "garage",
+        "prediction": "hardware store",
+        "correct": false,
+        "maxProb": "0.99662894"
+    },
+    {
+        "expected_prediction": "caged in",
+        "prediction": "caged in, topfree, prisoner",
+        "correct": false,
+        "maxProb": "0.4717949"
+    },
+    {
+        "expected_prediction": "new york",
+        "prediction": "mountains",
+        "correct": false,
+        "maxProb": "0.8001243"
+    },
+    {
+        "expected_prediction": "being entertained",
+        "prediction": "being entertained",
+        "correct": true,
+        "maxProb": "0.9847149"
+    },
+    {
+        "expected_prediction": "phoenix",
+        "prediction": "urban areas",
+        "correct": false,
+        "maxProb": "0.8829877"
+    },
+    {
+        "expected_prediction": "people",
+        "prediction": "people",
+        "correct": true,
+        "maxProb": "0.9994023"
+    },
+    {
+        "expected_prediction": "california",
+        "prediction": "california",
+        "correct": true,
+        "maxProb": "0.99998355"
+    },
+    {
+        "expected_prediction": "unfortunate",
+        "prediction": "unfortunate",
+        "correct": true,
+        "maxProb": "0.5891092"
+    },
+    {
+        "expected_prediction": "rug",
+        "prediction": "rug, room",
+        "correct": false,
+        "maxProb": "0.38466954"
+    },
+    {
+        "expected_prediction": "go back",
+        "prediction": "fart",
+        "correct": false,
+        "maxProb": "0.99732226"
+    },
+    {
+        "expected_prediction": "countryside",
+        "prediction": "countryside",
+        "correct": true,
+        "maxProb": "0.9999565"
+    },
+    {
+        "expected_prediction": "malaise",
+        "prediction": "malaise",
+        "correct": true,
+        "maxProb": "0.51812786"
+    },
+    {
+        "expected_prediction": "grow corn",
+        "prediction": "grow corn",
+        "correct": true,
+        "maxProb": "0.94057536"
+    },
+    {
+        "expected_prediction": "warm room",
+        "prediction": "gas or electric",
+        "correct": false,
+        "maxProb": "0.97050583"
+    },
+    {
+        "expected_prediction": "sidewalk",
+        "prediction": "shelf",
+        "correct": false,
+        "maxProb": "0.7700186"
+    },
+    {
+        "expected_prediction": "make more money",
+        "prediction": "spare time",
+        "correct": false,
+        "maxProb": "0.54528403"
+    },
+    {
+        "expected_prediction": "compact",
+        "prediction": "compact",
+        "correct": true,
+        "maxProb": "0.4435902"
+    },
+    {
+        "expected_prediction": "public building",
+        "prediction": "public building",
+        "correct": true,
+        "maxProb": "0.8922576"
+    },
+    {
+        "expected_prediction": "dark",
+        "prediction": "shelf",
+        "correct": false,
+        "maxProb": "0.86490446"
+    },
+    {
+        "expected_prediction": "floor",
+        "prediction": "floor",
+        "correct": true,
+        "maxProb": "0.9995895"
+    },
+    {
+        "expected_prediction": "common interests",
+        "prediction": "open mind, common interests",
+        "correct": false,
+        "maxProb": "0.58822453"
+    },
+    {
+        "expected_prediction": "religion",
+        "prediction": "daydreams",
+        "correct": false,
+        "maxProb": "0.99617285"
+    },
+    {
+        "expected_prediction": "passing out",
+        "prediction": "excruciating pain",
+        "correct": false,
+        "maxProb": "0.99507576"
+    },
+    {
+        "expected_prediction": "talented",
+        "prediction": "talented",
+        "correct": true,
+        "maxProb": "0.9999988"
+    },
+    {
+        "expected_prediction": "fish department",
+        "prediction": "fish department",
+        "correct": true,
+        "maxProb": "0.98102945"
+    },
+    {
+        "expected_prediction": "orchestra",
+        "prediction": "band",
+        "correct": false,
+        "maxProb": "0.9943076"
+    },
+    {
+        "expected_prediction": "painting",
+        "prediction": "michigan",
+        "correct": false,
+        "maxProb": "0.5712902"
+    },
+    {
+        "expected_prediction": "watching television",
+        "prediction": "friend's house",
+        "correct": false,
+        "maxProb": "0.98337287"
+    },
+    {
+        "expected_prediction": "construct",
+        "prediction": "construct",
+        "correct": true,
+        "maxProb": "0.9842138"
+    },
+    {
+        "expected_prediction": "study",
+        "prediction": "study",
+        "correct": true,
+        "maxProb": "0.9634832"
+    },
+    {
+        "expected_prediction": "studying",
+        "prediction": "stay home, partying hard",
+        "correct": false,
+        "maxProb": "0.47335312"
+    },
+    {
+        "expected_prediction": "restaurant",
+        "prediction": "restaurant",
+        "correct": true,
+        "maxProb": "0.98050964"
+    },
+    {
+        "expected_prediction": "class",
+        "prediction": "class",
+        "correct": true,
+        "maxProb": "0.7770585"
+    },
+    {
+        "expected_prediction": "apartment building",
+        "prediction": "airport",
+        "correct": false,
+        "maxProb": "0.999997"
+    },
+    {
+        "expected_prediction": "synagogue",
+        "prediction": "grocery store",
+        "correct": false,
+        "maxProb": "0.99992716"
+    },
+    {
+        "expected_prediction": "japan",
+        "prediction": "japan, rice paddy, garden, michigan, italy",
+        "correct": false,
+        "maxProb": "0.52408177"
+    },
+    {
+        "expected_prediction": "ground",
+        "prediction": "ground",
+        "correct": true,
+        "maxProb": "0.996561"
+    },
+    {
+        "expected_prediction": "relaxation",
+        "prediction": "latency",
+        "correct": false,
+        "maxProb": "0.5835635"
+    },
+    {
+        "expected_prediction": "feel better",
+        "prediction": "feel pride",
+        "correct": false,
+        "maxProb": "0.9007919"
+    },
+    {
+        "expected_prediction": "michigan",
+        "prediction": "arizona, farm yard, michigan, german field, dairy farm",
+        "correct": false,
+        "maxProb": "0.36217302"
+    },
+    {
+        "expected_prediction": "amazon river",
+        "prediction": "amazon river",
+        "correct": true,
+        "maxProb": "0.5980482"
+    },
+    {
+        "expected_prediction": "listen to each other",
+        "prediction": "procreate",
+        "correct": false,
+        "maxProb": "0.99678564"
+    },
+    {
+        "expected_prediction": "shopping mall",
+        "prediction": "shopping mall",
+        "correct": true,
+        "maxProb": "0.9999504"
+    },
+    {
+        "expected_prediction": "mountains",
+        "prediction": "california",
+        "correct": false,
+        "maxProb": "0.98882"
+    },
+    {
+        "expected_prediction": "food court",
+        "prediction": "jewish community",
+        "correct": false,
+        "maxProb": "0.49676234"
+    },
+    {
+        "expected_prediction": "welcome guests",
+        "prediction": "work room",
+        "correct": false,
+        "maxProb": "0.9915705"
+    },
+    {
+        "expected_prediction": "wisdom",
+        "prediction": "wisdom",
+        "correct": true,
+        "maxProb": "0.47781855"
+    },
+    {
+        "expected_prediction": "flower bed",
+        "prediction": "under water, flower bed",
+        "correct": false,
+        "maxProb": "0.44705656"
+    },
+    {
+        "expected_prediction": "wander",
+        "prediction": "remove",
+        "correct": false,
+        "maxProb": "0.6930579"
+    },
+    {
+        "expected_prediction": "digesting",
+        "prediction": "gas",
+        "correct": false,
+        "maxProb": "0.9272552"
+    },
+    {
+        "expected_prediction": "bug campers",
+        "prediction": "cat condo",
+        "correct": false,
+        "maxProb": "0.9530669"
+    },
+    {
+        "expected_prediction": "school",
+        "prediction": "floors",
+        "correct": false,
+        "maxProb": "0.99968374"
+    },
+    {
+        "expected_prediction": "launder",
+        "prediction": "use water",
+        "correct": false,
+        "maxProb": "0.96730095"
+    },
+    {
+        "expected_prediction": "bedroom",
+        "prediction": "diner",
+        "correct": false,
+        "maxProb": "0.99746835"
+    },
+    {
+        "expected_prediction": "rocky hills",
+        "prediction": "west virginia",
+        "correct": false,
+        "maxProb": "0.9997807"
+    },
+    {
+        "expected_prediction": "tall building",
+        "prediction": "tall building",
+        "correct": true,
+        "maxProb": "0.9993637"
+    },
+    {
+        "expected_prediction": "excitement",
+        "prediction": "overtime",
+        "correct": false,
+        "maxProb": "0.8629549"
+    },
+    {
+        "expected_prediction": "clothing store",
+        "prediction": "shopping mall, museum, laundromat, clothing store",
+        "correct": false,
+        "maxProb": "0.39387274"
+    },
+    {
+        "expected_prediction": "mexico",
+        "prediction": "mexico",
+        "correct": true,
+        "maxProb": "0.9999931"
+    },
+    {
+        "expected_prediction": "at hotel",
+        "prediction": "building",
+        "correct": false,
+        "maxProb": "0.9759134"
+    },
+    {
+        "expected_prediction": "house",
+        "prediction": "library",
+        "correct": false,
+        "maxProb": "0.29252714"
+    },
+    {
+        "expected_prediction": "grocery shop",
+        "prediction": "grocery shop",
+        "correct": true,
+        "maxProb": "0.99998987"
+    },
+    {
+        "expected_prediction": "open mind",
+        "prediction": "loss of innocence",
+        "correct": false,
+        "maxProb": "0.8514203"
+    },
+    {
+        "expected_prediction": "throw up",
+        "prediction": "turn inside out",
+        "correct": false,
+        "maxProb": "0.9884926"
+    },
+    {
+        "expected_prediction": "michigan",
+        "prediction": "michigan",
+        "correct": true,
+        "maxProb": "0.57979554"
+    },
+    {
+        "expected_prediction": "drunk driving",
+        "prediction": "punish",
+        "correct": false,
+        "maxProb": "0.89903617"
+    },
+    {
+        "expected_prediction": "satisfaction",
+        "prediction": "cleanliness",
+        "correct": false,
+        "maxProb": "0.5906608"
+    },
+    {
+        "expected_prediction": "fatigue",
+        "prediction": "getting lost",
+        "correct": false,
+        "maxProb": "0.86430633"
+    },
+    {
+        "expected_prediction": "have fun",
+        "prediction": "have fun",
+        "correct": true,
+        "maxProb": "0.9999858"
+    },
+    {
+        "expected_prediction": "solemn",
+        "prediction": "somber",
+        "correct": false,
+        "maxProb": "0.99934715"
+    },
+    {
+        "expected_prediction": "sharp claws",
+        "prediction": "whiskers",
+        "correct": false,
+        "maxProb": "0.9997882"
+    },
+    {
+        "expected_prediction": "ask questions",
+        "prediction": "talk to each other",
+        "correct": false,
+        "maxProb": "0.999508"
+    },
+    {
+        "expected_prediction": "have fun",
+        "prediction": "have fun",
+        "correct": true,
+        "maxProb": "0.98571986"
+    },
+    {
+        "expected_prediction": "garden",
+        "prediction": "garden",
+        "correct": true,
+        "maxProb": "0.9996045"
+    },
+    {
+        "expected_prediction": "aggravation",
+        "prediction": "insanity",
+        "correct": false,
+        "maxProb": "0.9991437"
+    },
+    {
+        "expected_prediction": "theater",
+        "prediction": "theater",
+        "correct": true,
+        "maxProb": "0.9999684"
+    },
+    {
+        "expected_prediction": "military base",
+        "prediction": "military base",
+        "correct": true,
+        "maxProb": "0.9999125"
+    },
+    {
+        "expected_prediction": "office",
+        "prediction": "desk drawer, at school, office, kitchen drawer",
+        "correct": false,
+        "maxProb": "0.30170932"
+    },
+    {
+        "expected_prediction": "initiate",
+        "prediction": "ignore",
+        "correct": false,
+        "maxProb": "0.99921894"
+    },
+    {
+        "expected_prediction": "reduce",
+        "prediction": "set, fall, park, descend, reduce",
+        "correct": false,
+        "maxProb": "0.8364734"
+    },
+    {
+        "expected_prediction": "soothing",
+        "prediction": "universal",
+        "correct": false,
+        "maxProb": "0.9985568"
+    },
+    {
+        "expected_prediction": "map",
+        "prediction": "map",
+        "correct": true,
+        "maxProb": "0.9606121"
+    },
+    {
+        "expected_prediction": "multiplication",
+        "prediction": "unity",
+        "correct": false,
+        "maxProb": "0.98360205"
+    },
+    {
+        "expected_prediction": "house",
+        "prediction": "motel room",
+        "correct": false,
+        "maxProb": "0.5575241"
+    },
+    {
+        "expected_prediction": "skateboard",
+        "prediction": "skateboard",
+        "correct": true,
+        "maxProb": "0.970447"
+    },
+    {
+        "expected_prediction": "new perspective",
+        "prediction": "new perspective",
+        "correct": true,
+        "maxProb": "0.99998736"
+    },
+    {
+        "expected_prediction": "decomposition",
+        "prediction": "rebirth",
+        "correct": false,
+        "maxProb": "0.99960047"
+    },
+    {
+        "expected_prediction": "music class",
+        "prediction": "math class",
+        "correct": false,
+        "maxProb": "0.98482174"
+    },
+    {
+        "expected_prediction": "gruesome",
+        "prediction": "gruesome, charming, being arrested, killing",
+        "correct": false,
+        "maxProb": "0.92951685"
+    },
+    {
+        "expected_prediction": "pizza",
+        "prediction": "pizza",
+        "correct": true,
+        "maxProb": "0.41060525"
+    },
+    {
+        "expected_prediction": "protection",
+        "prediction": "protection",
+        "correct": true,
+        "maxProb": "0.812388"
+    },
+    {
+        "expected_prediction": "funeral",
+        "prediction": "funeral, graveyard",
+        "correct": false,
+        "maxProb": "0.37985745"
+    },
+    {
+        "expected_prediction": "microwave",
+        "prediction": "floor",
+        "correct": false,
+        "maxProb": "0.8841549"
+    },
+    {
+        "expected_prediction": "barrels",
+        "prediction": "buffalo, salt",
+        "correct": false,
+        "maxProb": "0.5405843"
+    },
+    {
+        "expected_prediction": "being arrested",
+        "prediction": "gruesome",
+        "correct": false,
+        "maxProb": "0.76923054"
+    },
+    {
+        "expected_prediction": "happiness",
+        "prediction": "stress",
+        "correct": false,
+        "maxProb": "0.99994946"
+    },
+    {
+        "expected_prediction": "polytechnic",
+        "prediction": "high school",
+        "correct": false,
+        "maxProb": "0.9994591"
+    },
+    {
+        "expected_prediction": "nuclear power plant",
+        "prediction": "nuclear power plant",
+        "correct": true,
+        "maxProb": "0.9998933"
+    },
+    {
+        "expected_prediction": "classroom",
+        "prediction": "classroom",
+        "correct": true,
+        "maxProb": "0.99615806"
+    },
+    {
+        "expected_prediction": "crime",
+        "prediction": "crime",
+        "correct": true,
+        "maxProb": "0.99670357"
+    },
+    {
+        "expected_prediction": "microscope",
+        "prediction": "camera",
+        "correct": false,
+        "maxProb": "0.8341411"
+    },
+    {
+        "expected_prediction": "do time",
+        "prediction": "attempt to escape",
+        "correct": false,
+        "maxProb": "0.69827324"
+    },
+    {
+        "expected_prediction": "newspaper",
+        "prediction": "newspaper",
+        "correct": true,
+        "maxProb": "0.999998"
+    },
+    {
+        "expected_prediction": "brass band",
+        "prediction": "orchestra",
+        "correct": false,
+        "maxProb": "0.99896514"
+    },
+    {
+        "expected_prediction": "airport",
+        "prediction": "airport",
+        "correct": true,
+        "maxProb": "0.9999299"
+    },
+    {
+        "expected_prediction": "desk drawer",
+        "prediction": "desk drawer",
+        "correct": true,
+        "maxProb": "0.9972537"
+    },
+    {
+        "expected_prediction": "confusing",
+        "prediction": "unknowable",
+        "correct": false,
+        "maxProb": "0.9226438"
+    },
+    {
+        "expected_prediction": "unable to work",
+        "prediction": "no longer exist, unable to work",
+        "correct": false,
+        "maxProb": "0.6234201"
+    },
+    {
+        "expected_prediction": "drawer",
+        "prediction": "rope",
+        "correct": false,
+        "maxProb": "0.6485558"
+    },
+    {
+        "expected_prediction": "social event",
+        "prediction": "fun game",
+        "correct": false,
+        "maxProb": "0.983585"
+    },
+    {
+        "expected_prediction": "thruway",
+        "prediction": "busy city, own brain, thruway",
+        "correct": false,
+        "maxProb": "0.44151247"
+    },
+    {
+        "expected_prediction": "movie",
+        "prediction": "movie",
+        "correct": true,
+        "maxProb": "0.9999982"
+    },
+    {
+        "expected_prediction": "airplane",
+        "prediction": "scooter",
+        "correct": false,
+        "maxProb": "0.9467085"
+    },
+    {
+        "expected_prediction": "boiling water",
+        "prediction": "cupboard",
+        "correct": false,
+        "maxProb": "0.66128457"
+    },
+    {
+        "expected_prediction": "sewing room",
+        "prediction": "sewing room",
+        "correct": true,
+        "maxProb": "0.98312896"
+    },
+    {
+        "expected_prediction": "balance",
+        "prediction": "balance",
+        "correct": true,
+        "maxProb": "0.97081"
+    },
+    {
+        "expected_prediction": "carnival",
+        "prediction": "carnival",
+        "correct": true,
+        "maxProb": "0.9999956"
+    },
+    {
+        "expected_prediction": "wallpaper",
+        "prediction": "wallpaper",
+        "correct": true,
+        "maxProb": "0.9992704"
+    },
+    {
+        "expected_prediction": "theater",
+        "prediction": "theater",
+        "correct": true,
+        "maxProb": "0.9992549"
+    },
+    {
+        "expected_prediction": "luggage compartment",
+        "prediction": "luggage compartment",
+        "correct": true,
+        "maxProb": "0.99972516"
+    },
+    {
+        "expected_prediction": "court room",
+        "prediction": "war",
+        "correct": false,
+        "maxProb": "0.9950224"
+    },
+    {
+        "expected_prediction": "stupid",
+        "prediction": "clumsy",
+        "correct": false,
+        "maxProb": "0.92319643"
+    },
+    {
+        "expected_prediction": "indestructible",
+        "prediction": "unbreakable",
+        "correct": false,
+        "maxProb": "0.99362916"
+    },
+    {
+        "expected_prediction": "loft",
+        "prediction": "apartment",
+        "correct": false,
+        "maxProb": "0.49072763"
+    },
+    {
+        "expected_prediction": "outer space",
+        "prediction": "outer space, orbit, universe",
+        "correct": false,
+        "maxProb": "0.61046207"
+    },
+    {
+        "expected_prediction": "think",
+        "prediction": "play games, lie",
+        "correct": false,
+        "maxProb": "0.9932587"
+    },
+    {
+        "expected_prediction": "parents",
+        "prediction": "birth, loving couple, act of sex, parents",
+        "correct": false,
+        "maxProb": "0.7409813"
+    },
+    {
+        "expected_prediction": "handshake",
+        "prediction": "hug each other",
+        "correct": false,
+        "maxProb": "0.9293138"
+    },
+    {
+        "expected_prediction": "playing marbles",
+        "prediction": "need for rest",
+        "correct": false,
+        "maxProb": "0.9999753"
+    },
+    {
+        "expected_prediction": "hope",
+        "prediction": "rejection, hostile, hope",
+        "correct": false,
+        "maxProb": "0.78682655"
+    },
+    {
+        "expected_prediction": "thin blood",
+        "prediction": "wet clothes",
+        "correct": false,
+        "maxProb": "0.5523131"
+    },
+    {
+        "expected_prediction": "solitary",
+        "prediction": "solitude, panic",
+        "correct": false,
+        "maxProb": "0.5930409"
+    },
+    {
+        "expected_prediction": "sleeping in",
+        "prediction": "sleeping in",
+        "correct": true,
+        "maxProb": "0.8070611"
+    },
+    {
+        "expected_prediction": "race track",
+        "prediction": "freeway",
+        "correct": false,
+        "maxProb": "1.0"
+    },
+    {
+        "expected_prediction": "bathtub",
+        "prediction": "hotel",
+        "correct": false,
+        "maxProb": "0.9512897"
+    },
+    {
+        "expected_prediction": "library",
+        "prediction": "library",
+        "correct": true,
+        "maxProb": "0.99997735"
+    },
+    {
+        "expected_prediction": "creek bed",
+        "prediction": "river bed",
+        "correct": false,
+        "maxProb": "0.93478936"
+    },
+    {
+        "expected_prediction": "funnel",
+        "prediction": "wind instrument",
+        "correct": false,
+        "maxProb": "0.97520465"
+    },
+    {
+        "expected_prediction": "opera",
+        "prediction": "basement",
+        "correct": false,
+        "maxProb": "0.99995804"
+    },
+    {
+        "expected_prediction": "office building",
+        "prediction": "office building",
+        "correct": true,
+        "maxProb": "0.93227607"
+    },
+    {
+        "expected_prediction": "bird's nest",
+        "prediction": "guitar",
+        "correct": false,
+        "maxProb": "0.9595709"
+    },
+    {
+        "expected_prediction": "accelerate",
+        "prediction": "construct",
+        "correct": false,
+        "maxProb": "0.76756"
+    },
+    {
+        "expected_prediction": "attack",
+        "prediction": "defend",
+        "correct": false,
+        "maxProb": "0.84460294"
+    },
+    {
+        "expected_prediction": "music store",
+        "prediction": "music store",
+        "correct": true,
+        "maxProb": "0.99983597"
+    },
+    {
+        "expected_prediction": "analyse",
+        "prediction": "give clue",
+        "correct": false,
+        "maxProb": "0.28298756"
+    },
+    {
+        "expected_prediction": "office desk",
+        "prediction": "office desk",
+        "correct": true,
+        "maxProb": "0.9999578"
+    },
+    {
+        "expected_prediction": "america",
+        "prediction": "germany",
+        "correct": false,
+        "maxProb": "0.5204915"
+    },
+    {
+        "expected_prediction": "house",
+        "prediction": "internet cafe",
+        "correct": false,
+        "maxProb": "0.27925286"
+    },
+    {
+        "expected_prediction": "air",
+        "prediction": "air",
+        "correct": true,
+        "maxProb": "0.99997985"
+    },
+    {
+        "expected_prediction": "small town",
+        "prediction": "small town",
+        "correct": true,
+        "maxProb": "0.999841"
+    },
+    {
+        "expected_prediction": "painting",
+        "prediction": "painting",
+        "correct": true,
+        "maxProb": "0.999637"
+    },
+    {
+        "expected_prediction": "concentrate",
+        "prediction": "get attention",
+        "correct": false,
+        "maxProb": "0.96417433"
+    },
+    {
+        "expected_prediction": "increased heart rate",
+        "prediction": "breathlessness",
+        "correct": false,
+        "maxProb": "0.8251286"
+    },
+    {
+        "expected_prediction": "satisfaction",
+        "prediction": "boredom",
+        "correct": false,
+        "maxProb": "0.980143"
+    },
+    {
+        "expected_prediction": "parents",
+        "prediction": "many adults",
+        "correct": false,
+        "maxProb": "0.7757238"
+    },
+    {
+        "expected_prediction": "wide acceptance",
+        "prediction": "wide acceptance, a degree, pain, getting high, press coverage",
+        "correct": false,
+        "maxProb": "0.48206046"
+    },
+    {
+        "expected_prediction": "shin splints",
+        "prediction": "physical exertion",
+        "correct": false,
+        "maxProb": "0.99224806"
+    },
+    {
+        "expected_prediction": "hasten",
+        "prediction": "hasten",
+        "correct": true,
+        "maxProb": "0.9579901"
+    },
+    {
+        "expected_prediction": "food store",
+        "prediction": "food store",
+        "correct": true,
+        "maxProb": "0.99981946"
+    },
+    {
+        "expected_prediction": "wet",
+        "prediction": "wide",
+        "correct": false,
+        "maxProb": "0.47394946"
+    },
+    {
+        "expected_prediction": "atlas",
+        "prediction": "atlas",
+        "correct": true,
+        "maxProb": "0.47018737"
+    },
+    {
+        "expected_prediction": "blunderbuss",
+        "prediction": "barbell",
+        "correct": false,
+        "maxProb": "0.9931972"
+    },
+    {
+        "expected_prediction": "neighbor's house",
+        "prediction": "neighbor's house",
+        "correct": true,
+        "maxProb": "0.9999728"
+    },
+    {
+        "expected_prediction": "sore mouth",
+        "prediction": "sore mouth",
+        "correct": true,
+        "maxProb": "0.97393054"
+    },
+    {
+        "expected_prediction": "living room",
+        "prediction": "living room",
+        "correct": true,
+        "maxProb": "0.99964297"
+    },
+    {
+        "expected_prediction": "athletic club",
+        "prediction": "recreational center",
+        "correct": false,
+        "maxProb": "0.95966625"
+    },
+    {
+        "expected_prediction": "pet",
+        "prediction": "pet",
+        "correct": true,
+        "maxProb": "0.9989336"
+    },
+    {
+        "expected_prediction": "feild",
+        "prediction": "tropical forest",
+        "correct": false,
+        "maxProb": "0.9998777"
+    },
+    {
+        "expected_prediction": "light fire",
+        "prediction": "freezer",
+        "correct": false,
+        "maxProb": "0.99401045"
+    },
+    {
+        "expected_prediction": "packaging materials",
+        "prediction": "packaging materials",
+        "correct": true,
+        "maxProb": "0.9840089"
+    },
+    {
+        "expected_prediction": "medical chart",
+        "prediction": "medical chart",
+        "correct": true,
+        "maxProb": "0.5460795"
+    },
+    {
+        "expected_prediction": "closed room",
+        "prediction": "closed room",
+        "correct": true,
+        "maxProb": "0.7590228"
+    },
+    {
+        "expected_prediction": "old barn",
+        "prediction": "old barn",
+        "correct": true,
+        "maxProb": "0.9989458"
+    },
+    {
+        "expected_prediction": "clam chowder",
+        "prediction": "beef stew",
+        "correct": false,
+        "maxProb": "0.7645635"
+    },
+    {
+        "expected_prediction": "woodland",
+        "prediction": "woodland",
+        "correct": true,
+        "maxProb": "0.99590755"
+    },
+    {
+        "expected_prediction": "jewelry store",
+        "prediction": "hock",
+        "correct": false,
+        "maxProb": "0.9905805"
+    },
+    {
+        "expected_prediction": "shortness of breath",
+        "prediction": "shortness of breath",
+        "correct": true,
+        "maxProb": "0.99994576"
+    },
+    {
+        "expected_prediction": "washington dc",
+        "prediction": "each city",
+        "correct": false,
+        "maxProb": "0.37070268"
+    },
+    {
+        "expected_prediction": "reasonable",
+        "prediction": "not go to work, return to work, union",
+        "correct": false,
+        "maxProb": "0.40261403"
+    },
+    {
+        "expected_prediction": "learn about",
+        "prediction": "learn about",
+        "correct": true,
+        "maxProb": "0.9894303"
+    },
+    {
+        "expected_prediction": "listening",
+        "prediction": "listening",
+        "correct": true,
+        "maxProb": "0.9640938"
+    },
+    {
+        "expected_prediction": "say words",
+        "prediction": "open mouth",
+        "correct": false,
+        "maxProb": "0.9989575"
+    },
+    {
+        "expected_prediction": "bus stop",
+        "prediction": "airport",
+        "correct": false,
+        "maxProb": "0.46614975"
+    },
+    {
+        "expected_prediction": "new york city",
+        "prediction": "hazleton",
+        "correct": false,
+        "maxProb": "0.94157815"
+    },
+    {
+        "expected_prediction": "found outside",
+        "prediction": "frightening",
+        "correct": false,
+        "maxProb": "0.9138402"
+    },
+    {
+        "expected_prediction": "suburbs",
+        "prediction": "rural",
+        "correct": false,
+        "maxProb": "0.9891917"
+    },
+    {
+        "expected_prediction": "move around",
+        "prediction": "move around",
+        "correct": true,
+        "maxProb": "0.98374766"
+    },
+    {
+        "expected_prediction": "attack",
+        "prediction": "mammals",
+        "correct": false,
+        "maxProb": "0.91902274"
+    },
+    {
+        "expected_prediction": "cook dinner",
+        "prediction": "get food",
+        "correct": false,
+        "maxProb": "0.43411615"
+    },
+    {
+        "expected_prediction": "apartment",
+        "prediction": "school",
+        "correct": false,
+        "maxProb": "0.99573815"
+    },
+    {
+        "expected_prediction": "cattle show",
+        "prediction": "cattle show",
+        "correct": true,
+        "maxProb": "0.7213845"
+    },
+    {
+        "expected_prediction": "at hotel",
+        "prediction": "swimming pool, clothes line, backpack",
+        "correct": false,
+        "maxProb": "0.95609015"
+    },
+    {
+        "expected_prediction": "bookstore",
+        "prediction": "bookstore",
+        "correct": true,
+        "maxProb": "0.99280035"
+    },
+    {
+        "expected_prediction": "city or town",
+        "prediction": "strip mall",
+        "correct": false,
+        "maxProb": "0.9990502"
+    },
+    {
+        "expected_prediction": "relaxation",
+        "prediction": "relaxation",
+        "correct": true,
+        "maxProb": "0.9581086"
+    },
+    {
+        "expected_prediction": "thailand",
+        "prediction": "zoo, barrel, research laboratory, captivity, thailand",
+        "correct": false,
+        "maxProb": "0.36875612"
+    },
+    {
+        "expected_prediction": "drawer",
+        "prediction": "drawer, bedroom",
+        "correct": false,
+        "maxProb": "0.7892016"
+    },
+    {
+        "expected_prediction": "very old",
+        "prediction": "infinite",
+        "correct": false,
+        "maxProb": "0.73265105"
+    },
+    {
+        "expected_prediction": "hungry",
+        "prediction": "feline",
+        "correct": false,
+        "maxProb": "0.9285987"
+    },
+    {
+        "expected_prediction": "breathing",
+        "prediction": "moving",
+        "correct": false,
+        "maxProb": "0.9055327"
+    },
+    {
+        "expected_prediction": "human body",
+        "prediction": "bodybuilder",
+        "correct": false,
+        "maxProb": "0.9988784"
+    },
+    {
+        "expected_prediction": "garden center",
+        "prediction": "garden center",
+        "correct": true,
+        "maxProb": "0.9999571"
+    },
+    {
+        "expected_prediction": "at hotel",
+        "prediction": "at hotel",
+        "correct": true,
+        "maxProb": "0.9990006"
+    },
+    {
+        "expected_prediction": "dard",
+        "prediction": "dard",
+        "correct": true,
+        "maxProb": "0.9999888"
+    },
+    {
+        "expected_prediction": "sore muscles",
+        "prediction": "sore muscles",
+        "correct": true,
+        "maxProb": "0.67429185"
+    },
+    {
+        "expected_prediction": "whirlpool bath",
+        "prediction": "soft drink",
+        "correct": false,
+        "maxProb": "0.99660254"
+    },
+    {
+        "expected_prediction": "downtown",
+        "prediction": "downtown",
+        "correct": true,
+        "maxProb": "0.97938603"
+    },
+    {
+        "expected_prediction": "imprisonment",
+        "prediction": "trial",
+        "correct": false,
+        "maxProb": "0.99922705"
+    },
+    {
+        "expected_prediction": "go to bed",
+        "prediction": "listen to music",
+        "correct": false,
+        "maxProb": "0.9696807"
+    },
+    {
+        "expected_prediction": "garage",
+        "prediction": "store",
+        "correct": false,
+        "maxProb": "0.9957616"
+    },
+    {
+        "expected_prediction": "teeth",
+        "prediction": "dentist",
+        "correct": false,
+        "maxProb": "0.47729823"
+    },
+    {
+        "expected_prediction": "because",
+        "prediction": "reason",
+        "correct": false,
+        "maxProb": "0.8595876"
+    },
+    {
+        "expected_prediction": "rug",
+        "prediction": "net",
+        "correct": false,
+        "maxProb": "0.44763184"
+    },
+    {
+        "expected_prediction": "downtown",
+        "prediction": "california",
+        "correct": false,
+        "maxProb": "0.96235675"
+    },
+    {
+        "expected_prediction": "table",
+        "prediction": "table",
+        "correct": true,
+        "maxProb": "0.9979069"
+    },
+    {
+        "expected_prediction": "kill",
+        "prediction": "go to jail",
+        "correct": false,
+        "maxProb": "0.99994504"
+    },
+    {
+        "expected_prediction": "refrigerator",
+        "prediction": "stream, aquarium, refrigerator, boat ride, market",
+        "correct": false,
+        "maxProb": "0.9555241"
+    },
+    {
+        "expected_prediction": "go faster",
+        "prediction": "go faster",
+        "correct": true,
+        "maxProb": "0.94750255"
+    },
+    {
+        "expected_prediction": "zoo",
+        "prediction": "kill",
+        "correct": false,
+        "maxProb": "0.99928963"
+    },
+    {
+        "expected_prediction": "cupboard",
+        "prediction": "attic",
+        "correct": false,
+        "maxProb": "0.84419185"
+    },
+    {
+        "expected_prediction": "cut grass",
+        "prediction": "mail property tax payments",
+        "correct": false,
+        "maxProb": "0.9998399"
+    },
+    {
+        "expected_prediction": "using energy",
+        "prediction": "using energy",
+        "correct": true,
+        "maxProb": "0.98992926"
+    },
+    {
+        "expected_prediction": "prison sentence",
+        "prediction": "prison sentence, terrible, encouragement, die",
+        "correct": false,
+        "maxProb": "0.64665776"
+    },
+    {
+        "expected_prediction": "very colorful",
+        "prediction": "very colorful",
+        "correct": true,
+        "maxProb": "0.99987686"
+    },
+    {
+        "expected_prediction": "false information",
+        "prediction": "false information",
+        "correct": true,
+        "maxProb": "0.99994195"
+    },
+    {
+        "expected_prediction": "wreak",
+        "prediction": "smoke",
+        "correct": false,
+        "maxProb": "0.99993813"
+    },
+    {
+        "expected_prediction": "express information",
+        "prediction": "express information",
+        "correct": true,
+        "maxProb": "0.6439807"
+    },
+    {
+        "expected_prediction": "defend",
+        "prediction": "run fast",
+        "correct": false,
+        "maxProb": "0.9994881"
+    },
+    {
+        "expected_prediction": "table",
+        "prediction": "table",
+        "correct": true,
+        "maxProb": "0.7926585"
+    },
+    {
+        "expected_prediction": "amusement park",
+        "prediction": "amusement park",
+        "correct": true,
+        "maxProb": "0.9999901"
+    },
+    {
+        "expected_prediction": "awake",
+        "prediction": "concentrate",
+        "correct": false,
+        "maxProb": "0.8741983"
+    },
+    {
+        "expected_prediction": "procreation",
+        "prediction": "human experience",
+        "correct": false,
+        "maxProb": "0.9961826"
+    },
+    {
+        "expected_prediction": "cast shadow",
+        "prediction": "blossom",
+        "correct": false,
+        "maxProb": "0.99952054"
+    },
+    {
+        "expected_prediction": "orbit",
+        "prediction": "universe",
+        "correct": false,
+        "maxProb": "0.49924922"
+    },
+    {
+        "expected_prediction": "university",
+        "prediction": "storage",
+        "correct": false,
+        "maxProb": "0.46536013"
+    },
+    {
+        "expected_prediction": "have sex",
+        "prediction": "have sex",
+        "correct": true,
+        "maxProb": "0.5377611"
+    },
+    {
+        "expected_prediction": "comfortable clothes",
+        "prediction": "ipod",
+        "correct": false,
+        "maxProb": "0.9986652"
+    },
+    {
+        "expected_prediction": "economic boom",
+        "prediction": "being able to use",
+        "correct": false,
+        "maxProb": "0.9727653"
+    },
+    {
+        "expected_prediction": "passing",
+        "prediction": "passed",
+        "correct": false,
+        "maxProb": "0.8963469"
+    },
+    {
+        "expected_prediction": "concert hall",
+        "prediction": "concert hall",
+        "correct": true,
+        "maxProb": "0.9999814"
+    },
+    {
+        "expected_prediction": "everything",
+        "prediction": "everything",
+        "correct": true,
+        "maxProb": "0.9999782"
+    },
+    {
+        "expected_prediction": "annoyance",
+        "prediction": "surprise",
+        "correct": false,
+        "maxProb": "0.93522495"
+    },
+    {
+        "expected_prediction": "television",
+        "prediction": "video store",
+        "correct": false,
+        "maxProb": "0.99998033"
+    },
+    {
+        "expected_prediction": "moon",
+        "prediction": "summer",
+        "correct": false,
+        "maxProb": "0.99957865"
+    },
+    {
+        "expected_prediction": "stretch",
+        "prediction": "expend energy",
+        "correct": false,
+        "maxProb": "0.88818884"
+    },
+    {
+        "expected_prediction": "butcher shop",
+        "prediction": "butcher shop",
+        "correct": true,
+        "maxProb": "0.9760717"
+    },
+    {
+        "expected_prediction": "mall",
+        "prediction": "mall",
+        "correct": true,
+        "maxProb": "0.95373535"
+    },
+    {
+        "expected_prediction": "sea water",
+        "prediction": "body of water",
+        "correct": false,
+        "maxProb": "0.99983394"
+    },
+    {
+        "expected_prediction": "start running",
+        "prediction": "start running",
+        "correct": true,
+        "maxProb": "0.98445475"
+    },
+    {
+        "expected_prediction": "many words",
+        "prediction": "knowledge, cover, no pictures, past, many words",
+        "correct": false,
+        "maxProb": "0.3968618"
+    },
+    {
+        "expected_prediction": "buy tickets",
+        "prediction": "buy tickets",
+        "correct": true,
+        "maxProb": "0.99912196"
+    },
+    {
+        "expected_prediction": "viking ship",
+        "prediction": "viking ship",
+        "correct": true,
+        "maxProb": "0.99993706"
+    },
+    {
+        "expected_prediction": "fair",
+        "prediction": "in a field",
+        "correct": false,
+        "maxProb": "0.95090294"
+    },
+    {
+        "expected_prediction": "solar system",
+        "prediction": "solar system",
+        "correct": true,
+        "maxProb": "0.9883377"
+    },
+    {
+        "expected_prediction": "demonstration",
+        "prediction": "classroom, facebook, school, apartment, demonstration",
+        "correct": false,
+        "maxProb": "0.8882471"
+    },
+    {
+        "expected_prediction": "conflict",
+        "prediction": "good feeling",
+        "correct": false,
+        "maxProb": "0.9684562"
+    },
+    {
+        "expected_prediction": "knowing",
+        "prediction": "forgetful",
+        "correct": false,
+        "maxProb": "0.9965358"
+    },
+    {
+        "expected_prediction": "depression",
+        "prediction": "reduction",
+        "correct": false,
+        "maxProb": "0.59451014"
+    },
+    {
+        "expected_prediction": "outside",
+        "prediction": "bad movie",
+        "correct": false,
+        "maxProb": "0.8491798"
+    },
+    {
+        "expected_prediction": "casino",
+        "prediction": "casino",
+        "correct": true,
+        "maxProb": "0.7070409"
+    },
+    {
+        "expected_prediction": "water",
+        "prediction": "water, found in sea, beach",
+        "correct": false,
+        "maxProb": "0.382946"
+    },
+    {
+        "expected_prediction": "english house",
+        "prediction": "english house",
+        "correct": true,
+        "maxProb": "0.999969"
+    },
+    {
+        "expected_prediction": "refrigerator",
+        "prediction": "oven",
+        "correct": false,
+        "maxProb": "0.999564"
+    },
+    {
+        "expected_prediction": "mall",
+        "prediction": "mall, grocery store, grocery store, shop, supermarket",
+        "correct": false,
+        "maxProb": "0.9024213"
+    },
+    {
+        "expected_prediction": "eat in restaurant",
+        "prediction": "have lunch",
+        "correct": false,
+        "maxProb": "0.65780026"
+    },
+    {
+        "expected_prediction": "balloon",
+        "prediction": "balloon",
+        "correct": true,
+        "maxProb": "0.9999906"
+    },
+    {
+        "expected_prediction": "helping others",
+        "prediction": "helping others",
+        "correct": true,
+        "maxProb": "0.9986959"
+    },
+    {
+        "expected_prediction": "countryside",
+        "prediction": "california",
+        "correct": false,
+        "maxProb": "0.3506709"
+    },
+    {
+        "expected_prediction": "hell",
+        "prediction": "baseball field",
+        "correct": false,
+        "maxProb": "0.9855283"
+    },
+    {
+        "expected_prediction": "front door",
+        "prediction": "front door, doorway, entrance porch, hallway",
+        "correct": false,
+        "maxProb": "0.92415637"
+    },
+    {
+        "expected_prediction": "broken law",
+        "prediction": "broken law",
+        "correct": true,
+        "maxProb": "0.9366346"
+    },
+    {
+        "expected_prediction": "convenience store",
+        "prediction": "convenience store",
+        "correct": true,
+        "maxProb": "0.9999962"
+    },
+    {
+        "expected_prediction": "relaxation",
+        "prediction": "boredom",
+        "correct": false,
+        "maxProb": "0.9672599"
+    },
+    {
+        "expected_prediction": "cloud over",
+        "prediction": "appear blue, shows a rainbow",
+        "correct": false,
+        "maxProb": "0.34635726"
+    },
+    {
+        "expected_prediction": "safety",
+        "prediction": "safety",
+        "correct": true,
+        "maxProb": "0.7556161"
+    },
+    {
+        "expected_prediction": "bed",
+        "prediction": "ground",
+        "correct": false,
+        "maxProb": "0.55398697"
+    },
+    {
+        "expected_prediction": "home",
+        "prediction": "mall",
+        "correct": false,
+        "maxProb": "0.99207956"
+    },
+    {
+        "expected_prediction": "buy food",
+        "prediction": "see other people",
+        "correct": false,
+        "maxProb": "0.48745924"
+    },
+    {
+        "expected_prediction": "can",
+        "prediction": "keg",
+        "correct": false,
+        "maxProb": "0.9906907"
+    },
+    {
+        "expected_prediction": "manual",
+        "prediction": "manual",
+        "correct": true,
+        "maxProb": "0.44414207"
+    },
+    {
+        "expected_prediction": "thank god",
+        "prediction": "experience pain, hatred, talk to each other",
+        "correct": false,
+        "maxProb": "0.4709092"
+    },
+    {
+        "expected_prediction": "listen to music",
+        "prediction": "walk",
+        "correct": false,
+        "maxProb": "0.85458994"
+    },
+    {
+        "expected_prediction": "catch cold",
+        "prediction": "thank god, catch cold",
+        "correct": false,
+        "maxProb": "0.4612836"
+    },
+    {
+        "expected_prediction": "mansion",
+        "prediction": "mansion",
+        "correct": true,
+        "maxProb": "0.9999758"
+    },
+    {
+        "expected_prediction": "afraid of",
+        "prediction": "afraid of, good at, make pet, different",
+        "correct": false,
+        "maxProb": "0.74659604"
+    },
+    {
+        "expected_prediction": "ground",
+        "prediction": "ground",
+        "correct": true,
+        "maxProb": "0.9938985"
+    },
+    {
+        "expected_prediction": "city",
+        "prediction": "apartment building",
+        "correct": false,
+        "maxProb": "0.9915006"
+    },
+    {
+        "expected_prediction": "knowing more",
+        "prediction": "overconfidence",
+        "correct": false,
+        "maxProb": "0.5789801"
+    },
+    {
+        "expected_prediction": "apartment",
+        "prediction": "friend's house",
+        "correct": false,
+        "maxProb": "0.6021651"
+    },
+    {
+        "expected_prediction": "inner ear",
+        "prediction": "retina",
+        "correct": false,
+        "maxProb": "0.8811391"
+    },
+    {
+        "expected_prediction": "twenty four",
+        "prediction": "night",
+        "correct": false,
+        "maxProb": "0.8851781"
+    },
+    {
+        "expected_prediction": "backpack",
+        "prediction": "closet, upstairs, backpack",
+        "correct": false,
+        "maxProb": "0.9720029"
+    },
+    {
+        "expected_prediction": "forest",
+        "prediction": "roof, inside home, forest, yard, park",
+        "correct": false,
+        "maxProb": "0.62287974"
+    },
+    {
+        "expected_prediction": "full",
+        "prediction": "wanted to survive",
+        "correct": false,
+        "maxProb": "0.3633788"
+    },
+    {
+        "expected_prediction": "warm up",
+        "prediction": "use microphones",
+        "correct": false,
+        "maxProb": "0.9755823"
+    },
+    {
+        "expected_prediction": "moving body",
+        "prediction": "rhythmic movement",
+        "correct": false,
+        "maxProb": "0.97867775"
+    },
+    {
+        "expected_prediction": "school",
+        "prediction": "see work",
+        "correct": false,
+        "maxProb": "0.98505646"
+    },
+    {
+        "expected_prediction": "transit",
+        "prediction": "bus station",
+        "correct": false,
+        "maxProb": "0.8641783"
+    },
+    {
+        "expected_prediction": "fraternity house",
+        "prediction": "fraternity house",
+        "correct": true,
+        "maxProb": "0.99664485"
+    },
+    {
+        "expected_prediction": "field",
+        "prediction": "bridge",
+        "correct": false,
+        "maxProb": "0.99985564"
+    },
+    {
+        "expected_prediction": "thirsty",
+        "prediction": "feline",
+        "correct": false,
+        "maxProb": "0.87413466"
+    },
+    {
+        "expected_prediction": "typewriter",
+        "prediction": "typewriter",
+        "correct": true,
+        "maxProb": "0.87654984"
+    },
+    {
+        "expected_prediction": "center of town",
+        "prediction": "business district",
+        "correct": false,
+        "maxProb": "0.932142"
+    },
+    {
+        "expected_prediction": "mexico",
+        "prediction": "spain, mexico",
+        "correct": false,
+        "maxProb": "0.5281064"
+    },
+    {
+        "expected_prediction": "change of heart",
+        "prediction": "anguish",
+        "correct": false,
+        "maxProb": "0.9993175"
+    },
+    {
+        "expected_prediction": "walk",
+        "prediction": "stink",
+        "correct": false,
+        "maxProb": "0.9436277"
+    },
+    {
+        "expected_prediction": "children's story",
+        "prediction": "animated film",
+        "correct": false,
+        "maxProb": "0.8918752"
+    },
+    {
+        "expected_prediction": "common",
+        "prediction": "halibut",
+        "correct": false,
+        "maxProb": "0.9110083"
+    },
+    {
+        "expected_prediction": "avoid pain",
+        "prediction": "avoid pain",
+        "correct": true,
+        "maxProb": "0.99945"
+    },
+    {
+        "expected_prediction": "google",
+        "prediction": "online",
+        "correct": false,
+        "maxProb": "0.9979831"
+    },
+    {
+        "expected_prediction": "boredom",
+        "prediction": "boredom",
+        "correct": true,
+        "maxProb": "0.9998684"
+    },
+    {
+        "expected_prediction": "lifeless",
+        "prediction": "neutral",
+        "correct": false,
+        "maxProb": "0.9956903"
+    },
+    {
+        "expected_prediction": "man crew",
+        "prediction": "man crew",
+        "correct": true,
+        "maxProb": "0.75914955"
+    },
+    {
+        "expected_prediction": "african continent",
+        "prediction": "african continent",
+        "correct": true,
+        "maxProb": "0.6553937"
+    },
+    {
+        "expected_prediction": "say thank",
+        "prediction": "say thank, smile",
+        "correct": false,
+        "maxProb": "0.82517964"
+    },
+    {
+        "expected_prediction": "rich person",
+        "prediction": "hired help",
+        "correct": false,
+        "maxProb": "0.9140991"
+    },
+    {
+        "expected_prediction": "shady places",
+        "prediction": "shady places",
+        "correct": true,
+        "maxProb": "0.9940149"
+    },
+    {
+        "expected_prediction": "pants",
+        "prediction": "long skirt",
+        "correct": false,
+        "maxProb": "0.9999889"
+    },
+    {
+        "expected_prediction": "torn",
+        "prediction": "damaged",
+        "correct": false,
+        "maxProb": "0.76066923"
+    },
+    {
+        "expected_prediction": "being prepared",
+        "prediction": "being prepared",
+        "correct": true,
+        "maxProb": "0.99895227"
+    },
+    {
+        "expected_prediction": "being entertained",
+        "prediction": "being entertained",
+        "correct": true,
+        "maxProb": "0.99984527"
+    },
+    {
+        "expected_prediction": "hockey game",
+        "prediction": "hockey game",
+        "correct": true,
+        "maxProb": "0.99997485"
+    },
+    {
+        "expected_prediction": "pleasure",
+        "prediction": "pleasure",
+        "correct": true,
+        "maxProb": "0.9803484"
+    },
+    {
+        "expected_prediction": "life on earth",
+        "prediction": "life on earth",
+        "correct": true,
+        "maxProb": "0.99516356"
+    },
+    {
+        "expected_prediction": "attract attention",
+        "prediction": "have sex",
+        "correct": false,
+        "maxProb": "0.99998605"
+    },
+    {
+        "expected_prediction": "cliff",
+        "prediction": "sandplain",
+        "correct": false,
+        "maxProb": "0.9999496"
+    },
+    {
+        "expected_prediction": "swarm",
+        "prediction": "swarm",
+        "correct": true,
+        "maxProb": "0.9999901"
+    },
+    {
+        "expected_prediction": "examine thing",
+        "prediction": "reach tentative agreement, stay in bed, stop bicycle",
+        "correct": false,
+        "maxProb": "0.34734714"
+    },
+    {
+        "expected_prediction": "kitchen",
+        "prediction": "coffee shop",
+        "correct": false,
+        "maxProb": "0.9047502"
+    },
+    {
+        "expected_prediction": "daydream",
+        "prediction": "become distracted",
+        "correct": false,
+        "maxProb": "0.32017186"
+    },
+    {
+        "expected_prediction": "classroom",
+        "prediction": "bad mood, hutch, classroom, pair of trousers, year",
+        "correct": false,
+        "maxProb": "0.75678116"
+    },
+    {
+        "expected_prediction": "friend's house",
+        "prediction": "friend's house",
+        "correct": true,
+        "maxProb": "0.9973448"
+    },
+    {
+        "expected_prediction": "fitness center",
+        "prediction": "fitness center",
+        "correct": true,
+        "maxProb": "0.532443"
+    },
+    {
+        "expected_prediction": "farm house",
+        "prediction": "slaughter house",
+        "correct": false,
+        "maxProb": "0.8591426"
+    },
+    {
+        "expected_prediction": "bluegrass music",
+        "prediction": "string instrument",
+        "correct": false,
+        "maxProb": "0.9999473"
+    },
+    {
+        "expected_prediction": "humor",
+        "prediction": "humor",
+        "correct": true,
+        "maxProb": "0.9999963"
+    },
+    {
+        "expected_prediction": "bedroom",
+        "prediction": "bedroom",
+        "correct": true,
+        "maxProb": "0.9997508"
+    },
+    {
+        "expected_prediction": "bones",
+        "prediction": "tails",
+        "correct": false,
+        "maxProb": "0.999949"
+    },
+    {
+        "expected_prediction": "orchestra",
+        "prediction": "orchestra",
+        "correct": true,
+        "maxProb": "0.99811065"
+    },
+    {
+        "expected_prediction": "music room",
+        "prediction": "music room",
+        "correct": true,
+        "maxProb": "0.9940899"
+    },
+    {
+        "expected_prediction": "airport",
+        "prediction": "disembark, stairwell, deplane, airport",
+        "correct": false,
+        "maxProb": "0.90521806"
+    },
+    {
+        "expected_prediction": "look angry",
+        "prediction": "look angry",
+        "correct": true,
+        "maxProb": "0.98113763"
+    },
+    {
+        "expected_prediction": "fishing camp",
+        "prediction": "fishing camp",
+        "correct": true,
+        "maxProb": "0.9892866"
+    },
+    {
+        "expected_prediction": "beehive",
+        "prediction": "beehive",
+        "correct": true,
+        "maxProb": "0.7581241"
+    },
+    {
+        "expected_prediction": "wait for orders",
+        "prediction": "follow instructions",
+        "correct": false,
+        "maxProb": "0.97115237"
+    },
+    {
+        "expected_prediction": "peach",
+        "prediction": "cherry",
+        "correct": false,
+        "maxProb": "0.4287952"
+    },
+    {
+        "expected_prediction": "greater manchester",
+        "prediction": "england",
+        "correct": false,
+        "maxProb": "0.8634055"
+    },
+    {
+        "expected_prediction": "mouth",
+        "prediction": "mouth",
+        "correct": true,
+        "maxProb": "0.98541903"
+    },
+    {
+        "expected_prediction": "trouble",
+        "prediction": "election",
+        "correct": false,
+        "maxProb": "0.87332433"
+    },
+    {
+        "expected_prediction": "cabinet",
+        "prediction": "cabinet",
+        "correct": true,
+        "maxProb": "0.9258919"
+    },
+    {
+        "expected_prediction": "full sunlight",
+        "prediction": "direct sunlight",
+        "correct": false,
+        "maxProb": "0.9865741"
+    },
+    {
+        "expected_prediction": "laziness",
+        "prediction": "wasting time",
+        "correct": false,
+        "maxProb": "0.99997663"
+    },
+    {
+        "expected_prediction": "yellow pages",
+        "prediction": "yellow pages",
+        "correct": true,
+        "maxProb": "0.8846331"
+    },
+    {
+        "expected_prediction": "pain",
+        "prediction": "injury",
+        "correct": false,
+        "maxProb": "0.8585343"
+    },
+    {
+        "expected_prediction": "get tired of",
+        "prediction": "get tired of",
+        "correct": true,
+        "maxProb": "0.6382569"
+    },
+    {
+        "expected_prediction": "pocket",
+        "prediction": "desk drawer, cabinet, purse, classroom, pocket",
+        "correct": false,
+        "maxProb": "0.7037177"
+    },
+    {
+        "expected_prediction": "show",
+        "prediction": "movie",
+        "correct": false,
+        "maxProb": "0.8878088"
+    },
+    {
+        "expected_prediction": "meeting",
+        "prediction": "meeting",
+        "correct": true,
+        "maxProb": "0.9961966"
+    },
+    {
+        "expected_prediction": "making new friends",
+        "prediction": "making new friends",
+        "correct": true,
+        "maxProb": "0.998104"
+    },
+    {
+        "expected_prediction": "group together",
+        "prediction": "fly",
+        "correct": false,
+        "maxProb": "0.9940048"
+    },
+    {
+        "expected_prediction": "casino",
+        "prediction": "casino",
+        "correct": true,
+        "maxProb": "0.98844004"
+    },
+    {
+        "expected_prediction": "jungle",
+        "prediction": "atlantic ocean",
+        "correct": false,
+        "maxProb": "0.7169527"
+    },
+    {
+        "expected_prediction": "interruption",
+        "prediction": "die",
+        "correct": false,
+        "maxProb": "0.99999225"
+    },
+    {
+        "expected_prediction": "store",
+        "prediction": "classroom",
+        "correct": false,
+        "maxProb": "0.9999536"
+    },
+    {
+        "expected_prediction": "table",
+        "prediction": "casino",
+        "correct": false,
+        "maxProb": "0.6689765"
+    },
+    {
+        "expected_prediction": "play golf",
+        "prediction": "play golf",
+        "correct": true,
+        "maxProb": "0.9904198"
+    },
+    {
+        "expected_prediction": "nigeria",
+        "prediction": "south american country",
+        "correct": false,
+        "maxProb": "0.855457"
+    },
+    {
+        "expected_prediction": "violin case",
+        "prediction": "violin case",
+        "correct": true,
+        "maxProb": "0.99998546"
+    },
+    {
+        "expected_prediction": "eddie bauer",
+        "prediction": "fabric store",
+        "correct": false,
+        "maxProb": "0.64912564"
+    },
+    {
+        "expected_prediction": "front yard",
+        "prediction": "front yard",
+        "correct": true,
+        "maxProb": "0.99994934"
+    },
+    {
+        "expected_prediction": "defeat",
+        "prediction": "defeat, sweat",
+        "correct": false,
+        "maxProb": "0.3934562"
+    },
+    {
+        "expected_prediction": "bank",
+        "prediction": "department store",
+        "correct": false,
+        "maxProb": "0.94090927"
+    },
+    {
+        "expected_prediction": "milwaukee",
+        "prediction": "milwaukee",
+        "correct": true,
+        "maxProb": "0.9863805"
+    },
+    {
+        "expected_prediction": "heaven",
+        "prediction": "heaven, church, imagination, synagogue, monastery",
+        "correct": false,
+        "maxProb": "0.82040787"
+    },
+    {
+        "expected_prediction": "forest",
+        "prediction": "countryside",
+        "correct": false,
+        "maxProb": "0.99707556"
+    },
+    {
+        "expected_prediction": "losing money",
+        "prediction": "losing money",
+        "correct": true,
+        "maxProb": "0.99980587"
+    },
+    {
+        "expected_prediction": "grocery store",
+        "prediction": "grocery store",
+        "correct": true,
+        "maxProb": "0.9999597"
+    },
+    {
+        "expected_prediction": "tear down",
+        "prediction": "destroying",
+        "correct": false,
+        "maxProb": "0.99270403"
+    },
+    {
+        "expected_prediction": "subdivision",
+        "prediction": "subdivision",
+        "correct": true,
+        "maxProb": "0.99988747"
+    },
+    {
+        "expected_prediction": "know what time",
+        "prediction": "trust himself",
+        "correct": false,
+        "maxProb": "0.9994436"
+    },
+    {
+        "expected_prediction": "goat",
+        "prediction": "goat",
+        "correct": true,
+        "maxProb": "0.6902653"
+    },
+    {
+        "expected_prediction": "corrupt",
+        "prediction": "tarnish",
+        "correct": false,
+        "maxProb": "0.5465249"
+    },
+    {
+        "expected_prediction": "being happy",
+        "prediction": "being happy",
+        "correct": true,
+        "maxProb": "0.99984264"
+    },
+    {
+        "expected_prediction": "bored",
+        "prediction": "boring",
+        "correct": false,
+        "maxProb": "0.99990547"
+    },
+    {
+        "expected_prediction": "overcast",
+        "prediction": "overcast",
+        "correct": true,
+        "maxProb": "0.99618006"
+    },
+    {
+        "expected_prediction": "construction site",
+        "prediction": "abaft",
+        "correct": false,
+        "maxProb": "0.9999325"
+    },
+    {
+        "expected_prediction": "stay in bed",
+        "prediction": "stay in bed",
+        "correct": true,
+        "maxProb": "0.99193585"
+    },
+    {
+        "expected_prediction": "petted",
+        "prediction": "start fighting",
+        "correct": false,
+        "maxProb": "0.9951751"
+    },
+    {
+        "expected_prediction": "calm",
+        "prediction": "being good, good behavior",
+        "correct": false,
+        "maxProb": "0.48734137"
+    },
+    {
+        "expected_prediction": "outside",
+        "prediction": "outside",
+        "correct": true,
+        "maxProb": "0.91490406"
+    },
+    {
+        "expected_prediction": "schoolroom",
+        "prediction": "schoolroom",
+        "correct": true,
+        "maxProb": "0.9999914"
+    },
+    {
+        "expected_prediction": "intoxication",
+        "prediction": "have fun, intoxication, vomiting, drinking more alcohol, nausea",
+        "correct": false,
+        "maxProb": "0.59636295"
+    },
+    {
+        "expected_prediction": "learning",
+        "prediction": "learning",
+        "correct": true,
+        "maxProb": "0.9957534"
+    },
+    {
+        "expected_prediction": "man made",
+        "prediction": "city",
+        "correct": false,
+        "maxProb": "0.98102736"
+    },
+    {
+        "expected_prediction": "receiving",
+        "prediction": "delivered",
+        "correct": false,
+        "maxProb": "0.9871422"
+    },
+    {
+        "expected_prediction": "set orbits",
+        "prediction": "set orbits",
+        "correct": true,
+        "maxProb": "0.9973109"
+    },
+    {
+        "expected_prediction": "florida keys",
+        "prediction": "florida keys",
+        "correct": true,
+        "maxProb": "0.8877162"
+    },
+    {
+        "expected_prediction": "university",
+        "prediction": "university",
+        "correct": true,
+        "maxProb": "0.9999989"
+    },
+    {
+        "expected_prediction": "enlightenment",
+        "prediction": "enlightenment",
+        "correct": true,
+        "maxProb": "0.95418775"
+    },
+    {
+        "expected_prediction": "universe",
+        "prediction": "night sky",
+        "correct": false,
+        "maxProb": "0.7992065"
+    },
+    {
+        "expected_prediction": "airport",
+        "prediction": "airport",
+        "correct": true,
+        "maxProb": "0.9999969"
+    },
+    {
+        "expected_prediction": "sporting event",
+        "prediction": "sporting event, sporting, basketball",
+        "correct": false,
+        "maxProb": "0.45744765"
+    },
+    {
+        "expected_prediction": "south carolina",
+        "prediction": "south carolina",
+        "correct": true,
+        "maxProb": "0.98217726"
+    },
+    {
+        "expected_prediction": "born again",
+        "prediction": "born again",
+        "correct": true,
+        "maxProb": "0.9778144"
+    },
+    {
+        "expected_prediction": "overstocking",
+        "prediction": "running out of money",
+        "correct": false,
+        "maxProb": "0.99506617"
+    },
+    {
+        "expected_prediction": "watch tv",
+        "prediction": "play with toys",
+        "correct": false,
+        "maxProb": "0.99232167"
+    },
+    {
+        "expected_prediction": "fights",
+        "prediction": "detachment",
+        "correct": false,
+        "maxProb": "0.99700516"
+    },
+    {
+        "expected_prediction": "shelf",
+        "prediction": "shelf",
+        "correct": true,
+        "maxProb": "0.9945862"
+    },
+    {
+        "expected_prediction": "cabinet",
+        "prediction": "supermarket",
+        "correct": false,
+        "maxProb": "0.5575506"
+    },
+    {
+        "expected_prediction": "do enjoy",
+        "prediction": "do enjoy",
+        "correct": true,
+        "maxProb": "0.50282145"
+    },
+    {
+        "expected_prediction": "effort",
+        "prediction": "thinking",
+        "correct": false,
+        "maxProb": "0.9999083"
+    },
+    {
+        "expected_prediction": "wooded area",
+        "prediction": "wooded area",
+        "correct": true,
+        "maxProb": "0.9362524"
+    },
+    {
+        "expected_prediction": "country",
+        "prediction": "tax office",
+        "correct": false,
+        "maxProb": "0.87034774"
+    },
+    {
+        "expected_prediction": "need for food",
+        "prediction": "sweating",
+        "correct": false,
+        "maxProb": "0.9586883"
+    },
+    {
+        "expected_prediction": "good balance",
+        "prediction": "practice",
+        "correct": false,
+        "maxProb": "0.99919444"
+    },
+    {
+        "expected_prediction": "bone",
+        "prediction": "petted, affection",
+        "correct": false,
+        "maxProb": "0.36100954"
+    },
+    {
+        "expected_prediction": "house",
+        "prediction": "park",
+        "correct": false,
+        "maxProb": "0.9995546"
+    },
+    {
+        "expected_prediction": "past",
+        "prediction": "past, future",
+        "correct": false,
+        "maxProb": "0.77844477"
+    },
+    {
+        "expected_prediction": "anxiety",
+        "prediction": "build",
+        "correct": false,
+        "maxProb": "0.5853367"
+    },
+    {
+        "expected_prediction": "country",
+        "prediction": "town",
+        "correct": false,
+        "maxProb": "0.50550556"
+    },
+    {
+        "expected_prediction": "paper bag",
+        "prediction": "root cellar",
+        "correct": false,
+        "maxProb": "0.89273787"
+    },
+    {
+        "expected_prediction": "suitcase",
+        "prediction": "backpack",
+        "correct": false,
+        "maxProb": "0.9873847"
+    },
+    {
+        "expected_prediction": "injury",
+        "prediction": "injury",
+        "correct": true,
+        "maxProb": "0.99999094"
+    },
+    {
+        "expected_prediction": "temperate zone",
+        "prediction": "temperate zone",
+        "correct": true,
+        "maxProb": "0.8124748"
+    },
+    {
+        "expected_prediction": "headphones",
+        "prediction": "headphones",
+        "correct": true,
+        "maxProb": "0.999995"
+    },
+    {
+        "expected_prediction": "city",
+        "prediction": "las vegas",
+        "correct": false,
+        "maxProb": "0.89027864"
+    },
+    {
+        "expected_prediction": "exhilarating",
+        "prediction": "relocation",
+        "correct": false,
+        "maxProb": "0.9979346"
+    },
+    {
+        "expected_prediction": "garage",
+        "prediction": "utility room",
+        "correct": false,
+        "maxProb": "0.49347273"
+    },
+    {
+        "expected_prediction": "hardware store",
+        "prediction": "hardware store",
+        "correct": true,
+        "maxProb": "0.99995625"
+    },
+    {
+        "expected_prediction": "friend's house",
+        "prediction": "friend's house",
+        "correct": true,
+        "maxProb": "0.96608615"
+    },
+    {
+        "expected_prediction": "death",
+        "prediction": "nausea",
+        "correct": false,
+        "maxProb": "0.9976266"
+    },
+    {
+        "expected_prediction": "living room",
+        "prediction": "living room",
+        "correct": true,
+        "maxProb": "0.9982522"
+    },
+    {
+        "expected_prediction": "resistance",
+        "prediction": "resistance",
+        "correct": true,
+        "maxProb": "0.99431854"
+    },
+    {
+        "expected_prediction": "hopping",
+        "prediction": "hopping",
+        "correct": true,
+        "maxProb": "0.99998987"
+    },
+    {
+        "expected_prediction": "old person",
+        "prediction": "adult, old man, girl",
+        "correct": false,
+        "maxProb": "0.92135376"
+    },
+    {
+        "expected_prediction": "certificate",
+        "prediction": "certificate, directory, phone book, lineup, roster",
+        "correct": false,
+        "maxProb": "0.8891414"
+    },
+    {
+        "expected_prediction": "newsstand",
+        "prediction": "bus depot",
+        "correct": false,
+        "maxProb": "0.9887322"
+    },
+    {
+        "expected_prediction": "lobby",
+        "prediction": "large room",
+        "correct": false,
+        "maxProb": "0.9986833"
+    },
+    {
+        "expected_prediction": "tension",
+        "prediction": "frostbite",
+        "correct": false,
+        "maxProb": "0.99943036"
+    },
+    {
+        "expected_prediction": "wealth",
+        "prediction": "wealth",
+        "correct": true,
+        "maxProb": "0.9598907"
+    },
+    {
+        "expected_prediction": "new job",
+        "prediction": "new job",
+        "correct": true,
+        "maxProb": "0.9882013"
+    },
+    {
+        "expected_prediction": "distant",
+        "prediction": "distant",
+        "correct": true,
+        "maxProb": "0.39829442"
+    },
+    {
+        "expected_prediction": "send email",
+        "prediction": "talk with people, talk to people",
+        "correct": false,
+        "maxProb": "0.31906092"
+    },
+    {
+        "expected_prediction": "new hampshire",
+        "prediction": "new hampshire",
+        "correct": true,
+        "maxProb": "0.4818838"
+    },
+    {
+        "expected_prediction": "music store",
+        "prediction": "music store",
+        "correct": true,
+        "maxProb": "0.9999819"
+    },
+    {
+        "expected_prediction": "arguments",
+        "prediction": "arguments",
+        "correct": true,
+        "maxProb": "0.9920385"
+    },
+    {
+        "expected_prediction": "stress relief",
+        "prediction": "stress relief",
+        "correct": true,
+        "maxProb": "0.9261711"
+    },
+    {
+        "expected_prediction": "babies",
+        "prediction": "rapport",
+        "correct": false,
+        "maxProb": "0.99998784"
+    },
+    {
+        "expected_prediction": "drawer",
+        "prediction": "mail box",
+        "correct": false,
+        "maxProb": "0.9912956"
+    },
+    {
+        "expected_prediction": "have no home",
+        "prediction": "have no home",
+        "correct": true,
+        "maxProb": "0.39560625"
+    },
+    {
+        "expected_prediction": "supermarket",
+        "prediction": "farmer's market",
+        "correct": false,
+        "maxProb": "0.9835882"
+    },
+    {
+        "expected_prediction": "family tree",
+        "prediction": "brother's house, family tree",
+        "correct": false,
+        "maxProb": "0.4371152"
+    },
+    {
+        "expected_prediction": "organ",
+        "prediction": "organ",
+        "correct": true,
+        "maxProb": "0.86862034"
+    },
+    {
+        "expected_prediction": "great britain",
+        "prediction": "great britain",
+        "correct": true,
+        "maxProb": "0.47235522"
+    },
+    {
+        "expected_prediction": "table",
+        "prediction": "shelf",
+        "correct": false,
+        "maxProb": "0.9935958"
+    },
+    {
+        "expected_prediction": "doctor",
+        "prediction": "newsagent",
+        "correct": false,
+        "maxProb": "0.44777697"
+    },
+    {
+        "expected_prediction": "last several years",
+        "prediction": "going too fast",
+        "correct": false,
+        "maxProb": "0.37643194"
+    },
+    {
+        "expected_prediction": "beautiful garden",
+        "prediction": "beautiful garden",
+        "correct": true,
+        "maxProb": "0.9792723"
+    },
+    {
+        "expected_prediction": "exercise",
+        "prediction": "exercise",
+        "correct": true,
+        "maxProb": "0.8471481"
+    },
+    {
+        "expected_prediction": "personal cleanliness",
+        "prediction": "will drown",
+        "correct": false,
+        "maxProb": "0.99999094"
+    },
+    {
+        "expected_prediction": "bushel basket",
+        "prediction": "pantry",
+        "correct": false,
+        "maxProb": "0.9995098"
+    },
+    {
+        "expected_prediction": "write will",
+        "prediction": "seek help",
+        "correct": false,
+        "maxProb": "0.99997425"
+    },
+    {
+        "expected_prediction": "advance knowledge",
+        "prediction": "advance knowledge",
+        "correct": true,
+        "maxProb": "0.94229853"
+    },
+    {
+        "expected_prediction": "spend money",
+        "prediction": "spend money",
+        "correct": true,
+        "maxProb": "0.994624"
+    },
+    {
+        "expected_prediction": "eat breakfast",
+        "prediction": "buy food",
+        "correct": false,
+        "maxProb": "0.99941933"
+    },
+    {
+        "expected_prediction": "snowflake",
+        "prediction": "typhoon",
+        "correct": false,
+        "maxProb": "0.92572755"
+    },
+    {
+        "expected_prediction": "marriage",
+        "prediction": "fidelity",
+        "correct": false,
+        "maxProb": "0.69516325"
+    },
+    {
+        "expected_prediction": "game",
+        "prediction": "game",
+        "correct": true,
+        "maxProb": "0.52842784"
+    },
+    {
+        "expected_prediction": "capitol building",
+        "prediction": "washington d.c",
+        "correct": false,
+        "maxProb": "0.76801753"
+    },
+    {
+        "expected_prediction": "procrastinate",
+        "prediction": "procrastinate",
+        "correct": true,
+        "maxProb": "0.611985"
+    },
+    {
+        "expected_prediction": "market",
+        "prediction": "big box retailer, tree, market",
+        "correct": false,
+        "maxProb": "0.7677142"
+    },
+    {
+        "expected_prediction": "bookstore",
+        "prediction": "bookstore",
+        "correct": true,
+        "maxProb": "0.9992083"
+    },
+    {
+        "expected_prediction": "england",
+        "prediction": "england",
+        "correct": true,
+        "maxProb": "0.9980761"
+    },
+    {
+        "expected_prediction": "learning about world",
+        "prediction": "learning about world",
+        "correct": true,
+        "maxProb": "0.8758464"
+    },
+    {
+        "expected_prediction": "new construction",
+        "prediction": "new construction",
+        "correct": true,
+        "maxProb": "0.95868844"
+    },
+    {
+        "expected_prediction": "teaching",
+        "prediction": "teaching",
+        "correct": true,
+        "maxProb": "0.4889426"
+    },
+    {
+        "expected_prediction": "go broke",
+        "prediction": "losing money",
+        "correct": false,
+        "maxProb": "0.4014198"
+    },
+    {
+        "expected_prediction": "exit ramp",
+        "prediction": "exit ramp",
+        "correct": true,
+        "maxProb": "0.99908066"
+    },
+    {
+        "expected_prediction": "urban area",
+        "prediction": "urban area, towns",
+        "correct": false,
+        "maxProb": "0.74094594"
+    },
+    {
+        "expected_prediction": "have to hold",
+        "prediction": "have to hold",
+        "correct": true,
+        "maxProb": "0.99998236"
+    },
+    {
+        "expected_prediction": "remorse",
+        "prediction": "remorse",
+        "correct": true,
+        "maxProb": "0.9596057"
+    },
+    {
+        "expected_prediction": "jump to conclusions",
+        "prediction": "jump to conclusions",
+        "correct": true,
+        "maxProb": "0.9999212"
+    },
+    {
+        "expected_prediction": "commute",
+        "prediction": "get somewhere",
+        "correct": false,
+        "maxProb": "0.7540469"
+    },
+    {
+        "expected_prediction": "write letter",
+        "prediction": "lose your temper",
+        "correct": false,
+        "maxProb": "0.9994228"
+    },
+    {
+        "expected_prediction": "music store",
+        "prediction": "music store",
+        "correct": true,
+        "maxProb": "0.99993014"
+    },
+    {
+        "expected_prediction": "river",
+        "prediction": "water",
+        "correct": false,
+        "maxProb": "0.7260693"
+    },
+    {
+        "expected_prediction": "death",
+        "prediction": "stress",
+        "correct": false,
+        "maxProb": "0.9998913"
+    },
+    {
+        "expected_prediction": "container",
+        "prediction": "cardboard box",
+        "correct": false,
+        "maxProb": "0.9999726"
+    },
+    {
+        "expected_prediction": "eat every day",
+        "prediction": "eat every day",
+        "correct": true,
+        "maxProb": "0.99052155"
+    },
+    {
+        "expected_prediction": "closet",
+        "prediction": "corner",
+        "correct": false,
+        "maxProb": "0.81268275"
+    },
+    {
+        "expected_prediction": "indigestion",
+        "prediction": "health problems",
+        "correct": false,
+        "maxProb": "0.7570005"
+    },
+    {
+        "expected_prediction": "neighbor's house",
+        "prediction": "music store",
+        "correct": false,
+        "maxProb": "0.42197764"
+    },
+    {
+        "expected_prediction": "sick person",
+        "prediction": "sick person",
+        "correct": true,
+        "maxProb": "0.44496012"
+    },
+    {
+        "expected_prediction": "stand alone",
+        "prediction": "stand alone",
+        "correct": true,
+        "maxProb": "0.990235"
+    },
+    {
+        "expected_prediction": "stagnation",
+        "prediction": "stagnant",
+        "correct": false,
+        "maxProb": "0.9660781"
+    },
+    {
+        "expected_prediction": "venue",
+        "prediction": "venue, auditorium",
+        "correct": false,
+        "maxProb": "0.705946"
+    },
+    {
+        "expected_prediction": "listen to music",
+        "prediction": "play cards",
+        "correct": false,
+        "maxProb": "0.690445"
+    },
+    {
+        "expected_prediction": "run",
+        "prediction": "shortness of breath",
+        "correct": false,
+        "maxProb": "0.9999738"
+    },
+    {
+        "expected_prediction": "instruments",
+        "prediction": "metal fabrication shop, bowls",
+        "correct": false,
+        "maxProb": "0.71262294"
+    },
+    {
+        "expected_prediction": "citrus",
+        "prediction": "band",
+        "correct": false,
+        "maxProb": "0.86584496"
+    },
+    {
+        "expected_prediction": "mammals",
+        "prediction": "mammals",
+        "correct": true,
+        "maxProb": "0.70392704"
+    },
+    {
+        "expected_prediction": "complete job",
+        "prediction": "complete job",
+        "correct": true,
+        "maxProb": "0.9622604"
+    },
+    {
+        "expected_prediction": "tetrahedron",
+        "prediction": "geometry problem, lake, triangle",
+        "correct": false,
+        "maxProb": "0.6239116"
+    },
+    {
+        "expected_prediction": "forrest",
+        "prediction": "ground",
+        "correct": false,
+        "maxProb": "0.99196"
+    },
+    {
+        "expected_prediction": "confidence",
+        "prediction": "go to jail",
+        "correct": false,
+        "maxProb": "0.9999187"
+    },
+    {
+        "expected_prediction": "uninhabitable",
+        "prediction": "uninhabitable",
+        "correct": true,
+        "maxProb": "0.95279974"
+    },
+    {
+        "expected_prediction": "house clean",
+        "prediction": "house clean",
+        "correct": true,
+        "maxProb": "0.98793274"
+    },
+    {
+        "expected_prediction": "injury",
+        "prediction": "injury",
+        "correct": true,
+        "maxProb": "0.9789515"
+    },
+    {
+        "expected_prediction": "desire to travel",
+        "prediction": "desire to travel",
+        "correct": true,
+        "maxProb": "0.9999957"
+    },
+    {
+        "expected_prediction": "great outdoors",
+        "prediction": "open plain",
+        "correct": false,
+        "maxProb": "0.42651877"
+    },
+    {
+        "expected_prediction": "announce",
+        "prediction": "inform",
+        "correct": false,
+        "maxProb": "0.63264596"
+    },
+    {
+        "expected_prediction": "stand in line",
+        "prediction": "get in line",
+        "correct": false,
+        "maxProb": "0.9792539"
+    },
+    {
+        "expected_prediction": "stationery store",
+        "prediction": "stationery store",
+        "correct": true,
+        "maxProb": "0.9874916"
+    },
+    {
+        "expected_prediction": "refrigerator",
+        "prediction": "farmer's market",
+        "correct": false,
+        "maxProb": "0.5329725"
+    },
+    {
+        "expected_prediction": "heartburn",
+        "prediction": "food poisoning",
+        "correct": false,
+        "maxProb": "0.74254787"
+    },
+    {
+        "expected_prediction": "homicide",
+        "prediction": "cyanide",
+        "correct": false,
+        "maxProb": "0.87261856"
+    },
+    {
+        "expected_prediction": "comfortable chair",
+        "prediction": "bed",
+        "correct": false,
+        "maxProb": "0.95984614"
+    },
+    {
+        "expected_prediction": "done",
+        "prediction": "lamb",
+        "correct": false,
+        "maxProb": "0.99995923"
+    },
+    {
+        "expected_prediction": "bridge",
+        "prediction": "bridge",
+        "correct": true,
+        "maxProb": "0.9951827"
+    },
+    {
+        "expected_prediction": "death and decay",
+        "prediction": "death and decay",
+        "correct": true,
+        "maxProb": "0.96691495"
+    },
+    {
+        "expected_prediction": "smell good",
+        "prediction": "smell good",
+        "correct": true,
+        "maxProb": "0.87872285"
+    },
+    {
+        "expected_prediction": "washington d.c",
+        "prediction": "washington d.c",
+        "correct": true,
+        "maxProb": "0.9852937"
+    },
+    {
+        "expected_prediction": "air conditioning",
+        "prediction": "air conditioning",
+        "correct": true,
+        "maxProb": "0.5984355"
+    },
+    {
+        "expected_prediction": "heartburn",
+        "prediction": "being satisfied",
+        "correct": false,
+        "maxProb": "0.9886314"
+    },
+    {
+        "expected_prediction": "nightmare",
+        "prediction": "reality",
+        "correct": false,
+        "maxProb": "0.84200984"
+    },
+    {
+        "expected_prediction": "shoot",
+        "prediction": "shoot",
+        "correct": true,
+        "maxProb": "0.6691021"
+    },
+    {
+        "expected_prediction": "valley",
+        "prediction": "valley",
+        "correct": true,
+        "maxProb": "0.9811257"
+    },
+    {
+        "expected_prediction": "nodding",
+        "prediction": "take notes",
+        "correct": false,
+        "maxProb": "0.9998758"
+    },
+    {
+        "expected_prediction": "show",
+        "prediction": "auditorium",
+        "correct": false,
+        "maxProb": "0.99999714"
+    },
+    {
+        "expected_prediction": "happiness",
+        "prediction": "isolation, grief, happiness, relief, angry",
+        "correct": false,
+        "maxProb": "0.96844953"
+    },
+    {
+        "expected_prediction": "transfer of information",
+        "prediction": "transfer of information, learning, confusion, silence",
+        "correct": false,
+        "maxProb": "0.49553502"
+    },
+    {
+        "expected_prediction": "inappropriate",
+        "prediction": "impolite",
+        "correct": false,
+        "maxProb": "0.9974457"
+    },
+    {
+        "expected_prediction": "neighbor's house",
+        "prediction": "neighbor's house",
+        "correct": true,
+        "maxProb": "0.9890421"
+    },
+    {
+        "expected_prediction": "disturb",
+        "prediction": "migrate",
+        "correct": false,
+        "maxProb": "0.9964749"
+    },
+    {
+        "expected_prediction": "outer space",
+        "prediction": "universe",
+        "correct": false,
+        "maxProb": "0.976595"
+    },
+    {
+        "expected_prediction": "dustbin",
+        "prediction": "state park",
+        "correct": false,
+        "maxProb": "0.86305803"
+    },
+    {
+        "expected_prediction": "have fun",
+        "prediction": "have fun",
+        "correct": true,
+        "maxProb": "0.9996177"
+    },
+    {
+        "expected_prediction": "road rage",
+        "prediction": "boredom, happiness, transportation cost, getting there, road rage",
+        "correct": false,
+        "maxProb": "0.6967051"
+    },
+    {
+        "expected_prediction": "death",
+        "prediction": "pressure",
+        "correct": false,
+        "maxProb": "0.4234853"
+    },
+    {
+        "expected_prediction": "communication",
+        "prediction": "communication",
+        "correct": true,
+        "maxProb": "0.99671006"
+    },
+    {
+        "expected_prediction": "act",
+        "prediction": "act",
+        "correct": true,
+        "maxProb": "0.9895866"
+    },
+    {
+        "expected_prediction": "happiness",
+        "prediction": "sexual stimulation, herpes, headache, catch cold",
+        "correct": false,
+        "maxProb": "0.34745347"
+    },
+    {
+        "expected_prediction": "concentration",
+        "prediction": "energy",
+        "correct": false,
+        "maxProb": "0.99434483"
+    },
+    {
+        "expected_prediction": "joy",
+        "prediction": "afraid, terrible",
+        "correct": false,
+        "maxProb": "0.83356816"
+    },
+    {
+        "expected_prediction": "analyse",
+        "prediction": "examine thing",
+        "correct": false,
+        "maxProb": "0.9591589"
+    },
+    {
+        "expected_prediction": "moving forward",
+        "prediction": "blisters",
+        "correct": false,
+        "maxProb": "0.6198536"
+    },
+    {
+        "expected_prediction": "feel important",
+        "prediction": "trust himself",
+        "correct": false,
+        "maxProb": "0.99994457"
+    },
+    {
+        "expected_prediction": "department store",
+        "prediction": "department store",
+        "correct": true,
+        "maxProb": "0.9999826"
+    },
+    {
+        "expected_prediction": "plate",
+        "prediction": "oven",
+        "correct": false,
+        "maxProb": "0.9998503"
+    },
+    {
+        "expected_prediction": "fall asleep",
+        "prediction": "think",
+        "correct": false,
+        "maxProb": "0.9157164"
+    },
+    {
+        "expected_prediction": "convention center",
+        "prediction": "person",
+        "correct": false,
+        "maxProb": "0.95400035"
+    },
+    {
+        "expected_prediction": "open book",
+        "prediction": "go to movies",
+        "correct": false,
+        "maxProb": "0.9988813"
+    },
+    {
+        "expected_prediction": "round",
+        "prediction": "diverse",
+        "correct": false,
+        "maxProb": "0.9997002"
+    },
+    {
+        "expected_prediction": "prisoner",
+        "prediction": "man post",
+        "correct": false,
+        "maxProb": "0.999969"
+    },
+    {
+        "expected_prediction": "singing",
+        "prediction": "making music",
+        "correct": false,
+        "maxProb": "0.99979633"
+    },
+    {
+        "expected_prediction": "orchestra",
+        "prediction": "orchestra",
+        "correct": true,
+        "maxProb": "0.99692875"
+    },
+    {
+        "expected_prediction": "surprised",
+        "prediction": "thundershock, surprised",
+        "correct": false,
+        "maxProb": "0.9732195"
+    },
+    {
+        "expected_prediction": "exchanging ideas",
+        "prediction": "exchanging ideas, confusion, peer pressure, response, learning",
+        "correct": false,
+        "maxProb": "0.90548766"
+    },
+    {
+        "expected_prediction": "taxi",
+        "prediction": "carry people",
+        "correct": false,
+        "maxProb": "0.9993344"
+    },
+    {
+        "expected_prediction": "united states",
+        "prediction": "united states",
+        "correct": true,
+        "maxProb": "0.9999645"
+    },
+    {
+        "expected_prediction": "cellar",
+        "prediction": "vault, cellar",
+        "correct": false,
+        "maxProb": "0.9743328"
+    },
+    {
+        "expected_prediction": "forget",
+        "prediction": "question authority, act fool, wash dishes, act innocent, forget",
+        "correct": false,
+        "maxProb": "0.4428842"
+    },
+    {
+        "expected_prediction": "make larger",
+        "prediction": "gain weight",
+        "correct": false,
+        "maxProb": "0.9722707"
+    },
+    {
+        "expected_prediction": "cabinet",
+        "prediction": "bookstore",
+        "correct": false,
+        "maxProb": "0.81991917"
+    },
+    {
+        "expected_prediction": "headache",
+        "prediction": "discomfort",
+        "correct": false,
+        "maxProb": "0.3809733"
+    },
+    {
+        "expected_prediction": "subdivision",
+        "prediction": "city",
+        "correct": false,
+        "maxProb": "0.81755364"
+    },
+    {
+        "expected_prediction": "make friends",
+        "prediction": "conquer opponent",
+        "correct": false,
+        "maxProb": "0.7460452"
+    },
+    {
+        "expected_prediction": "conference",
+        "prediction": "conference, assessment, demonstration",
+        "correct": false,
+        "maxProb": "0.21163397"
+    },
+    {
+        "expected_prediction": "help",
+        "prediction": "run away",
+        "correct": false,
+        "maxProb": "0.9997154"
+    },
+    {
+        "expected_prediction": "life partner",
+        "prediction": "life partner",
+        "correct": true,
+        "maxProb": "0.8805747"
+    },
+    {
+        "expected_prediction": "united states",
+        "prediction": "united states",
+        "correct": true,
+        "maxProb": "0.9997707"
+    },
+    {
+        "expected_prediction": "race track",
+        "prediction": "public building",
+        "correct": false,
+        "maxProb": "0.43852225"
+    },
+    {
+        "expected_prediction": "getting tired",
+        "prediction": "getting tired",
+        "correct": true,
+        "maxProb": "0.99918145"
+    },
+    {
+        "expected_prediction": "ignition switch",
+        "prediction": "ignition switch, drawer, firearm",
+        "correct": false,
+        "maxProb": "0.78089654"
+    },
+    {
+        "expected_prediction": "anger",
+        "prediction": "anger",
+        "correct": true,
+        "maxProb": "0.99999404"
+    },
+    {
+        "expected_prediction": "ring",
+        "prediction": "subdivision",
+        "correct": false,
+        "maxProb": "0.99994016"
+    },
+    {
+        "expected_prediction": "unnecessary",
+        "prediction": "have to",
+        "correct": false,
+        "maxProb": "0.9366144"
+    },
+    {
+        "expected_prediction": "china",
+        "prediction": "china, indian resteraunt, bar",
+        "correct": false,
+        "maxProb": "0.549042"
+    },
+    {
+        "expected_prediction": "puncture wound",
+        "prediction": "injury",
+        "correct": false,
+        "maxProb": "0.99522805"
+    },
+    {
+        "expected_prediction": "court room",
+        "prediction": "court room",
+        "correct": true,
+        "maxProb": "0.99904996"
+    },
+    {
+        "expected_prediction": "spend time",
+        "prediction": "spend time",
+        "correct": true,
+        "maxProb": "0.8608698"
+    },
+    {
+        "expected_prediction": "office",
+        "prediction": "office",
+        "correct": true,
+        "maxProb": "0.86906576"
+    },
+    {
+        "expected_prediction": "utility room",
+        "prediction": "garage",
+        "correct": false,
+        "maxProb": "0.99991167"
+    },
+    {
+        "expected_prediction": "pond",
+        "prediction": "lake",
+        "correct": false,
+        "maxProb": "0.7934614"
+    },
+    {
+        "expected_prediction": "musical",
+        "prediction": "longplay",
+        "correct": false,
+        "maxProb": "0.9762433"
+    },
+    {
+        "expected_prediction": "bookcase",
+        "prediction": "bookcase",
+        "correct": true,
+        "maxProb": "0.39762908"
+    },
+    {
+        "expected_prediction": "unhealthy",
+        "prediction": "edible, unhealthy",
+        "correct": false,
+        "maxProb": "0.4056525"
+    },
+    {
+        "expected_prediction": "begin work",
+        "prediction": "begin work",
+        "correct": true,
+        "maxProb": "0.52732056"
+    },
+    {
+        "expected_prediction": "municipal park",
+        "prediction": "municipal park",
+        "correct": true,
+        "maxProb": "0.9389834"
+    },
+    {
+        "expected_prediction": "state park",
+        "prediction": "state park",
+        "correct": true,
+        "maxProb": "0.9999285"
+    },
+    {
+        "expected_prediction": "slaughter house",
+        "prediction": "crime scene",
+        "correct": false,
+        "maxProb": "0.94846505"
+    },
+    {
+        "expected_prediction": "farm",
+        "prediction": "lamb",
+        "correct": false,
+        "maxProb": "0.99365884"
+    },
+    {
+        "expected_prediction": "hand",
+        "prediction": "hand",
+        "correct": true,
+        "maxProb": "0.9554271"
+    },
+    {
+        "expected_prediction": "fishing boat",
+        "prediction": "fishing gear",
+        "correct": false,
+        "maxProb": "0.9953602"
+    },
+    {
+        "expected_prediction": "child's hand",
+        "prediction": "end of line",
+        "correct": false,
+        "maxProb": "0.99998677"
+    },
+    {
+        "expected_prediction": "receive data",
+        "prediction": "receive data",
+        "correct": true,
+        "maxProb": "0.407659"
+    },
+    {
+        "expected_prediction": "gaining knowledge",
+        "prediction": "gaining knowledge",
+        "correct": true,
+        "maxProb": "0.9998273"
+    },
+    {
+        "expected_prediction": "cellar",
+        "prediction": "basement",
+        "correct": false,
+        "maxProb": "0.9503691"
+    },
+    {
+        "expected_prediction": "stairwell",
+        "prediction": "stairwell",
+        "correct": true,
+        "maxProb": "0.48410377"
+    },
+    {
+        "expected_prediction": "museum",
+        "prediction": "concert hall",
+        "correct": false,
+        "maxProb": "0.9245004"
+    },
+    {
+        "expected_prediction": "sanded",
+        "prediction": "warp",
+        "correct": false,
+        "maxProb": "0.64295256"
+    },
+    {
+        "expected_prediction": "trapeze",
+        "prediction": "trapeze",
+        "correct": true,
+        "maxProb": "0.97757715"
+    },
+    {
+        "expected_prediction": "branch out",
+        "prediction": "branch out, wear costume, pretend",
+        "correct": false,
+        "maxProb": "0.5506851"
+    },
+    {
+        "expected_prediction": "bowling alley",
+        "prediction": "bowling alley",
+        "correct": true,
+        "maxProb": "0.999851"
+    },
+    {
+        "expected_prediction": "confident",
+        "prediction": "satisfaction",
+        "correct": false,
+        "maxProb": "0.8277937"
+    },
+    {
+        "expected_prediction": "flatulence",
+        "prediction": "fall asleep",
+        "correct": false,
+        "maxProb": "0.99657744"
+    },
+    {
+        "expected_prediction": "house",
+        "prediction": "school",
+        "correct": false,
+        "maxProb": "0.4983927"
+    },
+    {
+        "expected_prediction": "violent",
+        "prediction": "competitive",
+        "correct": false,
+        "maxProb": "0.9998932"
+    },
+    {
+        "expected_prediction": "wishing well",
+        "prediction": "wishing well",
+        "correct": true,
+        "maxProb": "0.99995863"
+    },
+    {
+        "expected_prediction": "go out to play",
+        "prediction": "go out to play",
+        "correct": true,
+        "maxProb": "0.83777344"
+    },
+    {
+        "expected_prediction": "excitement",
+        "prediction": "fear, excitement",
+        "correct": false,
+        "maxProb": "0.6767033"
+    },
+    {
+        "expected_prediction": "go downtown",
+        "prediction": "go downtown, appear suddenly, go fast, bottom out, east",
+        "correct": false,
+        "maxProb": "0.45368105"
+    },
+    {
+        "expected_prediction": "airport",
+        "prediction": "courtroom",
+        "correct": false,
+        "maxProb": "0.36229837"
+    },
+    {
+        "expected_prediction": "unacquainted",
+        "prediction": "free flowing",
+        "correct": false,
+        "maxProb": "0.9623263"
+    },
+    {
+        "expected_prediction": "skin irritation",
+        "prediction": "skin irritation",
+        "correct": true,
+        "maxProb": "0.99996305"
+    },
+    {
+        "expected_prediction": "classroom",
+        "prediction": "classroom",
+        "correct": true,
+        "maxProb": "0.9736215"
+    },
+    {
+        "expected_prediction": "america",
+        "prediction": "new york",
+        "correct": false,
+        "maxProb": "0.7213074"
+    },
+    {
+        "expected_prediction": "healthy",
+        "prediction": "cure",
+        "correct": false,
+        "maxProb": "0.95057535"
+    },
+    {
+        "expected_prediction": "hardware store",
+        "prediction": "garden shed",
+        "correct": false,
+        "maxProb": "0.9958276"
+    },
+    {
+        "expected_prediction": "happy",
+        "prediction": "getting paid",
+        "correct": false,
+        "maxProb": "0.9209273"
+    },
+    {
+        "expected_prediction": "everglades",
+        "prediction": "everglades, high places, natural habitat",
+        "correct": false,
+        "maxProb": "0.57376915"
+    },
+    {
+        "expected_prediction": "work room",
+        "prediction": "group people",
+        "correct": false,
+        "maxProb": "0.9994286"
+    },
+    {
+        "expected_prediction": "crash",
+        "prediction": "stall",
+        "correct": false,
+        "maxProb": "0.98491895"
+    },
+    {
+        "expected_prediction": "painful",
+        "prediction": "painful",
+        "correct": true,
+        "maxProb": "0.9833588"
+    },
+    {
+        "expected_prediction": "backpack",
+        "prediction": "backpack",
+        "correct": true,
+        "maxProb": "0.99997854"
+    },
+    {
+        "expected_prediction": "motel",
+        "prediction": "motel, alley",
+        "correct": false,
+        "maxProb": "0.86711"
+    },
+    {
+        "expected_prediction": "white house",
+        "prediction": "new mexico",
+        "correct": false,
+        "maxProb": "0.9998266"
+    },
+    {
+        "expected_prediction": "dirty",
+        "prediction": "bedroom",
+        "correct": false,
+        "maxProb": "0.8927671"
+    },
+    {
+        "expected_prediction": "head injuries",
+        "prediction": "head injuries",
+        "correct": true,
+        "maxProb": "0.81895256"
+    },
+    {
+        "expected_prediction": "department store",
+        "prediction": "department store",
+        "correct": true,
+        "maxProb": "0.99792457"
+    },
+    {
+        "expected_prediction": "countryside",
+        "prediction": "countryside",
+        "correct": true,
+        "maxProb": "0.68733555"
+    },
+    {
+        "expected_prediction": "lots of space",
+        "prediction": "own house",
+        "correct": false,
+        "maxProb": "0.99844617"
+    },
+    {
+        "expected_prediction": "disagreements",
+        "prediction": "disagreements",
+        "correct": true,
+        "maxProb": "0.9996772"
+    },
+    {
+        "expected_prediction": "choice",
+        "prediction": "free will",
+        "correct": false,
+        "maxProb": "0.44398305"
+    },
+    {
+        "expected_prediction": "library",
+        "prediction": "library",
+        "correct": true,
+        "maxProb": "0.9992415"
+    },
+    {
+        "expected_prediction": "motion",
+        "prediction": "motion",
+        "correct": true,
+        "maxProb": "0.55303603"
+    },
+    {
+        "expected_prediction": "get wet",
+        "prediction": "get wet",
+        "correct": true,
+        "maxProb": "0.9999733"
+    },
+    {
+        "expected_prediction": "sail boat",
+        "prediction": "sail boat",
+        "correct": true,
+        "maxProb": "0.9997894"
+    },
+    {
+        "expected_prediction": "store",
+        "prediction": "store",
+        "correct": true,
+        "maxProb": "0.99999976"
+    },
+    {
+        "expected_prediction": "chemistry lab",
+        "prediction": "chemistry lab",
+        "correct": true,
+        "maxProb": "0.98453325"
+    },
+    {
+        "expected_prediction": "frying pan",
+        "prediction": "oven",
+        "correct": false,
+        "maxProb": "0.47539032"
+    },
+    {
+        "expected_prediction": "wait for",
+        "prediction": "go for haircut",
+        "correct": false,
+        "maxProb": "0.89515215"
+    },
+    {
+        "expected_prediction": "resentment",
+        "prediction": "hurt feelings",
+        "correct": false,
+        "maxProb": "0.95876163"
+    },
+    {
+        "expected_prediction": "guide children",
+        "prediction": "guide children",
+        "correct": true,
+        "maxProb": "0.7212921"
+    },
+    {
+        "expected_prediction": "satisfaction",
+        "prediction": "satisfaction",
+        "correct": true,
+        "maxProb": "0.6982961"
+    },
+    {
+        "expected_prediction": "small neighborhood",
+        "prediction": "small neighborhood",
+        "correct": true,
+        "maxProb": "0.9993388"
+    },
+    {
+        "expected_prediction": "own home",
+        "prediction": "own home",
+        "correct": true,
+        "maxProb": "0.9995042"
+    },
+    {
+        "expected_prediction": "saltwater",
+        "prediction": "bodies of water",
+        "correct": false,
+        "maxProb": "0.9995276"
+    },
+    {
+        "expected_prediction": "out of pocket",
+        "prediction": "law suits",
+        "correct": false,
+        "maxProb": "0.9978375"
+    },
+    {
+        "expected_prediction": "captivity",
+        "prediction": "garden, encouragement, captivity",
+        "correct": false,
+        "maxProb": "0.5059169"
+    },
+    {
+        "expected_prediction": "corner",
+        "prediction": "corner",
+        "correct": true,
+        "maxProb": "0.9993081"
+    },
+    {
+        "expected_prediction": "space",
+        "prediction": "orbit",
+        "correct": false,
+        "maxProb": "0.82142377"
+    },
+    {
+        "expected_prediction": "halloween",
+        "prediction": "easter",
+        "correct": false,
+        "maxProb": "0.9776254"
+    },
+    {
+        "expected_prediction": "dishwasher",
+        "prediction": "dishwasher",
+        "correct": true,
+        "maxProb": "0.726957"
+    },
+    {
+        "expected_prediction": "sporting goods store",
+        "prediction": "sporting goods store",
+        "correct": true,
+        "maxProb": "0.72440165"
+    },
+    {
+        "expected_prediction": "marching band",
+        "prediction": "marching band",
+        "correct": true,
+        "maxProb": "0.9994848"
+    },
+    {
+        "expected_prediction": "wipe out",
+        "prediction": "get wet",
+        "correct": false,
+        "maxProb": "0.9991165"
+    },
+    {
+        "expected_prediction": "university",
+        "prediction": "table",
+        "correct": false,
+        "maxProb": "0.32779083"
+    },
+    {
+        "expected_prediction": "having fun",
+        "prediction": "win",
+        "correct": false,
+        "maxProb": "0.9755552"
+    },
+    {
+        "expected_prediction": "cargo ship",
+        "prediction": "cargo ship",
+        "correct": true,
+        "maxProb": "0.47957554"
+    },
+    {
+        "expected_prediction": "wash dishes",
+        "prediction": "wash dishes",
+        "correct": true,
+        "maxProb": "0.9976884"
+    },
+    {
+        "expected_prediction": "bus depot",
+        "prediction": "bus depot",
+        "correct": true,
+        "maxProb": "0.9187626"
+    },
+    {
+        "expected_prediction": "full of air",
+        "prediction": "punctured",
+        "correct": false,
+        "maxProb": "0.9898487"
+    },
+    {
+        "expected_prediction": "eye contact",
+        "prediction": "social life",
+        "correct": false,
+        "maxProb": "0.73103106"
+    },
+    {
+        "expected_prediction": "crucial",
+        "prediction": "darkness",
+        "correct": false,
+        "maxProb": "0.99994147"
+    },
+    {
+        "expected_prediction": "family",
+        "prediction": "friend",
+        "correct": false,
+        "maxProb": "0.99590343"
+    },
+    {
+        "expected_prediction": "orchestra",
+        "prediction": "orchestra",
+        "correct": true,
+        "maxProb": "0.9988029"
+    },
+    {
+        "expected_prediction": "hen house",
+        "prediction": "outside bedroom window",
+        "correct": false,
+        "maxProb": "0.98542595"
+    },
+    {
+        "expected_prediction": "water plants",
+        "prediction": "water plants",
+        "correct": true,
+        "maxProb": "0.99948275"
+    },
+    {
+        "expected_prediction": "mall",
+        "prediction": "mall",
+        "correct": true,
+        "maxProb": "0.9941778"
+    },
+    {
+        "expected_prediction": "overpriced",
+        "prediction": "purchase",
+        "correct": false,
+        "maxProb": "0.83628845"
+    }
+]

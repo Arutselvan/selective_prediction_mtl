@@ -190,7 +190,7 @@ def postprocess_qa_predictions(
 
         # Pick the best prediction. If the null answer is not possible, this is easy.
         if not version_2_with_negative:
-            all_predictions[example["id"]] = predictions[0]["text"]
+            all_predictions[example["id"]] = {'prediction': predictions[0]["text"], 'maxProb': str(predictions[0]["probability"]) }  
         else:
             # Otherwise we first need to find the best non-empty prediction.
             i = 0
@@ -205,6 +205,7 @@ def postprocess_qa_predictions(
                 all_predictions[example["id"]] = ""
             else:
                 all_predictions[example["id"]] = best_non_null_pred["text"]
+                all_predictions['confidence'] = best_non_null_pred["probability"]
 
         # Make `predictions` JSON-serializable by casting np.float back to float.
         all_nbest_json[example["id"]] = [

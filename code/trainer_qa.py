@@ -1,21 +1,8 @@
-# coding=utf-8
-# Copyright 2020 The HuggingFace Team All rights reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 """
 A subclass of `Trainer` specific to Question-Answering tasks
 """
 from torch.utils.data.distributed import DistributedSampler
+from torch.utils.data.sampler import WeightedRandomSampler
 from transformers import Trainer, is_torch_tpu_available
 from transformers.trainer_utils import PredictionOutput
 import torch
@@ -109,8 +96,8 @@ class HomogenousSampler():
         self.batch_size = batch_size
 
         self.batches = []
-        for Klass in self.classes:
-                self.batches+=list(self.chunk(Klass,self.batch_size))
+        for klass in self.classes:
+                self.batches+=list(self.chunk(klass,self.batch_size))
         self.length = len(self.batches)
 
     def chunk(self,iterable, size):
@@ -127,29 +114,43 @@ class HomogenousSampler():
     def __len__(self):
         return self.length
 
-    
+
 
 class QuestionAnsweringTrainer(Trainer):
-    def __init__(self, *args, eval_examples=None, post_process_function=None, **kwargs):
+    def __init__(self, *args, eval_datasets=None, eval_examples=None, post_process_function=None, eval_dataset_names=None, **kwargs):
         super().__init__(*args, **kwargs)
+        self.eval_datasets = eval_datasets
         self.eval_examples = eval_examples
         self.post_process_function = post_process_function
+        self.eval_dataset_names = eval_dataset_names
+        self.eval_datasets_acc = {}
 
-    def evaluate(self, eval_dataset=None, eval_examples=None, ignore_keys=None, metric_key_prefix: str = "eval"):
+    def evaluate(self,ignore_keys):
+        for i,dataset in enumerate(self.eval_datasets):
+
+            logger.info("*** Evaluate " + self.eval_dataset_names[i] + " ***")
+
+            metrics = self.evaluate_single(eval_dataset=dataset,eval_examples=self.eval_examples[i],ignore_keys=ignore_keys, dataset_name=self.eval_dataset_names[i])
+            metrics["eval_samples"] = len(dataset)
+            self.log_metrics("eval-"+self.eval_dataset_names[i], metrics)
+            self.save_metrics("eval-"+self.eval_dataset_names[i], metrics)
+            if self.eval_dataset_names[i] not in self.eval_datasets_acc:
+                self.eval_datasets_acc[self.eval_dataset_names[i]] = metrics['eval_exact_match']
+            
+        print(self.eval_datasets_acc)
+
+    def evaluate_single(self, eval_dataset=None, eval_examples=None, ignore_keys=None, metric_key_prefix: str = "eval", dataset_name=None):
         eval_dataset = self.eval_dataset if eval_dataset is None else eval_dataset
         eval_dataloader = self.get_eval_dataloader(eval_dataset)
         eval_examples = self.eval_examples if eval_examples is None else eval_examples
 
-        # Temporarily disable metric computation, we will do it in the loop here.
         compute_metrics = self.compute_metrics
         self.compute_metrics = None
         eval_loop = self.prediction_loop if self.args.use_legacy_prediction_loop else self.evaluation_loop
         try:
             output = eval_loop(
                 eval_dataloader,
-                description="Evaluation",
-                # No point gathering the predictions if there are no metrics, otherwise we defer to
-                # self.args.prediction_loss_only
+                description="Evaluation of " + dataset_name,
                 prediction_loss_only=True if compute_metrics is None else None,
                 ignore_keys=ignore_keys,
             )
@@ -157,7 +158,7 @@ class QuestionAnsweringTrainer(Trainer):
             self.compute_metrics = compute_metrics
 
         if self.post_process_function is not None and self.compute_metrics is not None:
-            eval_preds = self.post_process_function(eval_examples, eval_dataset, output.predictions)
+            eval_preds = self.post_process_function(eval_examples, eval_dataset, output.predictions, prefix="eval_"+dataset_name)
             metrics = self.compute_metrics(eval_preds)
 
             # Prefix all keys with metric_key_prefix + '_'
@@ -174,58 +175,11 @@ class QuestionAnsweringTrainer(Trainer):
             xm.master_print(met.metrics_report())
 
         self.control = self.callback_handler.on_evaluate(self.args, self.state, self.control, metrics)
+        if dataset_name not in self.eval_datasets_acc:
+            self.eval_datasets_acc[dataset_name] = metrics['eval_exact_match']
         return metrics
 
-    def predict(self, predict_dataset, predict_examples, ignore_keys=None, metric_key_prefix: str = "test"):
-        predict_dataloader = self.get_test_dataloader(predict_dataset)
-
-        # Temporarily disable metric computation, we will do it in the loop here.
-        compute_metrics = self.compute_metrics
-        self.compute_metrics = None
-        eval_loop = self.prediction_loop if self.args.use_legacy_prediction_loop else self.evaluation_loop
-        try:
-            output = eval_loop(
-                predict_dataloader,
-                description="Prediction",
-                # No point gathering the predictions if there are no metrics, otherwise we defer to
-                # self.args.prediction_loss_only
-                prediction_loss_only=True if compute_metrics is None else None,
-                ignore_keys=ignore_keys,
-            )
-        finally:
-            self.compute_metrics = compute_metrics
-
-        if self.post_process_function is None or self.compute_metrics is None:
-            return output
-
-        predictions = self.post_process_function(predict_examples, predict_dataset, output.predictions, "predict")
-        metrics = self.compute_metrics(predictions)
-
-        # Prefix all keys with metric_key_prefix + '_'
-        for key in list(metrics.keys()):
-            if not key.startswith(f"{metric_key_prefix}_"):
-                metrics[f"{metric_key_prefix}_{key}"] = metrics.pop(key)
-
-        return PredictionOutput(predictions=predictions.predictions, label_ids=predictions.label_ids, metrics=metrics)
-
     def train(self, resume_from_checkpoint = None, trial = None, ignore_keys_for_eval = None, sampling = "Heterogenous", **kwargs):
-        """
-        Main training entry point.
-
-        Args:
-            resume_from_checkpoint (:obj:`str` or :obj:`bool`, `optional`):
-                If a :obj:`str`, local path to a saved checkpoint as saved by a previous instance of
-                :class:`~transformers.Trainer`. If a :obj:`bool` and equals `True`, load the last checkpoint in
-                `args.output_dir` as saved by a previous instance of :class:`~transformers.Trainer`. If present,
-                training will resume from the model/optimizer/scheduler states loaded here.
-            trial (:obj:`optuna.Trial` or :obj:`Dict[str, Any]`, `optional`):
-                The trial run or the hyperparameter dictionary for hyperparameter search.
-            ignore_keys_for_eval (:obj:`List[str]`, `optional`)
-                A list of keys in the output of your model (if it is a dictionary) that should be ignored when
-                gathering predictions for evaluation during the training.
-            kwargs:
-                Additional keyword arguments used to hide deprecated arguments
-        """
         resume_from_checkpoint = None if not resume_from_checkpoint else resume_from_checkpoint
 
         # memory metrics - must set up as early as possible

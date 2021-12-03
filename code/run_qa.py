@@ -100,7 +100,7 @@ class DataTrainingArguments:
         default=None, metadata={"help": "The configuration name of the dataset to use (via the datasets library)."}
     )
     train_file: Optional[str] = field(default=None, metadata={"help": "The input training data file (a text file)."})
-    validation_file: Optional[str] = field(
+    validation_files: Optional[str] = field(
         default=None,
         metadata={"help": "An optional input evaluation data file to evaluate the perplexity on (a text file)."},
     )
@@ -178,11 +178,18 @@ class DataTrainingArguments:
         },
     )
 
+    sampling_method: str = field(
+        default="Heterogenous",
+        metadata={
+            "help": "Type of sampling method to use"
+        },
+    )
+
     def __post_init__(self):
         if (
             self.dataset_name is None
             and self.train_file is None
-            and self.validation_file is None
+            and self.validation_files is None
             and self.test_file is None
         ):
             raise ValueError("Need either a dataset name or a training/validation file/test_file.")
@@ -190,8 +197,8 @@ class DataTrainingArguments:
             if self.train_file is not None:
                 extension = self.train_file.split(".")[-1]
                 assert extension in ["csv", "json"], "`train_file` should be a csv or a json file."
-            if self.validation_file is not None:
-                extension = self.validation_file.split(".")[-1]
+            if self.validation_files is not None:
+                extension = eval(self.validation_files)[0].split(".")[-1]
                 assert extension in ["csv", "json"], "`validation_file` should be a csv or a json file."
             if self.test_file is not None:
                 extension = self.test_file.split(".")[-1]
@@ -259,6 +266,9 @@ def main():
     #
     # In distributed training, the load_dataset function guarantee that only one local process can concurrently
     # download the dataset.
+
+    eval_datasets = None
+
     if data_args.dataset_name is not None:
         # Downloading and loading a dataset from the hub.
         raw_datasets = load_dataset(
@@ -270,13 +280,21 @@ def main():
             data_files["train"] = data_args.train_file
             extension = data_args.train_file.split(".")[-1]
 
-        if data_args.validation_file is not None:
-            data_files["validation"] = data_args.validation_file
-            extension = data_args.validation_file.split(".")[-1]
+        if data_args.validation_files is not None:
+            eval_files = {}
+            data_args.validation_files = eval(data_args.validation_files)
+            extension = data_args.validation_files[0].split(".")[-1]
+            for dataset in data_args.validation_files:
+                eval_files[dataset.split(".")[0]] = dataset
+            eval_datasets = load_dataset(extension, data_files=eval_files,cache_dir=model_args.cache_dir)
+                
+
         if data_args.test_file is not None:
             data_files["test"] = data_args.test_file
             extension = data_args.test_file.split(".")[-1]
+
         raw_datasets = load_dataset(extension, data_files=data_files,cache_dir=model_args.cache_dir)
+        
     # See more about loading any type of standard or custom dataset (from files, python dict, pandas DataFrame, etc) at
     # https://huggingface.co/docs/datasets/loading_datasets.html.
 
@@ -486,26 +504,32 @@ def main():
 
         return tokenized_examples
 
+    final_eval_datasets = []
+    final_eval_examples = []
+
     if training_args.do_eval:
-        if "validation" not in raw_datasets:
+        if not eval_datasets:
             raise ValueError("--do_eval requires a validation dataset")
-        eval_examples = raw_datasets["validation"]
-        if data_args.max_eval_samples is not None:
-            # We will select sample from whole data
-            eval_examples = eval_examples.select(range(data_args.max_eval_samples))
-        # Validation Feature Creation
-        with training_args.main_process_first(desc="validation dataset map pre-processing"):
-            eval_dataset = eval_examples.map(
-                prepare_validation_features,
-                batched=True,
-                num_proc=data_args.preprocessing_num_workers,
-                remove_columns=column_names,
-                load_from_cache_file=not data_args.overwrite_cache,
-                desc="Running tokenizer on validation dataset",
-            )
-        if data_args.max_eval_samples is not None:
-            # During Feature creation dataset samples might increase, we will select required samples again
-            eval_dataset = eval_dataset.select(range(data_args.max_eval_samples))
+
+        for eval_examples in eval_datasets.values():
+            if data_args.max_eval_samples is not None:
+                # We will select sample from whole data
+                eval_examples = eval_examples.select(range(data_args.max_eval_samples))
+            # Validation Feature Creation
+            with training_args.main_process_first(desc="validation dataset map pre-processing"):
+                eval_dataset = eval_examples.map(
+                    prepare_validation_features,
+                    batched=True,
+                    num_proc=data_args.preprocessing_num_workers,
+                    remove_columns=column_names,
+                    load_from_cache_file=not data_args.overwrite_cache,
+                    desc="Running tokenizer on validation dataset",
+                )
+            if data_args.max_eval_samples is not None:
+                # During Feature creation dataset samples might increase, we will select required samples again
+                eval_dataset = eval_dataset.select(range(data_args.max_eval_samples))
+            final_eval_datasets.append(eval_dataset)
+            final_eval_examples.append(eval_examples)
 
     if training_args.do_predict:
         if "test" not in raw_datasets:
@@ -539,7 +563,7 @@ def main():
     )
 
     # Post-processing:
-    def post_processing_function(examples, features, predictions, stage="eval"):
+    def post_processing_function(examples, features, predictions, prefix=None):
         # Post-processing: we match the start logits and end logits to answers in the original context.
         predictions = postprocess_qa_predictions(
             examples=examples,
@@ -551,7 +575,7 @@ def main():
             null_score_diff_threshold=data_args.null_score_diff_threshold,
             output_dir=training_args.output_dir,
             log_level=log_level,
-            prefix=stage,
+            prefix=prefix,
         )
         # Format the result to the format the metric expects.
         if data_args.version_2_with_negative:
@@ -574,8 +598,9 @@ def main():
         model=model,
         args=training_args,
         train_dataset=train_dataset if training_args.do_train else None,
-        eval_dataset=eval_dataset if training_args.do_eval else None,
-        eval_examples=eval_examples if training_args.do_eval else None,
+        eval_datasets=final_eval_datasets,
+        eval_examples=final_eval_examples,
+        eval_dataset_names = list(eval_datasets.keys()),
         tokenizer=tokenizer,
         data_collator=data_collator,
         post_process_function=post_processing_function,
@@ -589,7 +614,7 @@ def main():
             checkpoint = training_args.resume_from_checkpoint
         elif last_checkpoint is not None:
             checkpoint = last_checkpoint
-        train_result = trainer.train(resume_from_checkpoint=checkpoint, sampling="Homogenous")
+        train_result = trainer.train(resume_from_checkpoint=checkpoint, sampling=data_args.sampling_method)
         trainer.save_model()  # Saves the tokenizer too for easy upload
 
         metrics = train_result.metrics
@@ -602,16 +627,11 @@ def main():
         trainer.save_metrics("train", metrics)
         trainer.save_state()
 
+
     # Evaluation
     if training_args.do_eval:
-        logger.info("*** Evaluate ***")
-        metrics = trainer.evaluate()
+        pass
 
-        max_eval_samples = data_args.max_eval_samples if data_args.max_eval_samples is not None else len(eval_dataset)
-        metrics["eval_samples"] = min(max_eval_samples, len(eval_dataset))
-
-        trainer.log_metrics("eval", metrics)
-        trainer.save_metrics("eval", metrics)
 
     # Prediction
     if training_args.do_predict:
@@ -651,5 +671,5 @@ if __name__ == "__main__":
     main()
 
 """
-python run_qa.py --model_name_or_path bert-base-cased --do_train --train_file "main.csv" --per_device_train_batch_size 12 --num_train_epochs 5 --max_seq_length 175 --output_dir ./output
+python code/run_qa.py --model_name_or_path bert-base-cased --do_train --train_file main.json --validation_files "['snli_squad_eval.json', 'swag_squad_eval.json', 'csqa_squad_eval.json', 'anli_squad_eval.json', 'siqa_squad_eval.json']"  --max_seq_length 256 --output_dir ./output-hetero --overwrite_output_dir --num_train_epochs 1 --evaluation_strategy epoch --per_device_train_batch_size 16 --per_device_eval_batch_size 32
 """
